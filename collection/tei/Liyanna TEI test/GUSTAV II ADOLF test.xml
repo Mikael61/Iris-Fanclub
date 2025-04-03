@@ -7,7 +7,7 @@
         
         <fileDesc>
             <titleStmt>
-                <title>Poster Program - Adèle Weine</title>
+                <title>GUSTAV II ADOLFS MINNE</title>
                 <author>Sällskapet Iris</author>
                 <principal><persName>Liyanna Norling</persName>
                     <persName>Tove Berglund</persName>
@@ -74,7 +74,7 @@
                         </objectDesc>
                     </physDesc>
                 </msDesc>
-              <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+                <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
             </sourceDesc>
         </fileDesc>
         
@@ -113,39 +113,39 @@
             <particDesc>
                 <listPerson type="medverkande">
                     <person role="sångerska"> 
-                      <persName>Adèle Weine</persName>
+                        <persName>Adèle Weine</persName>
                     </person>
                     <person role="pianist"> 
-                      <persName>Sigrid Gyllencreutz-Fermœus</persName>
+                        <persName>Sigrid Gyllencreutz-Fermœus</persName>
                     </person>
-                 </listPerson>
+                </listPerson>
                 
                 <listPerson type="upphovspersoner">
                     <person> 
                         <persName ref="https://libris.kb.se/pm134xz74mdwd75#it">A.Wiklund 
-                        <title ref="https://libris.kb.se/bib/m3q1nsfsk8w1f6wx?vw=full">Himmel eller Vår</title>
-                        <title ref="https://libris.kb.se/bib/3363523?vw=fullt">Silkesko over Gylden lœst</title></persName>
+                            <title ref="https://libris.kb.se/bib/m3q1nsfsk8w1f6wx?vw=full">Himmel eller Vår</title>
+                            <title ref="https://libris.kb.se/bib/3363523?vw=fullt">Silkesko over Gylden lœst</title></persName>
                     </person>
                     <person> 
                         <persName ref="https://libris.kb.se/42gjjm9n29h8817#it">E.Grieg
-                        <title>Mens jag venter</title>
-                        <title>Ragnhild</title></persName> 
+                            <title>Mens jag venter</title>
+                            <title>Ragnhild</title></persName> 
                     </person>
                     <person>
                         <persName ref="https://libris.kb.se/fcrtq50z04587rd#it">M. Reger
-                        <title ref="https://libris.kb.se/bib/12139731?vw=full">Marie Wiegenlied</title></persName>
+                            <title ref="https://libris.kb.se/bib/12139731?vw=full">Marie Wiegenlied</title></persName>
                     </person>
                     <person>
                         <persName ref="https://libris.kb.se/khwzv9t32lvhbp8#it">Rimsky-Korsakoff
-                        <title>Rosen och Näktergalen</title></persName>
+                            <title>Rosen och Näktergalen</title></persName>
                     </person>
                     <person>
-                         <persName ref="https://libris.kb.se/sq46746b3dsfl6r#it">G. Verdi
-                         <title ref="https://libris.kb.se/bib/w8d91g3rtp4dkvf3?vw=full">Rigoletto</title></persName> 
-                       </person>
+                        <persName ref="https://libris.kb.se/sq46746b3dsfl6r#it">G. Verdi
+                            <title ref="https://libris.kb.se/bib/w8d91g3rtp4dkvf3?vw=full">Rigoletto</title></persName> 
+                    </person>
                     <person>
-                         <persName ref="https://libris.kb.se/ljx01rd432x86fs#it">G. Rossini
-                         <title ref="https://libris.kb.se/bib/1625321">Barberaren i Sevilla</title></persName>
+                        <persName ref="https://libris.kb.se/ljx01rd432x86fs#it">G. Rossini
+                            <title ref="https://libris.kb.se/bib/1625321">Barberaren i Sevilla</title></persName>
                     </person>
                 </listPerson>
             </particDesc>
@@ -178,8 +178,7 @@
                 Rimsky-Korsakoff Rosen och Näktergalen<lb/>
                 G. Verdi aria ur op. Rigoletto<lb/>
                 G. Rossini aria ur op. Barberaren i Sevilla
-              </p>
+            </p>
         </body>
     </text>
 </TEI>
-

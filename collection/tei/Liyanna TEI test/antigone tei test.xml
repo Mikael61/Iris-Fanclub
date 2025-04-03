@@ -49,11 +49,12 @@
                   <idno>XXXXXX</idno>
                   <idno type="URI">XXXXXXX</idno>
                </msIdentifier>
+               
                <physDesc>
-                <p>En handgjord ensidig poster med text som informerar om programet för ett event. 
-                  Postern är handgjord gjort av papper med svart typografisk text som inramas av två svarta linjer i olika tjocklekar. 
-                  Texten följs av två dekorativa linjer.
-                  En datumanteckning i blyerts återfinns i posterns övre högra hörn</p>
+                   <p>En handgjord ensidig poster med text som informerar om programet för ett event. 
+                     Postern är handgjord gjort av papper med svart typografisk text som inramas av två svarta linjer i olika tjocklekar. 
+                     Texten följs av två dekorativa linjer.
+                     En datumanteckning i blyerts återfinns i posterns övre högra hörn</p>
                   <objectDesc>
                      <supportDesc>
                         <extent>
@@ -63,14 +64,15 @@
                            </dimensions>
                         </extent>
                      </supportDesc>
+                     
                      <layoutDesc>
                         <p>Postern har sex rader text. De fyra första presenterar programmet och innehåller ett till två ord var. 
                            De två sista raderna presenterar utförarna av programmet, sammantlagt fyra respektive två ord per rad. </p>
                      </layoutDesc>
                   </objectDesc>
-            </physDesc>
+               </physDesc>
             </msDesc>
-               <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+           <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
          </sourceDesc>
       </fileDesc>
       
@@ -85,15 +87,36 @@
             <preparedness type="revised"/>
             <purpose type="inform" degree="high"/>
          </textDesc>
+         
          <langUsage>
             <language ident="swe">Svenska</language>
          </langUsage>
+         
          <handNotes>
             <!-- används för att notera olika typsnitt. kanske inte behövs eftersom vi inte gör någon typsnitts analys osv???? man kan säkert länka dessa element till individuella rader i transkriberingen men det känns jobbigt haha -->
             <handNote medium="blyerts">Datum anteckning i blyerts, övre högra hörnet</handNote>
             <handNote medium="fetstil, svart">Svart färg, text i versaler, fetstil.</handNote>
             <handNote medium="tunn, svart">Tunn, svart färg.</handNote>
          </handNotes>
+         
+         <textClass>
+            <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">teater</ref></term>
+            </keywords>
+         </textClass>
+         
+         <particDesc>
+            <org type="teatergrupp">
+               <orgName>S.Rudebecks gymnasium</orgName>
+            </org>
+            <person role="dramatiker"> 
+               <persName ref="https://libris.kb.se/hftwxc410z5p0lz#it">Sofokles
+               <title>Antigone</title></persName>
+            </person>
+         </particDesc>
       </profileDesc>
    </teiHeader>
    
@@ -111,19 +134,14 @@
    
    <text>
       <body>
-         <div type="anteckning">
-            <fw type="anteckning" place="top-right">Den 3 mars 1933.</fw>
-         </div>
-         
-         <div type="main">
-            <p> program 
-               <lb/> antigone
-               <lb/> tragedi av  
-               <lb/><persName ref="https://libris.kb.se/hftwxc410z5p0lz#it">Sofokles</persName>
-               <lb/>Uppfört av elever vid
-               <lb/><orgName>S.Rudebecks gymnasium</orgName>
-            </p>
-         </div>
+         <note place="top-right">Den 3 mars 1933.</note>
+         <p> program<lb/> 
+             antigone<lb/>
+             tragedi av<lb/>  
+             Sofokles<lb/>
+             Uppfört av elever vid<lb/>
+             S.Rudebecks gymnasium
+         </p>
       </body>
    </text>
 </TEI>
