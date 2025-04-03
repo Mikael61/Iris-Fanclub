@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      
+      <fileDesc>
+         <titleStmt>
+            <title>Poster Program - Antigone</title>
+            <author>Sällskapet Iris</author>
+            <principal><persName>Liyanna Norling</persName>
+                       <persName>Tove Berglund</persName>
+                       <persName>Tess Zetterlund</persName>
+            </principal>
+         </titleStmt>
+         
+         <publicationStmt>
+            <authority>
+               <name>Högskolan i Borås</name>
+               <address>
+                  <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                  <addrLine>Högskolan i Borås</addrLine>
+                  <addrLine>501 90 Borås</addrLine>
+                  <addrLine>https://www.hb.se/</addrLine>
+               </address>
+            </authority>
+            <date>2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>Materialet distribueras under en CC-BY-SA 4.0 licens.</p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sverige</country>
+                  <settlement>Göteborg
+                     <address>
+                        <addrLine>Humanistiska biblioteket</addrLine>
+                        <addrLine>Renströmsgatan 4</addrLine>
+                        <addrLine>412 55 Göteborg</addrLine>
+                     </address>
+                  </settlement>
+                  <repository>KvinnSam</repository>
+                  <collection>Sällskapet Iris Samling</collection>
+                  <idno>XXXXXX</idno>
+                  <idno type="URI">XXXXXXX</idno>
+               </msIdentifier>
+               <physDesc>
+                <p>En handgjord ensidig poster med text som informerar om programet för ett event. 
+                  Postern är handgjord gjort av papper med svart typografisk text som inramas av två svarta linjer i olika tjocklekar. 
+                  Texten följs av två dekorativa linjer.
+                  En datumanteckning i blyerts återfinns i posterns övre högra hörn</p>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <dimensions unit="cm">
+                              <height>XX</height>
+                              <width>XX</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>Postern har sex rader text. De fyra första presenterar programmet och innehåller ett till två ord var. 
+                           De två sista raderna presenterar utförarna av programmet, sammantlagt fyra respektive två ord per rad. </p>
+                     </layoutDesc>
+                  </objectDesc>
+            </physDesc>
+            </msDesc>
+               <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         <textDesc>
+            <channel>print</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="public">program information</domain>
+            <factuality type="fact"/>
+            <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar</interaction>
+            <preparedness type="revised"/>
+            <purpose type="inform" degree="high"/>
+         </textDesc>
+         <langUsage>
+            <language ident="swe">Svenska</language>
+         </langUsage>
+         <handNotes>
+            <!-- används för att notera olika typsnitt. kanske inte behövs eftersom vi inte gör någon typsnitts analys osv???? man kan säkert länka dessa element till individuella rader i transkriberingen men det känns jobbigt haha -->
+            <handNote medium="blyerts">Datum anteckning i blyerts, övre högra hörnet</handNote>
+            <handNote medium="fetstil, svart">Svart färg, text i versaler, fetstil.</handNote>
+            <handNote medium="tunn, svart">Tunn, svart färg.</handNote>
+         </handNotes>
+      </profileDesc>
+   </teiHeader>
+   
+   <facsimile>
+      <surface xml:id="programAntigone">
+         <figure>
+            <label>Program Antigone</label>
+            <figDesc>
+               En digital kopia av en poster gjord av papper som informerar om ett teaterprogram.               
+            </figDesc>
+            <graphic xml:id="XXX" url="XXX"/>
+         </figure>
+      </surface>
+   </facsimile>
+   
+   <text>
+      <body>
+         <div type="anteckning">
+            <fw type="anteckning" place="top-right">Den 3 mars 1933.</fw>
+         </div>
+         
+         <div type="main">
+            <p> program 
+               <lb/> antigone
+               <lb/> tragedi av  
+               <lb/><persName ref="https://libris.kb.se/hftwxc410z5p0lz#it">Sofokles</persName>
+               <lb/>Uppfört av elever vid
+               <lb/><orgName>S.Rudebecks gymnasium</orgName>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

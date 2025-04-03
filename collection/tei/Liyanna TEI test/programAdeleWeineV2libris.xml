@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Poster Program - Adèle Weine</title>
+                <author>Sällskapet Iris</author>
+                <principal><persName>Liyanna Norling</persName>
+                    <persName>Tove Berglund</persName>
+                    <persName>Tess Zetterlund</persName>
+                </principal>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority>
+                    <name>Högskolan i Borås</name>
+                    <address>
+                        <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                        <addrLine>Högskolan i Borås</addrLine>
+                        <addrLine>501 90 Borås</addrLine>
+                        <addrLine>https://www.hb.se/</addrLine>
+                    </address>
+                </authority>
+                <date>2025</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                        <p>Materialet distribueras under en CC-BY-SA 4.0 licens.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Sverige</country>
+                        <settlement>Göteborg
+                            <address>
+                                <addrLine>Humanistiska biblioteket</addrLine>
+                                <addrLine>Renströmsgatan 4</addrLine>
+                                <addrLine>412 55 Göteborg</addrLine>
+                            </address>
+                        </settlement>
+                        <repository>KvinnSam</repository>
+                        <collection>Sällskapet Iris Samling</collection>
+                        <idno>XXXXXX</idno>
+                        <idno type="URI">XXXXXXX</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>En handgjord ensidig poster med text som informerar om programet för ett event. 
+                            Postern är handgjord gjort av papper med svart och röd typografisk text som inramas av en svart linje. 
+                            Texten inkluderar en överskrift och en deklaration om musikernas namn och roll, 
+                            följt av eventets repportoar med upphovsperson och titel uppdelat på två kollumner.
+                            En datumanteckning i blyerts återfinns i posterns övre högra hörn</p>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>XX</height>
+                                        <width>XX</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                            <layoutDesc>
+                                <p>Postern har elva rader text. Första raden beskriver posterns syfte, rad två och tre presenterar eventets musiker. 
+                                    Rad fyra till elva presenterar eventets repportoar och är uppdelade i två kollumner.
+                                    Den vänstra kollumnen innehåller upphovsperson och den högra kollumnen titel på ett musikstycke.</p>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <textDesc>
+                <channel>print</channel>
+                <constitution type="single"/>
+                <derivation type="original"/>
+                <domain type="public">program information</domain>
+                <factuality type="fact"/>
+                <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar</interaction>
+                <preparedness type="revised"/>
+                <purpose type="inform" degree="high"/>
+            </textDesc>
+            <langUsage>
+                <language ident="swe">Svenska</language>
+            </langUsage>
+            <handNotes>
+                <!-- används för att notera olika typsnitt. kanske inte behövs eftersom vi inte gör någon typsnitts analys osv???? man kan säkert länka dessa element till individuella rader i transkriberingen men det känns jobbigt haha -->
+                <handNote medium="blyerts">Datum anteckning i blyerts, övre högra hörnet</handNote>
+                <handNote medium="fetstil, röd">Röd färg, text i versaler, fetstil.</handNote>
+                <handNote medium="tunn, svart">Tunn, svart färg.</handNote>
+            </handNotes>
+        </profileDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface xml:id="programAdele">
+            <figure>
+                <label>Program Adèle Weine</label>
+                <figDesc>
+                    En digital kopia av en poster gjord av papper som informerar om ett musikprogram.               
+                </figDesc>
+                <graphic xml:id="XXX" url="XXX"/>
+            </figure>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>
+            <div type="anteckning">
+                <fw type="anteckning" place="top-right">5 febr. 1932.</fw>
+            </div>
+            
+            <div type="main">
+              <p> PROGRAM
+               </lb>medverkande Operasångerskan <persName>Adèle Weine</persName>
+               </lb>vid flygeln <persName>Sigrid Gyllencreutz-Fernœus</persName>
+               </lb><persName ref="https://libris.kb.se/pm134xz74mdwd75#it">A.Wiklund</persName> </space> <title ref="https://libris.kb.se/bib/m3q1nsfsk8w1f6wx?vw=full">Himmel eller Vår</title>
+               </lb>” </space> <title ref="https://libris.kb.se/bib/3363523?vw=fullt">Silkesko over Gylden lœst</title>
+               </lb><persName ref="https://libris.kb.se/42gjjm9n29h8817#it">E.Grieg</persName> </space> <title>Mens jag venter</title>
+               </lb>” </space> <title>Ragnhild</title>
+               </lb><persName ref="https://libris.kb.se/fcrtq50z04587rd#it">M. Reger</persName> </space> <title ref="https://libris.kb.se/bib/12139731?vw=full">Marie Wiegenlied</title> 
+               </lb><persName ref="https://libris.kb.se/khwzv9t32lvhbp8#it">Rimsky-Korsakoff</persName> </space> <title>Rosen och Näktergalen</title>
+               </lb><persName ref="https://libris.kb.se/sq46746b3dsfl6r#it">G. Verdi</persName> </space> aria ur op.<title ref="https://libris.kb.se/bib/w8d91g3rtp4dkvf3?vw=full">Rigoletto</title>
+               </lb><persName ref="https://libris.kb.se/ljx01rd432x86fs#it">G. Rossini</persName> </space> aria ur op. <title ref="https://libris.kb.se/bib/1625321">Barberaren i Sevilla</title>
+              </p>
+            </div>
+        </body>
+    </text>
+</TEI>
+
