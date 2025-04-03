@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      
+      <fileDesc>
+         <titleStmt>
+            <title>Transkription av en affisch om välgörenhetstillställning hos
+            <persName ref="http://viaf.org/viaf/305859316">Elisabeth Reiss</persName>
+            </title>
+            <author>Sällskapet Iris</author>
+            <principal>Tove Berglund</principal>
+         </titleStmt>
+         
+         <publicationStmt>
+            
+            <publisher>Högskolan i Borås</publisher>
+            <address>
+            <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+            <addrLine>501 90 Borås</addrLine>
+            <addrLine>https://www.hb.se/</addrLine>
+            </address>
+            <date>Mars 2025</date>
+            
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                     Transcription distributed under a CC-BY-SA 4.0 license.
+                  </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> 
+         <p>En affisch från december 1938 som annonserar en välgörenhetstillställning med underhållning hemma hos socitetsdamen Elisabeth Reiss</p>
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <handNotes>
+            <handNote medium="svart-penna"> Brödtext i svart penna.</handNote>
+            <handNote medium="Röd-penna"> Rubrik i röd penna.</handNote>
+            <handNote medium="Blyerts"> Marginalanteckningar i blyerts.</handNote>
+         </handNotes>
+         
+         <textClass>
+            <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">socitetsdamer</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+            </keywords>
+         </textClass>
+         
+      </profileDesc>
+      
+   </teiHeader>
+   
+   
+   <facsimile>
+      <surface xml:id="poster01">
+         <figure>
+            <label>Poster front</label>
+            <figDesc>
+               Ett fotografi av en poster som bjuder in till en välgörenhetstillställning hemma hos Elisabeth Reiss.
+            </figDesc>
+            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
+            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+         </figure>
+      </surface>
+   </facsimile>
+   
+   
+   
+   <text>
+      <body>
+         <div type="poster" facs="poster01">
+            <head>
+               <hi rend="b">ELiSABETH
+               <lb/>REISS</hi>
+            </head>
+            
+            <p>
+               <note place="margin">5 Dec.1938</note>
+               <note place="margin">11
+               <lb/>160
+                  <lb/>15
+                  <lb/>2
+                  <lb/><hi rend="line">———</hi> 
+                  <lb/>188
+               </note>
+               
+                Den svensk-nors
+               <lb/>- ka societetsdamen 
+               <lb/> ger en välgören
+               <lb/>- hetstillställning hemma hos sig med
+                <lb/>konstnärlig underhållning
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
