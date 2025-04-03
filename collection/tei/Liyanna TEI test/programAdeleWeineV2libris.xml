@@ -112,25 +112,20 @@
     </facsimile>
     
     <text>
-        <body>
-            <div type="anteckning">
-                <fw type="anteckning" place="top-right">5 febr. 1932.</fw>
-            </div>
-            
-            <div type="main">
+        <body>            
               <p> PROGRAM
-               </lb>medverkande Operasångerskan <persName>Adèle Weine</persName>
-               </lb>vid flygeln <persName>Sigrid Gyllencreutz-Fernœus</persName>
-               </lb><persName ref="https://libris.kb.se/pm134xz74mdwd75#it">A.Wiklund</persName> </space> <title ref="https://libris.kb.se/bib/m3q1nsfsk8w1f6wx?vw=full">Himmel eller Vår</title>
-               </lb>” </space> <title ref="https://libris.kb.se/bib/3363523?vw=fullt">Silkesko over Gylden lœst</title>
-               </lb><persName ref="https://libris.kb.se/42gjjm9n29h8817#it">E.Grieg</persName> </space> <title>Mens jag venter</title>
-               </lb>” </space> <title>Ragnhild</title>
-               </lb><persName ref="https://libris.kb.se/fcrtq50z04587rd#it">M. Reger</persName> </space> <title ref="https://libris.kb.se/bib/12139731?vw=full">Marie Wiegenlied</title> 
-               </lb><persName ref="https://libris.kb.se/khwzv9t32lvhbp8#it">Rimsky-Korsakoff</persName> </space> <title>Rosen och Näktergalen</title>
-               </lb><persName ref="https://libris.kb.se/sq46746b3dsfl6r#it">G. Verdi</persName> </space> aria ur op.<title ref="https://libris.kb.se/bib/w8d91g3rtp4dkvf3?vw=full">Rigoletto</title>
-               </lb><persName ref="https://libris.kb.se/ljx01rd432x86fs#it">G. Rossini</persName> </space> aria ur op. <title ref="https://libris.kb.se/bib/1625321">Barberaren i Sevilla</title>
+              <note place="top-right">5 febr. 1932.</note>
+              </lb>medverkande Operasångerskan <persName>Adèle Weine</persName>
+              </lb>vid flygeln <persName>Sigrid Gyllencreutz-Fermœus</persName>
+              </lb><persName ref="https://libris.kb.se/pm134xz74mdwd75#it">A.Wiklund</persName> </space> <title ref="https://libris.kb.se/bib/m3q1nsfsk8w1f6wx?vw=full">Himmel eller Vår</title>
+              </lb>” </space> <title ref="https://libris.kb.se/bib/3363523?vw=fullt">Silkesko over Gylden lœst</title>
+              </lb><persName ref="https://libris.kb.se/42gjjm9n29h8817#it">E.Grieg</persName> </space> <title>Mens jag venter</title>
+              </lb>” </space> <title>Ragnhild</title>
+              </lb><persName ref="https://libris.kb.se/fcrtq50z04587rd#it">M. Reger</persName> </space> <title ref="https://libris.kb.se/bib/12139731?vw=full">Marie Wiegenlied</title> 
+              </lb><persName ref="https://libris.kb.se/khwzv9t32lvhbp8#it">Rimsky-Korsakoff</persName> </space> <title>Rosen och Näktergalen</title>
+              </lb><persName ref="https://libris.kb.se/sq46746b3dsfl6r#it">G. Verdi</persName> </space> aria ur op.<title ref="https://libris.kb.se/bib/w8d91g3rtp4dkvf3?vw=full">Rigoletto</title>
+              </lb><persName ref="https://libris.kb.se/ljx01rd432x86fs#it">G. Rossini</persName> </space> aria ur op. <title ref="https://libris.kb.se/bib/1625321">Barberaren i Sevilla</title>
               </p>
-            </div>
         </body>
     </text>
 </TEI>
