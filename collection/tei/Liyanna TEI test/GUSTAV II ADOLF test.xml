@@ -52,10 +52,13 @@
                     
                     <physDesc>
                         <p>En handgjord ensidig poster med text som informerar om programet för ett event. 
-                            Postern är handgjord gjort av papper med svart och röd typografisk text som inramas av en svart linje. 
-                            Texten inkluderar en överskrift och en deklaration om musikernas namn och roll, 
-                            följt av eventets repportoar med upphovsperson och titel uppdelat på två kollumner.
-                            En datumanteckning i blyerts återfinns i posterns övre högra hörn</p>
+                            Postern är handgjord gjort av papper med svart och blå typografisk text som inramas av en blå och gul linje på vardera sida.
+                            I överkant finns en illustration föreställande ett centrerat, cirkulärt, blått sigil med tre guld kronor. 
+                            På var sida om sigielt är en svenskflagga, en kanon, en grön ranka och en pyramid av gråa sfärer.
+                            Texten inkluderar en överskrift och information om eventets program, inkluderande en deklaration om eventets repportoar med upphovsperson och titel uppdelat på två kollumner.
+                            En datumanteckning i blyerts återfinns i posterns övre samt nedre högra hörn.
+                            Ett vitt irregulärt märke återfinns vid överskriften.
+                        </p>
                         <objectDesc>
                             <supportDesc>
                                 <extent>
@@ -67,9 +70,12 @@
                             </supportDesc>
                             
                             <layoutDesc>
-                                <p>Postern har elva rader text. Första raden beskriver posterns syfte, rad två och tre presenterar eventets musiker. 
-                                    Rad fyra till elva presenterar eventets repportoar och är uppdelade i två kollumner.
-                                    Den vänstra kollumnen innehåller upphovsperson och den högra kollumnen titel på ett musikstycke.</p>
+                                <p>Postern har 17 rader text. De två första raderna innehar posters överskrift.  
+                                    Rad tre till åtta presenterar eventets händelseordning.
+                                    Rad nio till 16 presenterar eventets repportoar och är uppdelade i två kollumner.
+                                    Den vänstra kollumnen innehåller titeln på ett musikstycke och den högra innehåller namnet på styckets upphovsperson.
+                                    Rad 17 presenterar eventets pianist.
+                                </p>
                             </layoutDesc>
                         </objectDesc>
                     </physDesc>
@@ -85,7 +91,7 @@
                 <derivation type="original"/>
                 <domain type="public">program information</domain>
                 <factuality type="fact"/>
-                <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar</interaction>
+                <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar.</interaction>
                 <preparedness type="revised"/>
                 <purpose type="inform" degree="high"/>
             </textDesc>
@@ -96,9 +102,10 @@
             
             <handNotes>
                 <!-- används för att notera olika typsnitt. kanske inte behövs eftersom vi inte gör någon typsnitts analys osv???? man kan säkert länka dessa element till individuella rader i transkriberingen men det känns jobbigt haha -->
-                <handNote medium="blyerts">Datum anteckning i blyerts, övre högra hörnet</handNote>
-                <handNote medium="fetstil, röd">Röd färg, versaler, fetstil.</handNote>
-                <handNote medium="tunn, svart">Tunn, svart färg.</handNote>
+                <handNote medium="blyerts">Datum anteckning i blyerts, övre och nedre högra hörnet</handNote>
+                <handNote medium="fetstil, blå">blå färg, versaler, fetstil.</handNote>
+                <handNote medium="fetstil, svart">svart färg, versaler, fetstil</handNote>
+                <handNote medium="svart">svart färg, gemener</handNote>
             </handNotes>
             
             <textClass>
@@ -107,45 +114,59 @@
                     <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
                     <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
                     <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">poesi</ref></term>
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">kungar</ref></term>
                 </keywords>
             </textClass>
             
             <particDesc>
+                <listPerson type="objekt">
+                    <person role="kung"> 
+                        <persName ref="https://libris.kb.se/wt79b47f42nbg14#it">Gustav II Adolf</persName>
+                    </person>
+                </listPerson>
+                
                 <listPerson type="medverkande">
-                    <person role="sångerska"> 
-                        <persName>Adèle Weine</persName>
+                    <person role="föreläsare"> 
+                        <persName ref="urn:sbl:12730">Greta Hedin</persName>
+                    </person>
+                    <person role="uppläsare"> 
+                        <persName>Aina Ekman</persName>
                     </person>
                     <person role="pianist"> 
-                        <persName>Sigrid Gyllencreutz-Fermœus</persName>
+                        <persName ref="urn:sbl:20133">Elsa E M Stenhammar</persName>
                     </person>
                 </listPerson>
                 
                 <listPerson type="upphovspersoner">
                     <person> 
-                        <persName ref="https://libris.kb.se/pm134xz74mdwd75#it">A.Wiklund 
-                            <title ref="https://libris.kb.se/bib/m3q1nsfsk8w1f6wx?vw=full">Himmel eller Vår</title>
-                            <title ref="https://libris.kb.se/bib/3363523?vw=fullt">Silkesko over Gylden lœst</title></persName>
+                        <persName ref="https://libris.kb.se/ljx01n545rh6bzs#it">Esaias Tegnér </persName>  
                     </person>
                     <person> 
-                        <persName ref="https://libris.kb.se/42gjjm9n29h8817#it">E.Grieg
-                            <title>Mens jag venter</title>
-                            <title>Ragnhild</title></persName> 
+                        <persName ref="https://libris.kb.se/64jlmc0q24qqs81#i">Elfrida André 
+                            <title ref="https://libris.kb.se/bib/19798602?vw=full">Vaknen</title></persName>
+                    </person>
+                    <person> 
+                        <persName ref="https://libris.kb.se/pm134v570ddvstx#it">Johann Gottlieb Naumann
+                            <title ref="https://libris.kb.se/bib/3168847?vw=full">Ädla skuggor, vördade fäder</title> </persName>
                     </person>
                     <person>
-                        <persName ref="https://libris.kb.se/fcrtq50z04587rd#it">M. Reger
-                            <title ref="https://libris.kb.se/bib/12139731?vw=full">Marie Wiegenlied</title></persName>
+                        <persName>Otto Lindblad
+                            <title>Jag vet ett land</title></persName>
                     </person>
                     <person>
-                        <persName ref="https://libris.kb.se/khwzv9t32lvhbp8#it">Rimsky-Korsakoff
-                            <title>Rosen och Näktergalen</title></persName>
+                        <persName>Okänd, folkvisa
+                            <title>Om sommaren sköna</title>
+                            <title ref="https://libris.kb.se/bib/bwdthnqp8ww0p1cs">Mandom Mod Morske Män</title>
+                        </persName>
                     </person>
                     <person>
-                        <persName ref="https://libris.kb.se/sq46746b3dsfl6r#it">G. Verdi
-                            <title ref="https://libris.kb.se/bib/w8d91g3rtp4dkvf3?vw=full">Rigoletto</title></persName> 
+                        <persName>Josefsson
+                            <title>Vårt land</title></persName> 
                     </person>
                     <person>
-                        <persName ref="https://libris.kb.se/ljx01rd432x86fs#it">G. Rossini
-                            <title ref="https://libris.kb.se/bib/1625321">Barberaren i Sevilla</title></persName>
+                        <persName ref="https://libris.kb.se/dbqstktx4q6mzv4#it ">Wilhelm Stenhammar
+                            <title ref="https://libris.kb.se/bib/3282329?vw=full">Sverige</title></persName>
                     </person>
                 </listPerson>
             </particDesc>
@@ -153,11 +174,11 @@
     </teiHeader>
     
     <facsimile>
-        <surface xml:id="programAdele">
+        <surface xml:id="GustavIIAdolf">
             <figure>
-                <label>Program Adèle Weine</label>
+                <label>Gustav II Adolfs minne</label>
                 <figDesc>
-                    En digital kopia av en poster gjord av papper som informerar om ett musikprogram.               
+                    En digital kopia av en poster gjord av papper som informerar om ett eventprogram till minne av Gustav II Adolf.               
                 </figDesc>
                 <graphic xml:id="XXX" url="XXX"/>
             </figure>
@@ -166,19 +187,26 @@
     
     <text>
         <body>            
-            <note place="top-right">5 febr. 1932.</note>
-            <p> PROGRAM <lb/>
-                medverkande Operasångerskan Adèle Weine<lb/>
-                vid flygeln Sigrid Gyllencreutz-Fermœus<lb/>
-                A.Wiklund  Himmel eller Vår<lb/>
-                ” Silkesko over Gylden lœst<lb/>
-                E.Grieg  Mens jag venter<lb/>
-                ” Ragnhild<lb/>
-                M. Reger Marie Wiegenlied<lb/>
-                Rimsky-Korsakoff Rosen och Näktergalen<lb/>
-                G. Verdi aria ur op. Rigoletto<lb/>
-                G. Rossini aria ur op. Barberaren i Sevilla
+            <note place="top-right">Den 4 nov. 1932.</note>
+            <p> GUSTAV II ADOLFS<lb/>
+                MINNE<lb/>
+                FÖREDRAG av FIL.DR GRETA HEDIN <lb/>
+                TVÅ DIKTER AV ESAIAS TEGNÉR SKRIVNA <lb/>
+                FOR GUSTAV II ADOLFSFESTEN I VÄXJÖ 1832 <lb/>
+                UPPLÄSTA AV FRU AINA EKMAN<lb/>
+                PSALM 124 UNISONT<lb/>
+                TÉPAUS<lb/>
+                VAKNEN ELRIDA ANDRÉ<lb/>
+                ÄDLA SKUGGOR, VÖRDADE FÄDER NAUMANN<lb/>
+                JAG VET ETT LAND OTTO LINDBLAD<lb/>
+                ÖVER SKOG ÖVER SJÖN H.F LINDBLAD<lb/>
+                OM SOMMAREN SKÖNA FOLKVISA<lb/>
+                MANDOM MOD MORSKE MÄN ”<lb/>
+                VÅRT LAND JOSEFSSON<lb/>
+                SVERIGE STENHAMMAR<lb/>
+                vid flygeln ELSA STENHAMMAR<lb/>
             </p>
+            <note place="bottom-right">Den 4 nov. 1932.</note>
         </body>
     </text>
 </TEI>
