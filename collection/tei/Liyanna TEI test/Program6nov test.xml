@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Program 6 nov</title>
+                <author>Sällskapet Iris</author>
+                <principal><persName>Liyanna Norling</persName>
+                    <persName>Tove Berglund</persName>
+                    <persName>Tess Zetterlund</persName>
+                </principal>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority>
+                    <name>Högskolan i Borås</name>
+                    <address>
+                        <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                        <addrLine>Högskolan i Borås</addrLine>
+                        <addrLine>501 90 Borås</addrLine>
+                        <addrLine>https://www.hb.se/</addrLine>
+                    </address>
+                </authority>
+                <date>2025</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                        <p>Materialet distribueras under en CC-BY-SA 4.0 licens.</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Sverige</country>
+                        <settlement>Göteborg
+                            <address>
+                                <addrLine>Humanistiska biblioteket</addrLine>
+                                <addrLine>Renströmsgatan 4</addrLine>
+                                <addrLine>412 55 Göteborg</addrLine>
+                            </address>
+                        </settlement>
+                        <repository>KvinnSam</repository>
+                        <collection>Sällskapet Iris Samling</collection>
+                        <idno>XXXXXX</idno>
+                        <idno type="URI">XXXXXXX</idno>
+                    </msIdentifier>
+                    
+                    <physDesc>
+                        <p>En handgjord ensidig poster med text som informerar om programet för ett event. 
+                            Postern är handgjord gjort av papper med svart typografisk text som inramas av en tunn ram bestående av ett svart och ett rött sträck.
+                            På båda sidor av överskrifter finns en röd symbol med svarta konturer.
+                            Versaler i brödtexten är stundvis kantade av rött.
+                        </p>
+                        <objectDesc>
+                            <supportDesc>
+                                <extent>
+                                    <dimensions unit="cm">
+                                        <height>XX</height>
+                                        <width>XX</width>
+                                    </dimensions>
+                                </extent>
+                            </supportDesc>
+                            
+                            <layoutDesc>
+                                <p>Postern har 22 rader text. Rad ett innehar överskrift och rad två datum för eventet.  
+                                   Rad tre till tolv visar eventets halva reportoar, uppdelat i två kollumner med upphovsperson i den vänstra kollumnen och titeln på ett verk i den högra kollumnen.
+                                   Rad fem och tio innehar endast text skriven inom parantes i ett mindre typsnitt.
+                                   Rad 13 och 14 innehar information om musiker och uppläsare.
+                                   Rad 15 till 20 fortsätter visa eventets reportoar, på samma vis som rad fem till tio.
+                                   Rad 21 och 22 innehar information om musiker.
+                                </p>
+                            </layoutDesc>
+                        </objectDesc>
+                    </physDesc>
+                </msDesc>
+                <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+            </sourceDesc>
+        </fileDesc>
+        
+        <profileDesc>
+            <textDesc>
+                <channel>print</channel>
+                <constitution type="single"/>
+                <derivation type="original"/>
+                <domain type="public">program information</domain>
+                <factuality type="fact"/>
+                <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar.</interaction>
+                <preparedness type="revised"/>
+                <purpose type="inform" degree="high"/>
+            </textDesc>
+            
+            <langUsage>
+                <language ident="swe">Svenska</language>
+            </langUsage>
+            
+            <handNotes>                
+                <handNote medium="fetstil-svart">svart färg, versaler, fetstil</handNote>
+                <handNote medium="svart">svart färg</handNote>
+                <handNote medium="svart-tunn">svart färg, tunn typografi i paranteser och deklaration om medverkande </handNote>
+                <handNote medium="svart-röd">Svart färg med röd skugga. Versaler i början av vissa ord.</handNote>
+            </handNotes>
+            
+            <textClass>
+                <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">poesi</ref></term>
+                </keywords>
+            </textClass>
+            
+            <particDesc>             
+                <listPerson type="medverkande">
+                    <person role="uppläsare"> 
+                        <persName>Gerda Lundequist</persName>
+                    </person>
+                    <person role="Sångerska"> 
+                        <persName>Marianne Mörner</persName>
+                    </person>
+                    <person role="pianist"> 
+                        <persName ref="urn:sbl:20133">Elsa E M Stenhammar</persName>
+                    </person>
+                    <person role="pianist"> 
+                        <persName>Sigrid Gyllencreutz-Fermœus</persName>
+                    </person>
+                </listPerson>
+                
+                <listPerson type="upphovspersoner">
+                    <person> 
+                        <persName>Verner von Heidenstam
+                            <title>En dag</title></persName>  
+                    </person>
+                    <person> 
+                        <persName>Gustaf Fröding 
+                            <title>Saul och David</title></persName>
+                    </person>
+                    <person> 
+                        <persName>Selma Lagerlöf
+                            <title>Ett barns memoarer</title> </persName>
+                    </person>
+                    <person>
+                        <persName>Dan Andersson
+                            <title>En spelmans jordafärd</title></persName>
+                    </person>
+                    <person>
+                        <persName>Jarl Hemmer
+                            <title>Förord</title>
+                            <title>Vinterbygge</title>
+                        </persName>
+                    </person>
+                    <person>
+                        <persName>Heyse
+                            <title>Dyrekes sange</title></persName> 
+                    </person>
+                    <person>
+                        <persName>Schumann
+                            <title>Frühlingsnacht</title>
+                            <title>Der Arme Peter 1, 2, 3</title>
+                            <title>Schneeglöck(chen?)</title></persName>
+                    </person>
+                    <person>
+                        <persName>Schubert
+                            <title>An die Nachtigall</title>
+                            <title>Die Forelle</title></persName>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    
+    <facsimile>
+        <surface xml:id="Program6Nov">
+            <figure>
+                <label>Program6Nov</label>
+                <figDesc>
+                    En digital kopia av en poster gjord av papper som informerar om ett eventprogram.               
+                </figDesc>
+                <graphic xml:id="XXX" url="XXX"/>
+            </figure>
+        </surface>
+    </facsimile>
+    
+    <text>
+        <body>            
+            <p> PROGRAM<lb/>
+                DEN 6 NOV. 1931<lb/>
+                V. von Heidenstam Ur ”en dag”<lb/>
+                Gustaf Fröding Saul och David (med beledsagdnde<lb/>
+                musik komponerad av Elfrida Andrée)<lb/>
+                Selma Lagerlöf Ur ”Ett barns memoarer”<lb/>
+                Karl Asplund Fågelbesöket<lb/>
+                ” Claudine sjunger<lb/>
+                Dan Andersson En spelmans jordafärd (med beled-<lb/>
+                sagande musik efter förf:s melodie bearbetad av R. Liljefors)<lb/>
+                Jarl Hemmer Förord<lb/>
+                ” Vinterbygge<lb/>
+                Deklamation av Gerda Lundequist<lb/>
+                Vid flygeln Elsa Stenmmar<lb/>
+                Heyse Dyrekes sange<lb/>
+                Schumann Frühlingsnacht<lb/>
+                ” Der (Arne??) Peter 1, 2, 3<lb/>
+                ” Schneeglöck(chen?)<lb/>
+                Schubert An die Nachtigall<lb/>
+                ” Die Forelle<lb/>
+                Sång av Hovsångerskan Marianne Mörner<lb/>
+                vid flygeln Sigrid Gyllencreutz Fermœus<lb/>
+            </p>
+        </body>
+    </text>
+</TEI>
+
