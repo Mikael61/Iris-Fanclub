@@ -11,7 +11,7 @@
             <persName ref="http://viaf.org/viaf/305859316">Elisabeth Reiss</persName>
             </title>
             <author>Sällskapet Iris</author>
-            <principal>Tove Berglund</principal>
+            <principal>Tove Berglund, Liyanna Norling Åslund och Tess Zetterlund </principal>
          </titleStmt>
          
          <publicationStmt>
@@ -22,7 +22,7 @@
             <addrLine>501 90 Borås</addrLine>
             <addrLine>https://www.hb.se/</addrLine>
             </address>
-            <date>Mars 2025</date>
+            <date>2025</date>
             
             <availability>
                <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
@@ -91,7 +91,9 @@
                   <lb/><hi rend="line">———</hi> 
                   <lb/>188
                </note>
-               
+            </p>
+            
+            <p>
                 Den svensk-nors
                <lb/>- ka societetsdamen 
                <lb/> ger en välgören
