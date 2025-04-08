@@ -11,7 +11,11 @@
             <persName ref="http://viaf.org/viaf/305859316">Elisabeth Reiss</persName>
             </title>
             <author>Sällskapet Iris</author>
-            <principal>Tove Berglund, Liyanna Norling Åslund och Tess Zetterlund </principal>
+            <principal>
+            <persName>Tove Berglund</persName>
+            <persName>Liyanna Norling</persName>
+            <persName>Tess Zetterlund</persName>
+            </principal>
          </titleStmt>
          
          <publicationStmt>
@@ -34,7 +38,39 @@
          </publicationStmt>
          
          <sourceDesc> 
-         <p>En affisch från december 1938 som annonserar en välgörenhetstillställning med underhållning hemma hos socitetsdamen Elisabeth Reiss</p>
+            <msDesc>
+               <msIdentifier>
+                  <country>Sverige</country>
+                  <settlement>Göteborg
+                     <address>
+                        <addrLine>Humanistiska biblioteket</addrLine>
+                        <addrLine>Renströmsgatan 4</addrLine>
+                        <addrLine>412 55 Göteborg</addrLine>
+                     </address>
+                  </settlement>
+                  <repository>KvinnSam</repository>
+                  <collection>Sällskapet Iris Samling</collection>
+                  <idno>XXXXXX</idno>
+                  <idno type="URI">XXXXXXX</idno>
+               </msIdentifier>
+               
+               <physDesc>
+                  <p>En handgjord ensidig poster med text som informerar om ett välgörenhetsevent hemma hos Elisabeth Reiss. 
+                     Postern är i papper med handskriven röd och svart text.
+                     I den övre marginalen återfinns en datumanteckning och en matematisk uträkning båda skrivna med blyerts.</p>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <dimensions unit="cm">
+                              <height>XX</height>
+                              <width>XX</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
          </sourceDesc>
       </fileDesc>
       
@@ -54,7 +90,22 @@
             </keywords>
          </textClass>
          
+         <langUsage>
+            <language ident="swe">Svenska</language>
+         </langUsage>
+         
+         
+         <particDesc>
+            <listPerson type="medverkande">
+               <person role="värdinna"> 
+                  <persName>Elisabeth Reiss</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         
       </profileDesc>
+      
+        
       
    </teiHeader>
    
