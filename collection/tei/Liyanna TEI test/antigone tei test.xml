@@ -59,8 +59,8 @@
                      <supportDesc>
                         <extent>
                            <dimensions unit="cm">
-                              <height>XX</height>
-                              <width>XX</width>
+                              <height>31,5</height>
+                              <width>26</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -93,7 +93,6 @@
          </langUsage>
          
          <handNotes>
-            <!-- används för att notera olika typsnitt. kanske inte behövs eftersom vi inte gör någon typsnitts analys osv???? man kan säkert länka dessa element till individuella rader i transkriberingen men det känns jobbigt haha -->
             <handNote medium="blyerts">Datum anteckning i blyerts, övre högra hörnet</handNote>
             <handNote medium="fetstil, svart">Svart färg, text i versaler, fetstil.</handNote>
             <handNote medium="tunn, svart">Tunn, svart färg.</handNote>
@@ -105,6 +104,7 @@
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">teater</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">gymnasieskolan</ref></term>
             </keywords>
          </textClass>
          

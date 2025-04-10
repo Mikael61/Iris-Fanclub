@@ -7,7 +7,7 @@
         
         <fileDesc>
             <titleStmt>
-                <title>Poster Program - Adèle Weine</title>
+                <title>Poster Program - Alice Karlander</title>
                 <author>Sällskapet Iris</author>
                 <principal><persName>Liyanna Norling</persName>
                     <persName>Tove Berglund</persName>
@@ -52,29 +52,32 @@
                     
                     <physDesc>
                         <p>En handgjord ensidig poster med text som informerar om programet för ett event. 
-                            Postern är handgjord gjort av papper med svart och röd typografisk text som inramas av en svart linje. 
-                            Texten inkluderar en överskrift och en deklaration om musikernas namn och roll, 
-                            följt av eventets repportoar med upphovsperson och titel uppdelat på två kollumner.
-                            En datumanteckning i blyerts återfinns i posterns övre högra hörn</p>
+                            Postern är handgjord gjort av papper med svart och blå typografisk text som inramas av en blå linje. 
+                            Texten inkluderar en överskrift, en deklaration medverkande violinist, en lista i två kollumner med eventets program där verkets upphovsperson står på i den vänstra kollumnen och verkets titel i den högra, och till sist en deklaration om medverkande pianist.
+                            En datumanteckning i blyerts återfinns centrerat i posterns överkant, och en notering om antal personer i övre högerkant.
+                            På den övre vänstra halvan av postern finns ett flertal små bruna smutsfläckar.
+                            I vänster nederkant finns en brunfläck samt ett brunt märke i gem form</p>
                         <objectDesc>
                             <supportDesc>
                                 <extent>
                                     <dimensions unit="cm">
-                                        <height>35</height>
-                                        <width>28</width>
+                                        <height>34</height>
+                                        <width>26,5</width>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
                             
                             <layoutDesc>
-                                <p>Postern har elva rader text. Första raden beskriver posterns syfte, rad två och tre presenterar eventets musiker. 
-                                    Rad fyra till elva presenterar eventets repportoar och är uppdelade i två kollumner.
-                                    Den vänstra kollumnen innehåller upphovsperson och den högra kollumnen titel på ett musikstycke.</p>
+                                <p>Postern har elva rader text, exklusive anteckningar i blyerts. 
+                                    Första raden beskriver posterns syfte, rad två och tre presenterar eventets medverkande violinist. 
+                                    Rad Rad fyra till åtta presenterar eventets repportoar och är uppdelade i två kollumner.
+                                    Den vänstra kollumnen innehåller upphovsperson och den högra kollumnen titel på verket som framförs. 
+                                    Rad nio till elca presnterar eventets medverkande pianist.</p>
                             </layoutDesc>
                         </objectDesc>
                     </physDesc>
                 </msDesc>
-              <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+                <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
             </sourceDesc>
         </fileDesc>
         
@@ -95,11 +98,9 @@
             </langUsage>
             
             <handNotes>
-                <!-- används för att notera olika typsnitt. kanske inte behövs eftersom vi inte gör någon typsnitts analys osv???? man kan säkert länka dessa element till individuella rader i transkriberingen men det känns jobbigt haha -->
-                <handNote medium="blyerts">Datum anteckning i blyerts, övre högra hörnet</handNote>
-                <handNote medium="fetstil, röd">Röd färg, versaler, fetstil.</handNote>
-                <handNote medium="tunn, svart">Tunn, svart färg.</handNote>
-            </handNotes>
+                <handNote medium="versaler-blå">blå färg, fetstil, versaler</handNote>
+                <handNote medium="svart">svart färg</handNote>
+                </handNotes>
             
             <textClass>
                 <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
@@ -112,40 +113,28 @@
             
             <particDesc>
                 <listPerson type="medverkande">
-                    <person role="sångerska"> 
-                      <persName>Adèle Weine</persName>
+                    <person role="violinist"> 
+                        <persName>Alice Karlander</persName>
                     </person>
                     <person role="pianist"> 
-                        <persName xml:id="X">Sigrid Gyllencreutz-Fermæus</persName>
+                        <persName>Sigrid Gyllencreutz-Fermæus</persName>
                     </person>
-                 </listPerson>
+                </listPerson>
                 
                 <listPerson type="upphovspersoner">
                     <person> 
-                        <persName ref="https://libris.kb.se/pm134xz74mdwd75#it">A.Wiklund 
-                        <title ref="https://libris.kb.se/bib/m3q1nsfsk8w1f6wx?vw=full">Himmel eller Vår</title>
-                        <title ref="https://libris.kb.se/bib/3363523?vw=fullt">Silkesko over Gylden lœst</title></persName>
+                        <persName ref="https://libris.kb.se/xv8cj3sg24n9r2v#it">Jeno Hubay
+                            <title ref="https://libris.kb.se/bib/1607263?vw=full">Noctunre pour violon avec accompagnement de piano op. 42</title>
+                            <title>Serenad</title>
+                            <title>Chanson de Plevna</title></persName>
                     </person>
                     <person> 
-                        <persName ref="https://libris.kb.se/42gjjm9n29h8817#it">E.Grieg
-                        <title>Mens jag venter</title>
-                        <title>Ragnhild</title></persName> 
+                        <persName>Zoltán Kodály
+                            <title ref="https://libris.kb.se/bib/11529131?tab2=toc">Valsette</title></persName>
                     </person>
                     <person>
-                        <persName ref="https://libris.kb.se/fcrtq50z04587rd#it">M. Reger
-                        <title ref="https://libris.kb.se/bib/12139731?vw=full">Marie Wiegenlied</title></persName>
-                    </person>
-                    <person>
-                        <persName ref="https://libris.kb.se/khwzv9t32lvhbp8#it">Rimsky-Korsakoff
-                        <title>Rosen och Näktergalen</title></persName>
-                    </person>
-                    <person>
-                         <persName ref="https://libris.kb.se/sq46746b3dsfl6r#it">G. Verdi
-                         <title ref="https://libris.kb.se/bib/w8d91g3rtp4dkvf3?vw=full">Rigoletto</title></persName> 
-                       </person>
-                    <person>
-                         <persName ref="https://libris.kb.se/ljx01rd432x86fs#it">G. Rossini
-                         <title ref="https://libris.kb.se/bib/1625321">Barberaren i Sevilla</title></persName>
+                        <persName>Franz von Vecsey
+                            <title ref="https://libris.kb.se/bib/11949181?vw=full">La valse triste</title></persName>
                     </person>
                 </listPerson>
             </particDesc>
@@ -153,9 +142,9 @@
     </teiHeader>
     
     <facsimile>
-        <surface xml:id="programAdele">
+        <surface xml:id="programKarlander">
             <figure>
-                <label>Program Adèle Weine</label>
+                <label>Program Doktorinnan Hjördis Arnell</label>
                 <figDesc>
                     En digital kopia av en poster gjord av papper som informerar om ett musikprogram.               
                 </figDesc>
@@ -166,20 +155,20 @@
     
     <text>
         <body>            
-            <note place="top-right">5 febr. 1932.</note>
-            <p> PROGRAM <lb/>
-                medverkande Operasångerskan Adèle Weine<lb/>
-                vid flygeln Sigrid Gyllencreutz-Fermœus<lb/>
-                A.Wiklund  Himmel eller Vår<lb/>
-                ” Silkesko over Gylden lœst<lb/>
-                E.Grieg  Mens jag venter<lb/>
-                ” Ragnhild<lb/>
-                M. Reger Marie Wiegenlied<lb/>
-                Rimsky-Korsakoff Rosen och Näktergalen<lb/>
-                G. Verdi aria ur op. Rigoletto<lb/>
-                G. Rossini aria ur op. Barberaren i Sevilla
-              </p>
+            <note place="top-center">4.2.1938</note>
+            <note place="top-right">130 personer.<lb/>+ styrelsen</note>
+            <p> PROGRAM<lb/>
+                VIOLINISTEN<lb/>
+                ALICE KARLANDER<lb/>
+                Hubay Nocturne<lb/>
+                Serenad<lb/>
+                Codaly Valsette<lb/>
+                Vecsey Valse triste<lb/>
+                Hubay Chanson de Plevna<lb/>
+                vid flygeln:<lb/>
+                SIGRID GYLLENCREUTZ<lb/>
+                FERMÆUS
+            </p>
         </body>
     </text>
 </TEI>
-

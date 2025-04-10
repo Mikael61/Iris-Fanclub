@@ -7,7 +7,7 @@
         
         <fileDesc>
             <titleStmt>
-                <title>Poster Program - Adèle Weine</title>
+                <title>Poster Program - Doktorinna Hjördis Arnell</title>
                 <author>Sällskapet Iris</author>
                 <principal><persName>Liyanna Norling</persName>
                     <persName>Tove Berglund</persName>
@@ -52,29 +52,29 @@
                     
                     <physDesc>
                         <p>En handgjord ensidig poster med text som informerar om programet för ett event. 
-                            Postern är handgjord gjort av papper med svart och röd typografisk text som inramas av en svart linje. 
-                            Texten inkluderar en överskrift och en deklaration om musikernas namn och roll, 
-                            följt av eventets repportoar med upphovsperson och titel uppdelat på två kollumner.
-                            En datumanteckning i blyerts återfinns i posterns övre högra hörn</p>
+                            Postern är handgjord gjort av papper med svart och röd typografisk text som inramas av en röd linje. 
+                            Texten inkluderar en överskrift och en deklaration medverkande samt en lista i två kollumner med eventets program där verkets upphovsperson står på i den vänstra kollumnen och verkets titel i den högra.
+                            Under varje verk står även vem av de medverkande som framfört verket.
+                            En datumanteckning i blyerts återfinns centrerat i posterns överkant</p>
                         <objectDesc>
                             <supportDesc>
                                 <extent>
                                     <dimensions unit="cm">
-                                        <height>35</height>
-                                        <width>28</width>
+                                        <height>40</height>
+                                        <width>27,5</width>
                                     </dimensions>
                                 </extent>
                             </supportDesc>
                             
                             <layoutDesc>
-                                <p>Postern har elva rader text. Första raden beskriver posterns syfte, rad två och tre presenterar eventets musiker. 
-                                    Rad fyra till elva presenterar eventets repportoar och är uppdelade i två kollumner.
-                                    Den vänstra kollumnen innehåller upphovsperson och den högra kollumnen titel på ett musikstycke.</p>
+                                <p>Postern har 17 rader text, exklusive anteckningen i blyerts. Första raden beskriver posterns syfte, rad två och tre presenterar eventets medverkande. 
+                                    Rad Rad fyra till 17 presenterar eventets repportoar och är uppdelade i två kollumner.
+                                    Den vänstra kollumnen innehåller upphovsperson och den högra kollumnen titel på verket som framförs. Under verken framgår vem av de medverkande som framför verket.</p>
                             </layoutDesc>
                         </objectDesc>
                     </physDesc>
                 </msDesc>
-              <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+                <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
             </sourceDesc>
         </fileDesc>
         
@@ -95,10 +95,9 @@
             </langUsage>
             
             <handNotes>
-                <!-- används för att notera olika typsnitt. kanske inte behövs eftersom vi inte gör någon typsnitts analys osv???? man kan säkert länka dessa element till individuella rader i transkriberingen men det känns jobbigt haha -->
-                <handNote medium="blyerts">Datum anteckning i blyerts, övre högra hörnet</handNote>
-                <handNote medium="fetstil, röd">Röd färg, versaler, fetstil.</handNote>
-                <handNote medium="tunn, svart">Tunn, svart färg.</handNote>
+                <handNote medium="versaler-svartröd">svart färg med röd kontur, versaler, används till överskrift</handNote>
+                <handNote medium="svart">svart färg</handNote>
+                <handNote medium="svart-röd">Svart färg med röd skugga. Versaler i början av vissa ord.</handNote>
             </handNotes>
             
             <textClass>
@@ -107,47 +106,47 @@
                     <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
                     <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
                     <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+                    <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">körsång</ref></term>
                 </keywords>
             </textClass>
             
             <particDesc>
                 <listPerson type="medverkande">
                     <person role="sångerska"> 
-                      <persName>Adèle Weine</persName>
+                        <persName>Hjördis Arnell</persName>
                     </person>
-                    <person role="pianist"> 
-                        <persName xml:id="X">Sigrid Gyllencreutz-Fermæus</persName>
+                    <person role="körledare"> 
+                        <persName ref="urn:sbl:20133">Elsa E M Stenhammar</persName>
                     </person>
-                 </listPerson>
+                    <person role="kör"> 
+                        <persName>Damkör</persName>
+                    </person>
+                </listPerson>
                 
                 <listPerson type="upphovspersoner">
                     <person> 
-                        <persName ref="https://libris.kb.se/pm134xz74mdwd75#it">A.Wiklund 
-                        <title ref="https://libris.kb.se/bib/m3q1nsfsk8w1f6wx?vw=full">Himmel eller Vår</title>
-                        <title ref="https://libris.kb.se/bib/3363523?vw=fullt">Silkesko over Gylden lœst</title></persName>
+                        <persName ref="https://libris.kb.se/rp356z691497558#it">Jacques Offenbach
+                            <title ref="https://libris.kb.se/bib/7756363?vw=full">aria ur "Hoffmans äventyr"</title>
+                            <title ref="https://libris.kb.se/bib/11825729?vw=full">"Barcarole" ur Hoffmans äventyr</title></persName>
                     </person>
                     <person> 
-                        <persName ref="https://libris.kb.se/42gjjm9n29h8817#it">E.Grieg
-                        <title>Mens jag venter</title>
-                        <title>Ragnhild</title></persName> 
+                        <persName ref="https://libris.kb.se/khwzzv2345wgz5h#it">Claude Debussy
+                            <title ref="https://libris.kb.se/bib/3211415">Ariettes oubliées</title></persName>
                     </person>
                     <person>
-                        <persName ref="https://libris.kb.se/fcrtq50z04587rd#it">M. Reger
-                        <title ref="https://libris.kb.se/bib/12139731?vw=full">Marie Wiegenlied</title></persName>
+                        <persName ref="https://libris.kb.se/53hklgsp54fm427#it">Jules Massenet
+                            <title ref="https://libris.kb.se/bib/12459349?vw=full">Élégie</title></persName>
                     </person>
                     <person>
-                        <persName ref="https://libris.kb.se/khwzv9t32lvhbp8#it">Rimsky-Korsakoff
-                        <title>Rosen och Näktergalen</title></persName>
+                        <persName ref="https://libris.kb.se/31fhh7dm1l4nvml#it">Johannes Brahms
+                            <title ref="https://libris.kb.se/bib/1241269?tab2=toc">Es tönt ein voller Harfenklang</title>
+                            <title ref="https://libris.kb.se/bib/1241269?tab2=toc">Der Gärtner</title></persName>
                     </person>
                     <person>
-                         <persName ref="https://libris.kb.se/sq46746b3dsfl6r#it">G. Verdi
-                         <title ref="https://libris.kb.se/bib/w8d91g3rtp4dkvf3?vw=full">Rigoletto</title></persName> 
-                       </person>
-                    <person>
-                         <persName ref="https://libris.kb.se/ljx01rd432x86fs#it">G. Rossini
-                         <title ref="https://libris.kb.se/bib/1625321">Barberaren i Sevilla</title></persName>
+                        <persName ref="https://libris.kb.se/vs6891nd2q2q9t0#it">Johann Strauss
+                            <title ref="https://libris.kb.se/bib/11830642?vw=full">Geschichten aus dem Wienerwald</title></persName> 
                     </person>
-                </listPerson>
+                  </listPerson>
             </particDesc>
         </profileDesc>
     </teiHeader>
@@ -155,7 +154,7 @@
     <facsimile>
         <surface xml:id="programAdele">
             <figure>
-                <label>Program Adèle Weine</label>
+                <label>Program Doktorinnan Hjördis Arnell</label>
                 <figDesc>
                     En digital kopia av en poster gjord av papper som informerar om ett musikprogram.               
                 </figDesc>
@@ -166,19 +165,26 @@
     
     <text>
         <body>            
-            <note place="top-right">5 febr. 1932.</note>
+            <note place="top-center">Den 5 dec. 1931</note>
             <p> PROGRAM <lb/>
-                medverkande Operasångerskan Adèle Weine<lb/>
-                vid flygeln Sigrid Gyllencreutz-Fermœus<lb/>
-                A.Wiklund  Himmel eller Vår<lb/>
-                ” Silkesko over Gylden lœst<lb/>
-                E.Grieg  Mens jag venter<lb/>
-                ” Ragnhild<lb/>
-                M. Reger Marie Wiegenlied<lb/>
-                Rimsky-Korsakoff Rosen och Näktergalen<lb/>
-                G. Verdi aria ur op. Rigoletto<lb/>
-                G. Rossini aria ur op. Barberaren i Sevilla
-              </p>
+                medverkande: Doktorinnan Hjördis Arnell<lb/>
+                Damkör under ledning av fröken Elsa Stenhammar<lb/>
+                Offenbach aria ur Hoffans äventyr<lb/>
+                Hjördis Arnell<lb/>
+                ” Barcarolen ur Hoffmans äventyr<lb/>
+                Damkören<lb/>
+                (horisontellt sträck)<lb/>
+                Debussy ur ”Ariettes oubliées<lb/>
+                1. Voici des fruits”<lb/>
+                2. Il pleure dans mon coeur<lb/>
+                Massenet Elégie<lb/>
+                Hjördis Arnell<lb/>
+                Brahms Es tönt ein voller Harfenklang<lb/>
+                ” Der Gärtner<lb/>
+                Strauss Geschichten aus dem Wiener-<lb/>
+                wald<lb/>
+                Damkören
+            </p>
         </body>
     </text>
 </TEI>
