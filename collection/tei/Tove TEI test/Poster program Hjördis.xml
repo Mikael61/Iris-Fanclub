@@ -3,22 +3,165 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+   <teiHeader>
+      
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Poster- Program Hjördis W-A.
+            </title>
+            <author>Sällskapet Iris</author>
+            <principal>
+               <persName>Tove Berglund</persName>
+               <persName>Liyanna Norling</persName>
+               <persName>Tess Zetterlund</persName>
+            </principal>
          </titleStmt>
+         
          <publicationStmt>
-            <p>Publication Information</p>
+            
+            <publisher>Högskolan i Borås</publisher>
+            <address>
+               <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+               <addrLine>501 90 Borås</addrLine>
+               <addrLine>https://www.hb.se/</addrLine>
+            </address>
+            <date>2025</date>
+            
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                     Transcription distributed under a CC-BY-SA 4.0 license.
+                  </p>
+               </licence>
+            </availability>
          </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
+         
+         <sourceDesc> 
+            <msDesc>
+               <msIdentifier>
+                  <country>Sverige</country>
+                  <settlement>Göteborg
+                     <address>
+                        <addrLine>Humanistiska biblioteket</addrLine>
+                        <addrLine>Renströmsgatan 4</addrLine>
+                        <addrLine>412 55 Göteborg</addrLine>
+                     </address>
+                  </settlement>
+                  <repository>KvinnSam</repository>
+                  <collection>Sällskapet Iris Samling</collection>
+                  <idno>XXXXXX</idno>
+                  <idno type="URI">XXXXXXX</idno>
+               </msIdentifier>
+               
+               <physDesc>
+                  <p>En handgjord ensidig poster med text som informerar om ett musikevenemang.
+                     Postern är i papper med handskriven grön och svart text.
+                     I den övre marginalen återfinns en datumanteckning i blyerts.</p>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <dimensions unit="cm">
+                              <height>36</height>
+                              <width>26</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
          </sourceDesc>
       </fileDesc>
-  </teiHeader>
-  <text>
+      
+      <profileDesc>
+         
+         <handNotes>
+            <handNote medium="svart-penna"> Brödtext i svart penna.</handNote>
+            <handNote medium="Grön-penna"> Rubrik i grön penna.</handNote>
+            <handNote medium="Blyerts"> Marginalanteckningar i blyerts.</handNote>
+         </handNotes>
+         
+         <textClass>
+            <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+            </keywords>
+         </textClass>
+         
+         <langUsage>
+            <language ident="swe">Svenska</language>
+         </langUsage>
+         
+         
+         <particDesc>
+            <listPerson type="medverkande">
+               <person role="sångerska"> 
+                  <persName>Hjördis Wahlgren Arnell</persName>
+               </person>
+               <person role="pianist"> 
+                  <persName>Sigrid Gyllencreutz Fermaeus</persName>
+               </person>
+            </listPerson>
+            
+            <listPerson type="upphovsperson">
+               <person> 
+                  <persName ref="https://libris.kb.se/dbqsvmnx2lpnvh3#it">Niccolo Jommelli</persName>
+               </person>
+               
+               <person>
+                  <persName ref="http://viaf.org/viaf/46946549">Edvard Grieg</persName>
+               </person>
+               
+               <person>
+                  <persName ref= "http://viaf.org/viaf/95156473">Giacomo Puccini</persName>
+               </person>
+               
+            </listPerson>
+         </particDesc>
+         
+      </profileDesc>
+      
+      
+      
+   </teiHeader>
+   
+   
+   <facsimile>
+      <surface xml:id="poster03">
+         <figure>
+            <label>Poster front</label>
+            <figDesc>
+               Ett fotografi av en poster som informerar om en musiktillställning där Hjördis Wahlgren Arnell framträder. 
+            </figDesc>
+            <graphic xml:id="Poster03" url="XXX"/>
+         </figure>
+      </surface>
+   </facsimile>
+   
+   
+   
+   <text>
       <body>
-         <p>Some text here.</p>
+         <div type="poster" facs="poster01">
+            <head>
+               <hi rend="b">Program</hi>
+            </head>
+            
+            <p>
+               <note place="margin">3.3.39</note>
+               <note place="margin"> 90 pers.</note>
+            </p>
+            
+            <p>
+               Mozart: Konsert Ess dur
+               <lb/>för två flyglar med ackomp.
+               <lb/>av orkester
+               <lb/>solister:
+               <lb/>Fru Bell Dickson
+               <lb/>Fru Karin Drumm
+            </p>
+         </div>
       </body>
-  </text>
+   </text>
 </TEI>
