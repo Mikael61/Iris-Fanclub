@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      
+      <fileDesc>
+         <titleStmt>
+            <title>Poster- Mozarts konserti i ess dur.
+            </title>
+            <author>Sällskapet Iris</author>
+            <principal>
+               <persName>Tove Berglund</persName>
+               <persName>Liyanna Norling</persName>
+               <persName>Tess Zetterlund</persName>
+            </principal>
+         </titleStmt>
+         
+         <publicationStmt>
+            
+            <publisher>Högskolan i Borås</publisher>
+            <address>
+               <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+               <addrLine>501 90 Borås</addrLine>
+               <addrLine>https://www.hb.se/</addrLine>
+            </address>
+            <date>2025</date>
+            
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                     Transcription distributed under a CC-BY-SA 4.0 license.
+                  </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> 
+            <msDesc>
+               <msIdentifier>
+                  <country>Sverige</country>
+                  <settlement>Göteborg
+                     <address>
+                        <addrLine>Humanistiska biblioteket</addrLine>
+                        <addrLine>Renströmsgatan 4</addrLine>
+                        <addrLine>412 55 Göteborg</addrLine>
+                     </address>
+                  </settlement>
+                  <repository>KvinnSam</repository>
+                  <collection>Sällskapet Iris Samling</collection>
+                  <idno>XXXXXX</idno>
+                  <idno type="URI">XXXXXXX</idno>
+               </msIdentifier>
+               
+               <physDesc>
+                  <p>En handgjord ensidig poster med text som informerar om ett musikevenemang.
+                     Postern är i papper med handskriven röd och svart text.
+                     I den övre marginalen återfinns en datumanteckning och en notering om antal personer.</p>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <dimensions unit="cm">
+                              <height>XX</height>
+                              <width>XX</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <handNotes>
+            <handNote medium="svart-penna"> Brödtext i svart penna.</handNote>
+            <handNote medium="Röd-penna"> Rubrik i röd penna.</handNote>
+            <handNote medium="Blyerts"> Marginalanteckningar i blyerts.</handNote>
+         </handNotes>
+         
+         <textClass>
+            <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+            </keywords>
+         </textClass>
+         
+         <langUsage>
+            <language ident="swe">Svenska</language>
+         </langUsage>
+         
+         
+         <particDesc>
+            <listPerson type="medverkande">
+               <person role="solist"> 
+                  <persName>Bell Dickson</persName>
+               </person>
+               <person role="solist"> 
+                  <persName>Karin Drumm</persName>
+               </person>
+            </listPerson>
+            
+            <listPerson type="upphovsperson">
+               <person> 
+                  <persName ref="https://libris.kb.se/mkz12t351kx8pb4#it">Mozart</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+         
+      </profileDesc>
+      
+      
+      
+   </teiHeader>
+   
+   
+   <facsimile>
+      <surface xml:id="poster01">
+         <figure>
+            <label>Poster front</label>
+            <figDesc>
+               Ett fotografi av en poster som informerar om en musiktillställning där musik av mozart framförs. 
+            </figDesc>
+            <graphic xml:id="Poster01" url="XXX"/>
+         </figure>
+      </surface>
+   </facsimile>
+   
+   
+   
+   <text>
+      <body>
+         <div type="poster" facs="poster01">
+            <head>
+               <hi rend="b">Program</hi>
+            </head>
+            
+            <p>
+               <note place="margin">3.3.39</note>
+               <note place="margin"> 90 pers.</note>
+            </p>
+            
+            <p>
+               Mozart: Konsert Ess dur
+               <lb/>för två flyglar med ackomp.
+               <lb/>av orkester
+               <lb/>solister:
+               <lb/>Fru Bell Dickson
+               <lb/>Fru Karin Drumm
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
