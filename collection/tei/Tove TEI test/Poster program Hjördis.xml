@@ -96,6 +96,7 @@
          
          <particDesc>
             <listPerson type="medverkande">
+               
                <person role="sångerska"> 
                   <persName>Hjördis Wahlgren Arnell</persName>
                </person>
@@ -105,6 +106,7 @@
             </listPerson>
             
             <listPerson type="upphovsperson">
+               
                <person> 
                   <persName ref="https://libris.kb.se/dbqsvmnx2lpnvh3#it">Niccolo Jommelli</persName>
                </person>
@@ -149,17 +151,16 @@
             </head>
             
             <p>
-               <note place="margin">3.3.39</note>
-               <note place="margin"> 90 pers.</note>
+               <note place="margin">Den 6 april 1934.</note>
             </p>
             
             <p>
-               Mozart: Konsert Ess dur
-               <lb/>för två flyglar med ackomp.
-               <lb/>av orkester
-               <lb/>solister:
-               <lb/>Fru Bell Dickson
-               <lb/>Fru Karin Drumm
+               Hjördis Wahlgren-
+               <lb/>arnell
+               <lb/>n.Jommelli Chi vuol comprar
+               <lb/>Grieg Et Håb
+               <lb/>Ved Rondarne
+               <lb/>Fra Monte Pincio
             </p>
          </div>
       </body>
