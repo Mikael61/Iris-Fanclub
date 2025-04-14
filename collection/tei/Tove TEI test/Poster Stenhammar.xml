@@ -7,14 +7,13 @@
       
       <fileDesc>
          <titleStmt>
-            <title>Transkription av en affisch om välgörenhetstillställning hos
-            <persName ref="http://viaf.org/viaf/305859316">Elisabeth Reiss</persName>
+            <title>Poster- Program Hillevi Stenhammar.
             </title>
             <author>Sällskapet Iris</author>
             <principal>
-            <persName>Tove Berglund</persName>
-            <persName>Liyanna Norling</persName>
-            <persName>Tess Zetterlund</persName>
+               <persName>Tove Berglund</persName>
+               <persName>Liyanna Norling</persName>
+               <persName>Tess Zetterlund</persName>
             </principal>
          </titleStmt>
          
@@ -22,9 +21,9 @@
             
             <publisher>Högskolan i Borås</publisher>
             <address>
-            <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
-            <addrLine>501 90 Borås</addrLine>
-            <addrLine>https://www.hb.se/</addrLine>
+               <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+               <addrLine>501 90 Borås</addrLine>
+               <addrLine>https://www.hb.se/</addrLine>
             </address>
             <date>2025</date>
             
@@ -55,18 +54,32 @@
                </msIdentifier>
                
                <physDesc>
-                  <p>En handgjord ensidig poster med text som informerar om ett välgörenhetsevent hemma hos Elisabeth Reiss. 
-                     Postern är i papper med handskriven röd och svart text.
-                     I den övre marginalen återfinns en datumanteckning och en matematisk uträkning båda skrivna med blyerts.</p>
+                  
+                  <p>En handgjord ensidig poster med text som informerar om ett musikevenemang.
+                     Postern är i papper med handskriven svart text.
+                  </p>
                   <objectDesc>
                      <supportDesc>
                         <extent>
                            <dimensions unit="cm">
-                              <height>XX</height>
-                              <width>XX</width>
+                              <height>33,5</height>
+                              <width>27</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
+                     <layoutDesc>
+                        <p>
+                           Postern har sex rader. Första till tredje raden är posterns rubrik i fetstil.
+                           Rad fyra till sex beskriver vad musikevenemanget kommer att innehålla.
+                           Texten är inramad av ett svart streck.
+                           I övre marginalen finns en datumanteckning.
+                           Papperet har präglad text i högermarginalen med orden 
+                           <hi rend="präglat">WETTERGREN &amp; KERBER <lb/> GÖTEBORG</hi>
+                        </p>
+                     </layoutDesc>
+                     
+                     
+                     
                   </objectDesc>
                </physDesc>
             </msDesc>
@@ -77,15 +90,16 @@
       <profileDesc>
          
          <handNotes>
-            <handNote medium="normal,svart"> Brödtext i svart penna.</handNote>
-            <handNote medium="fetstil,röd"> Rubrik i röd penna.</handNote>
-            <handNote medium="blyerts"> Marginalanteckningar i blyerts.</handNote>
+            <handNote medium="fetstil,svart">Rubrik i svart penna.</handNote>
+            <handNote medium="normal,svart">Brödtext i svart penna.</handNote>
+            <handNote medium="tunn,svart"> Marginalanteckningar i svart penna.</handNote>
          </handNotes>
          
          <textClass>
             <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
-               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">socitetsdamer</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">visor</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
             </keywords>
          </textClass>
@@ -96,29 +110,34 @@
          
          
          <particDesc>
+            
             <listPerson type="medverkande">
-               <person role="värdinna"> 
-                  <persName>Elisabeth Reiss</persName>
-                  </person>
+               
+               <person role="sångerska"> 
+                  <persName>Hillevi Stenhammar</persName>
+               </person>
+               <person role="pianist"> 
+                  <persName>Leif Bratt</persName>
+               </person>
             </listPerson>
+           
          </particDesc>
          
       </profileDesc>
       
-        
+      
       
    </teiHeader>
    
    
    <facsimile>
-      <surface xml:id="poster01">
+      <surface xml:id="poster03">
          <figure>
             <label>Poster front</label>
             <figDesc>
-               Ett fotografi av en poster som bjuder in till en välgörenhetstillställning hemma hos Elisabeth Reiss.
+               Ett fotografi av en poster som informerar om en musiktillställning där Hillevi Stenhammar framträder. 
             </figDesc>
-            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
-            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+            <graphic xml:id="Poster03" url="XXX"/>
          </figure>
       </surface>
    </facsimile>
@@ -129,27 +148,20 @@
       <body>
          <div type="poster" facs="poster01">
             <head>
-               <hi rend="b">ELiSABETH
-               <lb/>REISS</hi>
+               <hi rend="b">Program
+                  <lb/>hillevi
+                  <lb/>stenhammar
+               </hi>
             </head>
             
             <p>
-               <note place="margin">5 Dec.1938</note>
-               <note place="margin">11
-               <lb/>160
-                  <lb/>15
-                  <lb/>2
-                  <lb/><hi rend="line">———</hi> 
-                  <lb/>188
-               </note>
+               <note place="margin above">Den 1 febr. 1935</note>
             </p>
             
             <p>
-                Den svensk-nors
-               <lb/>- ka societetsdamen 
-               <lb/> ger en välgören
-               <lb/>- hetstillställning hemma hos sig med
-                <lb/>konstnärlig underhållning
+               sjunger 
+               <lb/>folkvisor och sjömansvisor
+               <lb/>vid flygeln Leif Bratt
             </p>
          </div>
       </body>

@@ -76,8 +76,8 @@
       <profileDesc>
          
          <handNotes>
-            <handNote medium="svart-penna"> Brödtext i svart penna.</handNote>
-            <handNote medium="Röd-penna"> Rubrik i röd penna.</handNote>
+            <handNote medium="normal,svart"> Brödtext i svart penna.</handNote>
+            <handNote medium="fetstil,röd"> Rubrik i röd penna.</handNote>
             <handNote medium="Blyerts"> Marginalanteckningar i blyerts.</handNote>
          </handNotes>
          

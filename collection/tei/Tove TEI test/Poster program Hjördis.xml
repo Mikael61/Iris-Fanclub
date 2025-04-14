@@ -56,7 +56,9 @@
                <physDesc>
                   <p>En handgjord ensidig poster med text som informerar om ett musikevenemang.
                      Postern är i papper med handskriven grön och svart text.
-                     I den övre marginalen återfinns en datumanteckning i blyerts.</p>
+                     I den övre marginalen återfinns en datumanteckning i blyerts.
+                     Texten ramas in av ett svart streck.
+                  </p>
                   <objectDesc>
                      <supportDesc>
                         <extent>
@@ -76,9 +78,9 @@
       <profileDesc>
          
          <handNotes>
-            <handNote medium="svart-penna"> Brödtext i svart penna.</handNote>
-            <handNote medium="Grön-penna"> Rubrik i grön penna.</handNote>
-            <handNote medium="Blyerts"> Marginalanteckningar i blyerts.</handNote>
+            <handNote medium="normal,svart"> Brödtext i svart penna.</handNote>
+            <handNote medium="fetstil,grön"> Rubrik i grön penna.</handNote>
+            <handNote medium="blyerts"> Marginalanteckningar i blyerts.</handNote>
          </handNotes>
          
          <textClass>
