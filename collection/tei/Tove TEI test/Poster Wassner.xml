@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      
+      <fileDesc>
+         <titleStmt>
+            <title>Poster- Program Inez Wassner.
+            </title>
+            <author>Sällskapet Iris</author>
+            <principal>
+               <persName>Tove Berglund</persName>
+               <persName>Liyanna Norling</persName>
+               <persName>Tess Zetterlund</persName>
+            </principal>
+         </titleStmt>
+         
+         <publicationStmt>
+            
+            <publisher>Högskolan i Borås</publisher>
+            <address>
+               <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+               <addrLine>501 90 Borås</addrLine>
+               <addrLine>https://www.hb.se/</addrLine>
+            </address>
+            <date>2025</date>
+            
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                     Transcription distributed under a CC-BY-SA 4.0 license.
+                  </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         
+         <sourceDesc> 
+            <msDesc>
+               <msIdentifier>
+                  <country>Sverige</country>
+                  <settlement>Göteborg
+                     <address>
+                        <addrLine>Humanistiska biblioteket</addrLine>
+                        <addrLine>Renströmsgatan 4</addrLine>
+                        <addrLine>412 55 Göteborg</addrLine>
+                     </address>
+                  </settlement>
+                  <repository>KvinnSam</repository>
+                  <collection>Sällskapet Iris Samling</collection>
+                  <idno>XXXXXX</idno>
+                  <idno type="URI">XXXXXXX</idno>
+               </msIdentifier>
+               
+               <physDesc>
+                  
+                  <p>En handgjord ensidig poster med text som informerar om ett musikevenemang.
+                     Postern är i papper med handmålad brun text.
+                  </p>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <dimensions unit="cm">
+                              <height>32</height>
+                              <width>27</width>
+                           </dimensions>
+                        </extent>
+                     </supportDesc>
+                     <layoutDesc>
+                        <p>
+                           Postern har sex rader. Första och andra raden fungerar som posterns rubrik.
+                           Rad tre till sex beskriver vad musikevenemanget kommer att innehålla och vem som ackompangerar.
+                           Texten är inramad av bruna handmålade streck.
+                           I övre marginalen finns fyra rader med handskrivna anteckningar.
+                           Papperet har ett präglat emblem i vänstra hörnet. 
+                        </p>
+                     </layoutDesc>
+                     
+                     
+                     
+                  </objectDesc>
+               </physDesc>
+            </msDesc>
+            <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+         </sourceDesc>
+      </fileDesc>
+      
+      <profileDesc>
+         
+         <handNotes>
+            <handNote medium="fetstil,brun">brun handmålad text.</handNote>
+            <handNote medium="tunn,svart"> marginalanteckningar i svart penna.</handNote>
+            <handNote medium="blyerts">marinalanckeningar i blyerts</handNote>
+         </handNotes>
+         
+         <textClass>
+            <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">operor</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">andra väldskriget</ref></term>
+            </keywords>
+         </textClass>
+         
+         <langUsage>
+            <language ident="swe">Svenska</language>
+         </langUsage>
+         
+         
+         <particDesc>
+            
+            <listPerson type="medverkande">
+               
+               <person role="sångerska"> 
+                  <persName>Inez Wassner</persName>
+               </person>
+               <person role="pianist"> 
+                  <persName>Antoinette Wolf</persName>
+               </person>
+            </listPerson>
+            
+         </particDesc>
+         
+      </profileDesc>
+      
+      
+      
+   </teiHeader>
+   
+   
+   <facsimile>
+      <surface xml:id="poster03">
+         <figure>
+            <label>Poster front</label>
+            <figDesc>
+               Ett fotografi av en poster som informerar om en musiktillställning där Inez Wassner framträder. 
+            </figDesc>
+            <graphic xml:id="Poster03" url="XXX"/>
+         </figure>
+      </surface>
+   </facsimile>
+   
+   
+   
+   <text>
+      <body>
+         <div type="poster" facs="poster01">
+            <head>
+               <hi rend="b color(brown)">OPERASÅNGERSKAN
+                  <lb/>INEZ WASSNER
+               </hi>
+            </head>
+            
+            <p>
+               <note place="margin above"> <hi rend="graphite"> XXX</hi>
+               </note>
+               
+               <note place="margin above"> 
+               <hi rend="color(black)">XXX</hi>
+               </note>
+            </p>
+            
+            <p>
+               <hi rend=" b color(brown)">
+               ROMANSER OCH
+               <lb/>OEPERAARIER
+               <lb/>VID FLYGELN
+               <lb/>ANTOINETTE WOLF
+               </hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
