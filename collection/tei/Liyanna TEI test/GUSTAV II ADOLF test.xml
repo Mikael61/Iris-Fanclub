@@ -122,36 +122,36 @@
             <particDesc>
                 <listPerson type="objekt">
                     <person role="kung"> 
-                        <persName ref="https://libris.kb.se/wt79b47f42nbg14#it">Gustav II Adolf</persName>
+                        <persName xml:id="GA" ref="https://libris.kb.se/wt79b47f42nbg14#it">Gustav II Adolf</persName>
                     </person>
                 </listPerson>
                 
                 <listPerson type="medverkande">
                     <person role="föreläsare"> 
-                        <persName ref="urn:sbl:12730">Greta Hedin</persName>
+                        <persName xml:id="GH" ref="urn:sbl:12730">Greta Hedin</persName>
                     </person>
                     <person role="uppläsare"> 
-                        <persName>Aina Ekman</persName>
+                        <persName xml:id="AE">Aina Ekman</persName>
                     </person>
                     <person role="pianist"> 
-                        <persName ref="urn:sbl:20133">Elsa E M Stenhammar</persName>
+                        <persName xml:id="ES" ref="urn:sbl:20133">Elsa E M Stenhammar</persName>
                     </person>
                 </listPerson>
                 
                 <listPerson type="upphovspersoner">
                     <person> 
-                        <persName ref="https://libris.kb.se/ljx01n545rh6bzs#it">Esaias Tegnér </persName>  
+                        <persName xml:id="ET" ref="https://libris.kb.se/ljx01n545rh6bzs#it">Esaias Tegnér </persName>  
                     </person>
                     <person> 
-                        <persName ref="https://libris.kb.se/64jlmc0q24qqs81#i">Elfrida André 
+                        <persName xml:id="EA" ref="https://libris.kb.se/64jlmc0q24qqs81#it">Elfrida André 
                             <title ref="https://libris.kb.se/bib/19798602?vw=full">Vaknen</title></persName>
                     </person>
                     <person> 
-                        <persName ref="https://libris.kb.se/pm134v570ddvstx#it">Johann Gottlieb Naumann
+                        <persName xml:id="JGN" ref="https://libris.kb.se/pm134v570ddvstx#it">Johann Gottlieb Naumann
                             <title ref="https://libris.kb.se/bib/3168847?vw=full">Ädla skuggor, vördade fäder</title> </persName>
                     </person>
                     <person>
-                        <persName>Otto Lindblad
+                        <persName xml:id="OL">Otto Lindblad
                             <title>Jag vet ett land</title></persName>
                     </person>
                     <person>
@@ -165,7 +165,7 @@
                             <title>Vårt land</title></persName> 
                     </person>
                     <person>
-                        <persName ref="https://libris.kb.se/dbqstktx4q6mzv4#it ">Wilhelm Stenhammar
+                        <persName xml:id="WS" ref="https://libris.kb.se/dbqstktx4q6mzv4#it">Wilhelm Stenhammar
                             <title ref="https://libris.kb.se/bib/3282329?vw=full">Sverige</title></persName>
                     </person>
                 </listPerson>
@@ -188,7 +188,7 @@
     <text>
         <body>            
             <note place="top-right">Den 4 nov. 1932.</note>
-            <p> GUSTAV II ADOLFS<lb/>
+            <p> <hi rend="b,blue" > GUSTAV II ADOLFS</hi><lb/>
                 MINNE<lb/>
                 FÖREDRAG av FIL.DR GRETA HEDIN <lb/>
                 TVÅ DIKTER AV ESAIAS TEGNÉR SKRIVNA <lb/>

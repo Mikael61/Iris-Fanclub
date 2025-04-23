@@ -122,29 +122,29 @@
                 
                 <listPerson type="upphovspersoner">
                     <person> 
-                        <persName ref="https://libris.kb.se/pm134xz74mdwd75#it">A.Wiklund 
+                        <persName xml:id="AW" ref="https://libris.kb.se/pm134xz74mdwd75#it">Adolf Wiklund 
                         <title ref="https://libris.kb.se/bib/m3q1nsfsk8w1f6wx?vw=full">Himmel eller Vår</title>
                         <title ref="https://libris.kb.se/bib/3363523?vw=fullt">Silkesko over Gylden lœst</title></persName>
                     </person>
                     <person> 
-                        <persName ref="https://libris.kb.se/42gjjm9n29h8817#it">E.Grieg
+                        <persName xml:id="EG" ref="https://libris.kb.se/42gjjm9n29h8817#it">Edvard Grieg
                         <title>Mens jag venter</title>
                         <title>Ragnhild</title></persName> 
                     </person>
                     <person>
-                        <persName ref="https://libris.kb.se/fcrtq50z04587rd#it">M. Reger
+                        <persName ref="https://libris.kb.se/fcrtq50z04587rd#it">Max Reger
                         <title ref="https://libris.kb.se/bib/12139731?vw=full">Marie Wiegenlied</title></persName>
                     </person>
                     <person>
-                        <persName ref="https://libris.kb.se/khwzv9t32lvhbp8#it">Rimsky-Korsakoff
+                        <persName xml:id="NRK" ref="https://libris.kb.se/khwzv9t32lvhbp8#it">Nikolaj Rimsky-Korsakoff
                         <title>Rosen och Näktergalen</title></persName>
                     </person>
                     <person>
-                         <persName ref="https://libris.kb.se/sq46746b3dsfl6r#it">G. Verdi
+                        <persName xml:id="GV" ref="https://libris.kb.se/sq46746b3dsfl6r#it">Giuseppe Verdi
                          <title ref="https://libris.kb.se/bib/w8d91g3rtp4dkvf3?vw=full">Rigoletto</title></persName> 
                        </person>
                     <person>
-                         <persName ref="https://libris.kb.se/ljx01rd432x86fs#it">G. Rossini
+                        <persName xml:id="GR" ref="https://libris.kb.se/ljx01rd432x86fs#it">Gioachino Rossini
                          <title ref="https://libris.kb.se/bib/1625321">Barberaren i Sevilla</title></persName>
                     </person>
                 </listPerson>
@@ -167,7 +167,7 @@
     <text>
         <body>            
             <note place="top-right">5 febr. 1932.</note>
-            <p> PROGRAM <lb/>
+            <p> <hi rend="b, red">PROGRAM</hi><lb/>
                 medverkande Operasångerskan Adèle Weine<lb/>
                 vid flygeln Sigrid Gyllencreutz-Fermœus<lb/>
                 A.Wiklund  Himmel eller Vår<lb/>

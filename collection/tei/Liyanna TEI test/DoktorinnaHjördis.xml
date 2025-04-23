@@ -113,10 +113,10 @@
             <particDesc>
                 <listPerson type="medverkande">
                     <person role="sångerska"> 
-                        <persName>Hjördis Arnell</persName>
+                        <persName xml:id="HA">Hjördis Arnell</persName>
                     </person>
                     <person role="körledare"> 
-                        <persName ref="urn:sbl:20133">Elsa E M Stenhammar</persName>
+                        <persName xml:id="ES" ref="urn:sbl:20133">Elsa E M Stenhammar</persName>
                     </person>
                     <person role="kör"> 
                         <persName>Damkör</persName>
@@ -125,25 +125,25 @@
                 
                 <listPerson type="upphovspersoner">
                     <person> 
-                        <persName ref="https://libris.kb.se/rp356z691497558#it">Jacques Offenbach
+                        <persName xml:id="JO" ref="https://libris.kb.se/rp356z691497558#it">Jacques Offenbach
                             <title ref="https://libris.kb.se/bib/7756363?vw=full">aria ur "Hoffmans äventyr"</title>
                             <title ref="https://libris.kb.se/bib/11825729?vw=full">"Barcarole" ur Hoffmans äventyr</title></persName>
                     </person>
                     <person> 
-                        <persName ref="https://libris.kb.se/khwzzv2345wgz5h#it">Claude Debussy
+                        <persName xml:id="CD" ref="https://libris.kb.se/khwzzv2345wgz5h#it">Claude Debussy
                             <title ref="https://libris.kb.se/bib/3211415">Ariettes oubliées</title></persName>
                     </person>
                     <person>
-                        <persName ref="https://libris.kb.se/53hklgsp54fm427#it">Jules Massenet
+                        <persName xml:id="JM" ref="https://libris.kb.se/53hklgsp54fm427#it">Jules Massenet
                             <title ref="https://libris.kb.se/bib/12459349?vw=full">Élégie</title></persName>
                     </person>
                     <person>
-                        <persName ref="https://libris.kb.se/31fhh7dm1l4nvml#it">Johannes Brahms
+                        <persName xml:id="JD" ref="https://libris.kb.se/31fhh7dm1l4nvml#it">Johannes Brahms
                             <title ref="https://libris.kb.se/bib/1241269?tab2=toc">Es tönt ein voller Harfenklang</title>
                             <title ref="https://libris.kb.se/bib/1241269?tab2=toc">Der Gärtner</title></persName>
                     </person>
                     <person>
-                        <persName ref="https://libris.kb.se/vs6891nd2q2q9t0#it">Johann Strauss
+                        <persName xml:id="JS" ref="https://libris.kb.se/vs6891nd2q2q9t0#it">Johann Strauss
                             <title ref="https://libris.kb.se/bib/11830642?vw=full">Geschichten aus dem Wienerwald</title></persName> 
                     </person>
                   </listPerson>
@@ -152,7 +152,7 @@
     </teiHeader>
     
     <facsimile>
-        <surface xml:id="programAdele">
+        <surface xml:id="programDoktorinna">
             <figure>
                 <label>Program Doktorinnan Hjördis Arnell</label>
                 <figDesc>
@@ -166,14 +166,14 @@
     <text>
         <body>            
             <note place="top-center">Den 5 dec. 1931</note>
-            <p> PROGRAM <lb/>
+            <p> <hi rend="b, red">PROGRAM</hi>  <lb/>
                 medverkande: Doktorinnan Hjördis Arnell<lb/>
                 Damkör under ledning av fröken Elsa Stenhammar<lb/>
                 Offenbach aria ur Hoffans äventyr<lb/>
                 Hjördis Arnell<lb/>
                 ” Barcarolen ur Hoffmans äventyr<lb/>
                 Damkören<lb/>
-                (horisontellt sträck)<lb/>
+                <hi rend="line">———</hi><lb/>
                 Debussy ur ”Ariettes oubliées<lb/>
                 1. Voici des fruits”<lb/>
                 2. Il pleure dans mon coeur<lb/>

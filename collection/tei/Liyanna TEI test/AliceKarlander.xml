@@ -114,26 +114,26 @@
             <particDesc>
                 <listPerson type="medverkande">
                     <person role="violinist"> 
-                        <persName>Alice Karlander</persName>
+                        <persName xml:id="AK">Alice Karlander</persName>
                     </person>
                     <person role="pianist"> 
-                        <persName>Sigrid Gyllencreutz-Fermæus</persName>
+                        <persName xml:id="SGF" ref="https://www.adelsvapen.com/genealogi/Gyllencreutz_nr_54">Sigrid Gyllencreutz-Fermæus</persName>
                     </person>
                 </listPerson>
                 
                 <listPerson type="upphovspersoner">
                     <person> 
-                        <persName ref="https://libris.kb.se/xv8cj3sg24n9r2v#it">Jeno Hubay
+                        <persName xml:id="JH" ref="https://libris.kb.se/xv8cj3sg24n9r2v#it">Jeno Hubay
                             <title ref="https://libris.kb.se/bib/1607263?vw=full">Noctunre pour violon avec accompagnement de piano op. 42</title>
                             <title>Serenad</title>
                             <title>Chanson de Plevna</title></persName>
                     </person>
                     <person> 
-                        <persName>Zoltán Kodály
+                        <persName xml:id="ZK">Zoltán Kodály
                             <title ref="https://libris.kb.se/bib/11529131?tab2=toc">Valsette</title></persName>
                     </person>
                     <person>
-                        <persName>Franz von Vecsey
+                        <persName xml:id="FVV">Franz von Vecsey
                             <title ref="https://libris.kb.se/bib/11949181?vw=full">La valse triste</title></persName>
                     </person>
                 </listPerson>
@@ -144,7 +144,7 @@
     <facsimile>
         <surface xml:id="programKarlander">
             <figure>
-                <label>Program Doktorinnan Hjördis Arnell</label>
+                <label>Program Alice Karlander</label>
                 <figDesc>
                     En digital kopia av en poster gjord av papper som informerar om ett musikprogram.               
                 </figDesc>
@@ -157,17 +157,17 @@
         <body>            
             <note place="top-center">4.2.1938</note>
             <note place="top-right">130 personer.<lb/>+ styrelsen</note>
-            <p> PROGRAM<lb/>
+            <p> <hi rend="b, blue">PROGRAM</hi> <lb/>
                 VIOLINISTEN<lb/>
-                ALICE KARLANDER<lb/>
+                <hi rend="b, blue">ALICE KARLANDER</hi><lb/>
                 Hubay Nocturne<lb/>
                 Serenad<lb/>
                 Codaly Valsette<lb/>
                 Vecsey Valse triste<lb/>
                 Hubay Chanson de Plevna<lb/>
                 vid flygeln:<lb/>
-                SIGRID GYLLENCREUTZ<lb/>
-                FERMÆUS
+                <hi rend="b, blue">SIGRID GYLLENCREUTZ<lb/>
+                FERMÆUS</hi>
             </p>
         </body>
     </text>

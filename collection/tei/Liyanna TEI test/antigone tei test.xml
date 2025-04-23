@@ -113,8 +113,8 @@
                <orgName>S.Rudebecks gymnasium</orgName>
             </org>
             <person role="dramatiker"> 
-               <persName ref="https://libris.kb.se/hftwxc410z5p0lz#it">Sofokles
-               <title>Antigone</title></persName>
+               <persName xml:id="SOF" ref="https://libris.kb.se/hftwxc410z5p0lz#it">Sofokles
+                  <title ref="https://libris.kb.se/bib/3068415?vw=full">Antigone</title></persName>
             </person>
          </particDesc>
       </profileDesc>
@@ -135,12 +135,14 @@
    <text>
       <body>
          <note place="top-right">Den 3 mars 1933.</note>
-         <p> program<lb/> 
-             antigone<lb/>
+         <p> <hi rend="b">PROGRAM<lb/> 
+             ANTIG'ONE</hi><lb/>
              tragedi av<lb/>  
-             Sofokles<lb/>
+            <hi rend="b">SOFOKLES</hi><lb/>
              Uppfört av elever vid<lb/>
-             S.Rudebecks gymnasium
+            S.Rudebecks gymnasium<lb/>
+            <hi rend="line">———</hi><lb/>
+            <hi rend="line">—————</hi>
          </p>
       </body>
    </text>

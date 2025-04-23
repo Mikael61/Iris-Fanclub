@@ -118,56 +118,56 @@
             <particDesc>             
                 <listPerson type="medverkande">
                     <person role="uppläsare"> 
-                        <persName>Gerda Lundequist</persName>
+                        <persName xml:id="GL">Gerda Lundequist</persName>
                     </person>
                     <person role="Sångerska"> 
-                        <persName>Marianne Mörner</persName>
+                        <persName xml:id="MM" ref="https://libris.kb.se/c9psw17w4fnt018#it">Marianne Mörner</persName>
                     </person>
                     <person role="pianist"> 
-                        <persName ref="urn:sbl:20133">Elsa E M Stenhammar</persName>
+                        <persName xml:id="ES" ref="urn:sbl:20133">Elsa E M Stenhammar</persName>
                     </person>
                     <person role="pianist"> 
-                        <persName>Sigrid Gyllencreutz-Fermœus</persName>
+                        <persName xml:id="SGF" ref="https://www.adelsvapen.com/genealogi/Gyllencreutz_nr_54">Sigrid Gyllencreutz-Fermœus</persName>
                     </person>
                 </listPerson>
                 
                 <listPerson type="upphovspersoner">
                     <person> 
-                        <persName>Verner von Heidenstam
+                        <persName xml:id="VVH" ref="https://libris.kb.se/hftwr7p15bsx76d#it">Verner von Heidenstam
                             <title>En dag</title></persName>  
                     </person>
                     <person> 
-                        <persName>Gustaf Fröding 
+                        <persName xml:id="GF" ref="https://libris.kb.se/hftwwzj159sn6zw#it ">Gustaf Fröding 
                             <title>Saul och David</title></persName>
                     </person>
                     <person> 
-                        <persName>Selma Lagerlöf
+                        <persName xml:id="SL" ref="https://libris.kb.se/qn247n18248vs58#it">Selma Lagerlöf
                             <title>Ett barns memoarer</title> </persName>
                     </person>
                     <person>
-                        <persName>Dan Andersson
-                            <title>En spelmans jordafärd</title></persName>
+                        <persName xml:id="DA" ref="https://libris.kb.se/64jll79q0hczzmf#it">Dan Andersson
+                            <title ref="https://libris.kb.se/bib/3278336?vw=full">En spelmans jordafärd</title></persName>
                     </person>
                     <person>
-                        <persName>Jarl Hemmer
+                        <persName xml:id="JH" ref="https://libris.kb.se/gdsvx0p05m6n44c#it">Jarl Hemmer
                             <title>Förord</title>
                             <title>Vinterbygge</title>
                         </persName>
                     </person>
                     <person>
-                        <persName>Heyse
+                        <persName xml:id="PH">Paul Heyse
                             <title>Dyrekes sange</title></persName> 
                     </person>
                     <person>
-                        <persName>Schumann
-                            <title>Frühlingsnacht</title>
-                            <title>Der Arme Peter 1, 2, 3</title>
-                            <title>Schneeglöck(chen?)</title></persName>
+                        <persName xml:id="RS" ref="https://libris.kb.se/75kmnf4r47zdkhw#it">Robert Schumann
+                            <title ref="https://libris.kb.se/bib/gqp6pk1sdvsrr8wq?vw=full">Frühlingsnacht</title>
+                            <title ref="https://libris.kb.se/bib/10099803?tab2=toc">Der Arme Peter 1, 2, 3</title>
+                            <title ref="https://libris.kb.se/bib/21519932?tab2=toc">Schneeglöckchen</title></persName>
                     </person>
                     <person>
-                        <persName>Schubert
-                            <title>An die Nachtigall</title>
-                            <title>Die Forelle</title></persName>
+                        <persName xml:id="FS" ref="https://libris.kb.se/0xbdf6sj4lqc75h#it">Franz Schubert
+                            <title ref="https://libris.kb.se/bib/19985635?tab2=toc">An die Nachtigall</title>
+                            <title ref="https://libris.kb.se/bib/11325738?tab2=toc">Die Forelle</title></persName>
                     </person>
                 </listPerson>
             </particDesc>
@@ -188,24 +188,24 @@
     
     <text>
         <body>            
-            <p> PROGRAM<lb/>
+            <p> <hi rend="b">PROGRAM</hi><lb/>
                 DEN 6 NOV. 1931<lb/>
                 V. von Heidenstam Ur ”en dag”<lb/>
-                Gustaf Fröding Saul och David (med beledsagdnde<lb/>
-                musik komponerad av Elfrida Andrée)<lb/>
+                Gustaf Fröding Saul och David <hi rend="small">(med beledsagdnde<lb/>
+                musik komponerad av Elfrida Andrée)</hi><lb/>
                 Selma Lagerlöf Ur ”Ett barns memoarer”<lb/>
                 Karl Asplund Fågelbesöket<lb/>
                 ” Claudine sjunger<lb/>
-                Dan Andersson En spelmans jordafärd (med beled-<lb/>
-                sagande musik efter förf:s melodie bearbetad av R. Liljefors)<lb/>
+                Dan Andersson En spelmans jordafärd <hi rend="small">(med beled-<lb/>
+                sagande musik efter förf:s melodie bearbetad av R. Liljefors)</hi><lb/>
                 Jarl Hemmer Förord<lb/>
                 ” Vinterbygge<lb/>
                 Deklamation av Gerda Lundequist<lb/>
                 Vid flygeln Elsa Stenmmar<lb/>
                 Heyse Dyrekes sange<lb/>
                 Schumann Frühlingsnacht<lb/>
-                ” Der (Arne??) Peter 1, 2, 3<lb/>
-                ” Schneeglöck(chen?)<lb/>
+                ” Der Arme Peter 1, 2, 3<lb/>
+                ” Schneeglöckchen<lb/>
                 Schubert An die Nachtigall<lb/>
                 ” Die Forelle<lb/>
                 Sång av Hovsångerskan Marianne Mörner<lb/>
