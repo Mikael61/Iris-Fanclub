@@ -46,8 +46,8 @@
                         </settlement>
                         <repository>KvinnSam</repository>
                         <collection>Sällskapet Iris Samling</collection>
-                        <idno>XXXXXX</idno>
-                        <idno type="URI">XXXXXXX</idno>
+                        <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                        <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
                     </msIdentifier>
                     
                     <physDesc>
@@ -96,11 +96,6 @@
             <langUsage>
                 <language ident="swe">Svenska</language>
             </langUsage>
-            
-            <handNotes>
-                <handNote medium="versaler-blå">blå färg, fetstil, versaler</handNote>
-                <handNote medium="svart">svart färg</handNote>
-                </handNotes>
             
             <textClass>
                 <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
@@ -159,14 +154,14 @@
             <note place="top-right">130 personer.<lb/>+ styrelsen</note>
             <p> <hi rend="b, blue">PROGRAM</hi> <lb/>
                 VIOLINISTEN<lb/>
-                <hi rend="b, blue">ALICE KARLANDER</hi><lb/>
+                <hi rend="b color(blue)">ALICE KARLANDER</hi><lb/>
                 Hubay Nocturne<lb/>
                 Serenad<lb/>
                 Codaly Valsette<lb/>
                 Vecsey Valse triste<lb/>
                 Hubay Chanson de Plevna<lb/>
                 vid flygeln:<lb/>
-                <hi rend="b, blue">SIGRID GYLLENCREUTZ<lb/>
+                <hi rend="b color(blue)">SIGRID GYLLENCREUTZ<lb/>
                 FERMÆUS</hi>
             </p>
         </body>

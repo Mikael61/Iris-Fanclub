@@ -46,8 +46,8 @@
                         </settlement>
                         <repository>KvinnSam</repository>
                         <collection>Sällskapet Iris Samling</collection>
-                        <idno>XXXXXX</idno>
-                        <idno type="URI">XXXXXXX</idno>
+                        <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                        <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno>
                     </msIdentifier>
                     
                     <physDesc>
@@ -93,12 +93,6 @@
             <langUsage>
                 <language ident="swe">Svenska</language>
             </langUsage>
-            
-            <handNotes>
-                <handNote medium="versaler-svartröd">svart färg med röd kontur, versaler, används till överskrift</handNote>
-                <handNote medium="svart">svart färg</handNote>
-                <handNote medium="svart-röd">Svart färg med röd skugga. Versaler i början av vissa ord.</handNote>
-            </handNotes>
             
             <textClass>
                 <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
@@ -166,7 +160,7 @@
     <text>
         <body>            
             <note place="top-center">Den 5 dec. 1931</note>
-            <p> <hi rend="b, red">PROGRAM</hi>  <lb/>
+            <p> <hi rend="b color(red)">PROGRAM</hi>  <lb/>
                 medverkande: Doktorinnan Hjördis Arnell<lb/>
                 Damkör under ledning av fröken Elsa Stenhammar<lb/>
                 Offenbach aria ur Hoffans äventyr<lb/>

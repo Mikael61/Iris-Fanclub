@@ -49,8 +49,8 @@
                   </settlement>
                   <repository>KvinnSam</repository>
                   <collection>Sällskapet Iris Samling</collection>
-                  <idno>XXXXXX</idno>
-                  <idno type="URI">XXXXXXX</idno>
+                  <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                  <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
                </msIdentifier>
                
                <physDesc>
@@ -87,12 +87,20 @@
       </fileDesc>
       
       <profileDesc>
+         <textDesc>
+            <channel>print</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="public">program information</domain>
+            <factuality type="fact"/>
+            <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar.</interaction>
+            <preparedness type="revised"/>
+            <purpose type="inform" degree="high"/>
+         </textDesc>
          
-         <handNotes>
-            <handNote medium="fetstil,brun">brun handmålad text.</handNote>
-            <handNote medium="tunn,svart"> marginalanteckningar i svart penna.</handNote>
-            <handNote medium="blyerts">marinalanckeningar i blyerts</handNote>
-         </handNotes>
+         <langUsage>
+            <language ident="swe">Svenska</language>
+         </langUsage>
          
          <textClass>
             <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
@@ -103,15 +111,8 @@
             </keywords>
          </textClass>
          
-         <langUsage>
-            <language ident="swe">Svenska</language>
-         </langUsage>
-         
-         
          <particDesc>
-            
             <listPerson type="medverkande">
-               
                <person role="sångerska"> 
                   <persName>Inez Wassner</persName>
                </person>
@@ -119,13 +120,8 @@
                   <persName>Antoinette Wolf</persName>
                </person>
             </listPerson>
-            
          </particDesc>
-         
       </profileDesc>
-      
-      
-      
    </teiHeader>
    
    
