@@ -127,13 +127,14 @@
       <body>
          <div type="poster" facs="poster01">
             <head>
-               <hi rend="b">ELiSABETH
+               <hi rend="b color(red)">ELiSABETH
                <lb/>REISS</hi>
             </head>
             
             <p>
-               <note place="margin">5 Dec.1938</note>
-               <note place="margin">11
+               <note place="margin above"> <hi rend="graphite">5 Dec.1938 </hi>
+               </note>
+               <note place="margin above"> <hi rend="graphite">11</hi>
                <lb/>160
                   <lb/>15
                   <lb/>2
@@ -143,11 +144,13 @@
             </p>
             
             <p>
+               <hi rend="color(black)">
                 Den svensk-nors
                <lb/>- ka societetsdamen 
                <lb/> ger en välgören
                <lb/>- hetstillställning hemma hos sig med
                 <lb/>konstnärlig underhållning
+               </hi>
             </p>
          </div>
       </body>

@@ -144,20 +144,22 @@
       <body>
          <div type="poster" facs="poster01">
             <head>
-               <hi rend="b">Program
+               <hi rend="b color(black)">Program
                   <lb/>hillevi
                   <lb/>stenhammar
                </hi>
             </head>
             
             <p>
-               <note place="margin above">Den 1 febr. 1935</note>
+               <note place="margin above"><hi rend=" fine pen color(black)"></hi>Den 1 febr. 1935</note>
             </p>
             
             <p>
+               <hi rend="color(black)">
                sjunger 
                <lb/>folkvisor och sjömansvisor
                <lb/>vid flygeln Leif Bratt
+               </hi>
             </p>
          </div>
       </body>

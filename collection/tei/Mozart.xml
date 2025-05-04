@@ -7,7 +7,7 @@
       
       <fileDesc>
          <titleStmt>
-            <title>Poster- Mozarts konserti i ess dur.
+            <title>Poster- Mozarts konsert i ess dur.
             </title>
             <author>Sällskapet Iris</author>
             <principal>
@@ -135,21 +135,25 @@
       <body>
          <div type="poster" facs="poster01">
             <head>
-               <hi rend="b">Program</hi>
+               <hi rend="b color(red)">Program</hi>
             </head>
             
             <p>
-               <note place="margin">3.3.39</note>
-               <note place="margin"> 90 pers.</note>
+               <note place="margin above"> <hi rend="graphite">3.3.39</hi>
+               </note>
+               <note place="margin above"> <hi rend="graphite">90 pers.</hi>
+               </note>
             </p>
             
             <p>
+               <hi rend="color(black)">
                Mozart: Konsert Ess dur
                <lb/>för två flyglar med ackomp.
                <lb/>av orkester
                <lb/>solister:
                <lb/>Fru Bell Dickson
                <lb/>Fru Karin Drumm
+               </hi>
             </p>
          </div>
       </body>
