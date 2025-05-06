@@ -46,8 +46,8 @@
                         </settlement>
                         <repository>KvinnSam</repository>
                         <collection>Sällskapet Iris Samling</collection>
-                        <idno>XXXXXX</idno>
-                        <idno type="URI">XXXXXXX</idno>
+                        <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                        <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
                     </msIdentifier>
                     
                     <physDesc>
@@ -99,14 +99,6 @@
             <langUsage>
                 <language ident="swe">Svenska</language>
             </langUsage>
-            
-            <handNotes>
-                <!-- används för att notera olika typsnitt. kanske inte behövs eftersom vi inte gör någon typsnitts analys osv???? man kan säkert länka dessa element till individuella rader i transkriberingen men det känns jobbigt haha -->
-                <handNote medium="blyerts">Datum anteckning i blyerts, övre och nedre högra hörnet</handNote>
-                <handNote medium="fetstil, blå">blå färg, versaler, fetstil.</handNote>
-                <handNote medium="fetstil, svart">svart färg, versaler, fetstil</handNote>
-                <handNote medium="svart">svart färg, gemener</handNote>
-            </handNotes>
             
             <textClass>
                 <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
@@ -188,7 +180,7 @@
     <text>
         <body>            
             <note place="top-right">Den 4 nov. 1932.</note>
-            <p> <hi rend="b,blue" > GUSTAV II ADOLFS</hi><lb/>
+            <p> <hi rend="b color(blue)" > GUSTAV II ADOLFS</hi><lb/>
                 MINNE<lb/>
                 FÖREDRAG av FIL.DR GRETA HEDIN <lb/>
                 TVÅ DIKTER AV ESAIAS TEGNÉR SKRIVNA <lb/>

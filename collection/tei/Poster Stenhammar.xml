@@ -7,7 +7,7 @@
       
       <fileDesc>
          <titleStmt>
-            <title>Poster- Mozarts konserti i ess dur.
+            <title>Poster- Program Hillevi Stenhammar.
             </title>
             <author>Sällskapet Iris</author>
             <principal>
@@ -49,23 +49,37 @@
                   </settlement>
                   <repository>KvinnSam</repository>
                   <collection>Sällskapet Iris Samling</collection>
-                  <idno>XXXXXX</idno>
-                  <idno type="URI">XXXXXXX</idno>
+                  <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                  <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
                </msIdentifier>
                
                <physDesc>
+                  
                   <p>En handgjord ensidig poster med text som informerar om ett musikevenemang.
-                     Postern är i papper med handskriven röd och svart text.
-                     I den övre marginalen återfinns en datumanteckning och en notering om antal personer.</p>
+                     Postern är i papper med handskriven svart text.
+                  </p>
                   <objectDesc>
                      <supportDesc>
                         <extent>
                            <dimensions unit="cm">
-                              <height>XX</height>
-                              <width>XX</width>
+                              <height>33,5</height>
+                              <width>27</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
+                     <layoutDesc>
+                        <p>
+                           Postern har sex rader. Första till tredje raden är posterns rubrik i fetstil.
+                           Rad fyra till sex beskriver vad musikevenemanget kommer att innehålla.
+                           Texten är inramad av ett svart streck.
+                           I övre marginalen finns en datumanteckning.
+                           Papperet har präglad text i högermarginalen med orden 
+                           <hi rend="präglat">WETTERGREN &amp; KERBER <lb/> GÖTEBORG</hi>
+                        </p>
+                     </layoutDesc>
+                     
+                     
+                     
                   </objectDesc>
                </physDesc>
             </msDesc>
@@ -74,58 +88,52 @@
       </fileDesc>
       
       <profileDesc>
-         
-         <handNotes>
-            <handNote medium="normal,svart"> Brödtext i svart penna.</handNote>
-            <handNote medium="fetstil,röd"> Rubrik i röd penna.</handNote>
-            <handNote medium="Blyerts"> Marginalanteckningar i blyerts.</handNote>
-         </handNotes>
-         
-         <textClass>
-            <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
-               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
-               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
-               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
-            </keywords>
-         </textClass>
+         <textDesc>
+            <channel>print</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="public">program information</domain>
+            <factuality type="fact"/>
+            <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar.</interaction>
+            <preparedness type="revised"/>
+            <purpose type="inform" degree="high"/>
+         </textDesc>
          
          <langUsage>
             <language ident="swe">Svenska</language>
          </langUsage>
          
+         <textClass>
+            <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">visor</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+            </keywords>
+         </textClass>
          
          <particDesc>
             <listPerson type="medverkande">
-               <person role="solist"> 
-                  <persName>Bell Dickson</persName>
+               <person role="sångerska"> 
+                  <persName>Hillevi Stenhammar</persName>
                </person>
-               <person role="solist"> 
-                  <persName>Karin Drumm</persName>
-               </person>
-            </listPerson>
-            
-            <listPerson type="upphovsperson">
-               <person> 
-                  <persName ref="https://libris.kb.se/mkz12t351kx8pb4#it">Mozart</persName>
+               <person role="pianist"> 
+                  <persName>Leif Bratt</persName>
                </person>
             </listPerson>
          </particDesc>
-         
       </profileDesc>
-      
-      
-      
    </teiHeader>
    
    
    <facsimile>
-      <surface xml:id="poster01">
+      <surface xml:id="poster03">
          <figure>
             <label>Poster front</label>
             <figDesc>
-               Ett fotografi av en poster som informerar om en musiktillställning där musik av mozart framförs. 
+               Ett fotografi av en poster som informerar om en musiktillställning där Hillevi Stenhammar framträder. 
             </figDesc>
-            <graphic xml:id="Poster01" url="XXX"/>
+            <graphic xml:id="Poster03" url="XXX"/>
          </figure>
       </surface>
    </facsimile>
@@ -136,21 +144,22 @@
       <body>
          <div type="poster" facs="poster01">
             <head>
-               <hi rend="b">Program</hi>
+               <hi rend="b color(black)">Program
+                  <lb/>hillevi
+                  <lb/>stenhammar
+               </hi>
             </head>
             
             <p>
-               <note place="margin">3.3.39</note>
-               <note place="margin"> 90 pers.</note>
+               <note place="margin above"><hi rend=" fine pen color(black)"></hi>Den 1 febr. 1935</note>
             </p>
             
             <p>
-               Mozart: Konsert Ess dur
-               <lb/>för två flyglar med ackomp.
-               <lb/>av orkester
-               <lb/>solister:
-               <lb/>Fru Bell Dickson
-               <lb/>Fru Karin Drumm
+               <hi rend="color(black)">
+               sjunger 
+               <lb/>folkvisor och sjömansvisor
+               <lb/>vid flygeln Leif Bratt
+               </hi>
             </p>
          </div>
       </body>

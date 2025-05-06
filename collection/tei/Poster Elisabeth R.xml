@@ -7,13 +7,14 @@
       
       <fileDesc>
          <titleStmt>
-            <title>Poster- Program Hjördis W-A.
+            <title>Transkription av en affisch om välgörenhetstillställning hos
+            <persName ref="http://viaf.org/viaf/305859316">Elisabeth Reiss</persName>
             </title>
             <author>Sällskapet Iris</author>
             <principal>
-               <persName>Tove Berglund</persName>
-               <persName>Liyanna Norling</persName>
-               <persName>Tess Zetterlund</persName>
+            <persName>Tove Berglund</persName>
+            <persName>Liyanna Norling</persName>
+            <persName>Tess Zetterlund</persName>
             </principal>
          </titleStmt>
          
@@ -21,9 +22,9 @@
             
             <publisher>Högskolan i Borås</publisher>
             <address>
-               <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
-               <addrLine>501 90 Borås</addrLine>
-               <addrLine>https://www.hb.se/</addrLine>
+            <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+            <addrLine>501 90 Borås</addrLine>
+            <addrLine>https://www.hb.se/</addrLine>
             </address>
             <date>2025</date>
             
@@ -49,22 +50,20 @@
                   </settlement>
                   <repository>KvinnSam</repository>
                   <collection>Sällskapet Iris Samling</collection>
-                  <idno>XXXXXX</idno>
-                  <idno type="URI">XXXXXXX</idno>
+                  <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                  <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
                </msIdentifier>
                
                <physDesc>
-                  <p>ensidig poster med text som informerar om ett musikevenemang.
-                     Postern är i papper med handskriven grön och svart text.
-                     I den övre marginalen återfinns en datumanteckning i blyerts.
-                     Texten ramas in av ett svart streck.
-                  </p>
+                  <p>En handgjord ensidig poster med text som informerar om ett välgörenhetsevent hemma hos Elisabeth Reiss. 
+                     Postern är i papper med handskriven röd och svart text.
+                     I den övre marginalen återfinns en datumanteckning och en matematisk uträkning båda skrivna med blyerts.</p>
                   <objectDesc>
                      <supportDesc>
                         <extent>
                            <dimensions unit="cm">
-                              <height>36</height>
-                              <width>26</width>
+                              <height>XX</height>
+                              <width>XX</width>
                            </dimensions>
                         </extent>
                      </supportDesc>
@@ -76,69 +75,48 @@
       </fileDesc>
       
       <profileDesc>
-         
-         <handNotes>
-            <handNote medium="normal,svart"> Brödtext i svart penna.</handNote>
-            <handNote medium="fetstil,grön"> Rubrik i grön penna.</handNote>
-            <handNote medium="blyerts"> Marginalanteckningar i blyerts.</handNote>
-         </handNotes>
-         
-         <textClass>
-            <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
-               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
-               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
-               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
-            </keywords>
-         </textClass>
+         <textDesc>
+            <channel>print</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="public">inbjudan</domain>
+            <factuality type="fact"/>
+            <interaction type="none" active="singular" passive="group">Programtext ämnat från Elisabeth Reiss till Sällskapet Iris medlemmar.</interaction>
+            <preparedness type="revised"/>
+            <purpose type="inform" degree="high"/>
+         </textDesc>
          
          <langUsage>
             <language ident="swe">Svenska</language>
          </langUsage>
          
+         <textClass>
+            <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">socitetsdamer</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+            </keywords>
+         </textClass>         
          
          <particDesc>
             <listPerson type="medverkande">
-               
-               <person role="sångerska"> 
-                  <persName>Hjördis Wahlgren Arnell</persName>
-               </person>
-               <person role="pianist"> 
-                  <persName>Sigrid Gyllencreutz Fermaeus</persName>
-               </person>
-            </listPerson>
-            
-            <listPerson type="upphovsperson">
-               
-               <person> 
-                  <persName ref="https://libris.kb.se/dbqsvmnx2lpnvh3#it">Niccolo Jommelli</persName>
-               </person>
-               
-               <person>
-                  <persName ref="http://viaf.org/viaf/46946549">Edvard Grieg</persName>
-               </person>
-               
-               <person>
-                  <persName ref= "http://viaf.org/viaf/95156473">Giacomo Puccini</persName>
-               </person>
-               
+               <person role="värdinna"> 
+                  <persName>Elisabeth Reiss</persName>
+                  </person>
             </listPerson>
          </particDesc>
-         
       </profileDesc>
-      
-      
-      
    </teiHeader>
    
-   
    <facsimile>
-      <surface xml:id="poster03">
+      <surface xml:id="poster01">
          <figure>
             <label>Poster front</label>
             <figDesc>
-               Ett fotografi av en poster som informerar om en musiktillställning där Hjördis Wahlgren Arnell framträder. 
+               Ett fotografi av en poster som bjuder in till en välgörenhetstillställning hemma hos Elisabeth Reiss.
             </figDesc>
-            <graphic xml:id="Poster03" url="Users/toveberglund/documents/GitHub/Iris-Fanclub/collection/img/bildfångst/IMG_9687.HEIC"/>
+            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
+            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
          </figure>
       </surface>
    </facsimile>
@@ -149,21 +127,29 @@
       <body>
          <div type="poster" facs="poster01">
             <head>
-               <hi rend="b color(green)">Program</hi>
+               <hi rend="b color(red)">ELiSABETH
+               <lb/>REISS</hi>
             </head>
             
             <p>
-               <note place="margin above"> <hi rend="graphite"> Den 6 april 1934.</hi>
+               <note place="margin above"> <hi rend="graphite">5 Dec.1938 </hi>
+               </note>
+               <note place="margin above"> <hi rend="graphite">11</hi>
+               <lb/>160
+                  <lb/>15
+                  <lb/>2
+                  <lb/><hi rend="line">———</hi> 
+                  <lb/>188
                </note>
             </p>
             
             <p>
-              <hi rend="color(black)"> Hjördis Wahlgren-
-               <lb/>arnell
-               <lb/>n.Jommelli Chi vuol comprar
-               <lb/>Grieg Et Håb
-               <lb/>Ved Rondarne
-               <lb/>Fra Monte Pincio
+               <hi rend="color(black)">
+                Den svensk-nors
+               <lb/>- ka societetsdamen 
+               <lb/> ger en välgören
+               <lb/>- hetstillställning hemma hos sig med
+                <lb/>konstnärlig underhållning
                </hi>
             </p>
          </div>

@@ -7,14 +7,13 @@
       
       <fileDesc>
          <titleStmt>
-            <title>Transkription av en affisch om välgörenhetstillställning hos
-            <persName ref="http://viaf.org/viaf/305859316">Elisabeth Reiss</persName>
+            <title>Poster- Mozarts konsert i ess dur.
             </title>
             <author>Sällskapet Iris</author>
             <principal>
-            <persName>Tove Berglund</persName>
-            <persName>Liyanna Norling</persName>
-            <persName>Tess Zetterlund</persName>
+               <persName>Tove Berglund</persName>
+               <persName>Liyanna Norling</persName>
+               <persName>Tess Zetterlund</persName>
             </principal>
          </titleStmt>
          
@@ -22,9 +21,9 @@
             
             <publisher>Högskolan i Borås</publisher>
             <address>
-            <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
-            <addrLine>501 90 Borås</addrLine>
-            <addrLine>https://www.hb.se/</addrLine>
+               <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+               <addrLine>501 90 Borås</addrLine>
+               <addrLine>https://www.hb.se/</addrLine>
             </address>
             <date>2025</date>
             
@@ -50,14 +49,14 @@
                   </settlement>
                   <repository>KvinnSam</repository>
                   <collection>Sällskapet Iris Samling</collection>
-                  <idno>XXXXXX</idno>
-                  <idno type="URI">XXXXXXX</idno>
-               </msIdentifier>
+                  <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                  <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
+              </msIdentifier>
                
                <physDesc>
-                  <p>En handgjord ensidig poster med text som informerar om ett välgörenhetsevent hemma hos Elisabeth Reiss. 
+                  <p>En handgjord ensidig poster med text som informerar om ett musikevenemang.
                      Postern är i papper med handskriven röd och svart text.
-                     I den övre marginalen återfinns en datumanteckning och en matematisk uträkning båda skrivna med blyerts.</p>
+                     I den övre marginalen återfinns en datumanteckning och en notering om antal personer.</p>
                   <objectDesc>
                      <supportDesc>
                         <extent>
@@ -75,38 +74,46 @@
       </fileDesc>
       
       <profileDesc>
-         
-         <handNotes>
-            <handNote medium="normal,svart"> Brödtext i svart penna.</handNote>
-            <handNote medium="fetstil,röd"> Rubrik i röd penna.</handNote>
-            <handNote medium="blyerts"> Marginalanteckningar i blyerts.</handNote>
-         </handNotes>
-         
-         <textClass>
-            <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
-               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
-               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">socitetsdamer</ref></term>
-               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
-            </keywords>
-         </textClass>
+         <textDesc>
+            <channel>print</channel>
+            <constitution type="single"/>
+            <derivation type="original"/>
+            <domain type="public">program information</domain>
+            <factuality type="fact"/>
+            <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar.</interaction>
+            <preparedness type="revised"/>
+            <purpose type="inform" degree="high"/>
+         </textDesc>
          
          <langUsage>
             <language ident="swe">Svenska</language>
          </langUsage>
          
+         <textClass>
+            <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+            </keywords>
+         </textClass>
          
          <particDesc>
             <listPerson type="medverkande">
-               <person role="värdinna"> 
-                  <persName>Elisabeth Reiss</persName>
-                  </person>
+               <person role="solist"> 
+                  <persName>Bell Dickson</persName>
+               </person>
+               <person role="solist"> 
+                  <persName>Karin Drumm</persName>
+               </person>
+            </listPerson>
+            
+            <listPerson type="upphovsperson">
+               <person> 
+                  <persName ref="https://libris.kb.se/mkz12t351kx8pb4#it">Mozart</persName>
+               </person>
             </listPerson>
          </particDesc>
-         
       </profileDesc>
-      
-        
-      
    </teiHeader>
    
    
@@ -115,10 +122,9 @@
          <figure>
             <label>Poster front</label>
             <figDesc>
-               Ett fotografi av en poster som bjuder in till en välgörenhetstillställning hemma hos Elisabeth Reiss.
+               Ett fotografi av en poster som informerar om en musiktillställning där musik av mozart framförs. 
             </figDesc>
-            <graphic xml:id="postit01_full" url="assets/img/documents/postit01.png"/>
-            <graphic xml:id="postit01_thumb" url="assets/img/documents/postit01_thumb.png"/>
+            <graphic xml:id="Poster01" url="XXX"/>
          </figure>
       </surface>
    </facsimile>
@@ -129,27 +135,25 @@
       <body>
          <div type="poster" facs="poster01">
             <head>
-               <hi rend="b">ELiSABETH
-               <lb/>REISS</hi>
+               <hi rend="b color(red)">Program</hi>
             </head>
             
             <p>
-               <note place="margin">5 Dec.1938</note>
-               <note place="margin">11
-               <lb/>160
-                  <lb/>15
-                  <lb/>2
-                  <lb/><hi rend="line">———</hi> 
-                  <lb/>188
+               <note place="margin above"> <hi rend="graphite">3.3.39</hi>
+               </note>
+               <note place="margin above"> <hi rend="graphite">90 pers.</hi>
                </note>
             </p>
             
             <p>
-                Den svensk-nors
-               <lb/>- ka societetsdamen 
-               <lb/> ger en välgören
-               <lb/>- hetstillställning hemma hos sig med
-                <lb/>konstnärlig underhållning
+               <hi rend="color(black)">
+               Mozart: Konsert Ess dur
+               <lb/>för två flyglar med ackomp.
+               <lb/>av orkester
+               <lb/>solister:
+               <lb/>Fru Bell Dickson
+               <lb/>Fru Karin Drumm
+               </hi>
             </p>
          </div>
       </body>
