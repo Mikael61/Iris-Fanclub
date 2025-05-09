@@ -73,7 +73,8 @@
                            Rad tre till sex beskriver vad musikevenemanget kommer att innehålla och vem som ackompangerar.
                            Texten är inramad av bruna handmålade streck.
                            I övre marginalen finns fyra rader med handskrivna anteckningar.
-                           Papperet har ett präglat emblem i vänstra hörnet. 
+                           Papperet har ett präglat emblem i vänstra hörnet med bokstäverna 
+                           <hi rend="präglat">P<lb/>PT</hi>
                         </p>
                      </layoutDesc>
                      
@@ -149,11 +150,13 @@
             </head>
             
             <p>
-               <note place="margin above"> <hi rend="graphite"> XXX</hi>
+               <note place="margin above"> <hi rend="graphite"> DecembersamkvämT
+               <lb/>1939</hi>
                </note>
                
                <note place="margin above"> 
-               <hi rend="color(black)">XXX</hi>
+               <hi rend="color(black)">70 + 3 medverkande + 7 sTyrelsemedl.
+               <lb/>3 medverkande</hi>
                </note>
             </p>
             
