@@ -26,14 +26,6 @@
                <addrLine>https://www.hb.se/</addrLine>
             </address>
             <date>2025</date>
-            
-            <availability>
-               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">
-                  <p>
-                     Transcription distributed under a CC-BY-SA 4.0 license.
-                  </p>
-               </licence>
-            </availability>
          </publicationStmt>
          
          <sourceDesc> 
@@ -104,7 +96,6 @@
          
          <textClass>
             <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
-               
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
