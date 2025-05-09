@@ -74,7 +74,8 @@
                         </objectDesc>
                     </physDesc>
                 </msDesc>
-                <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+                <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                    Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
             </sourceDesc>
         </fileDesc>
         
@@ -152,7 +153,7 @@
                 <figDesc>
                     En digital kopia av en poster gjord av papper som informerar om ett musikprogram.               
                 </figDesc>
-                <graphic xml:id="XXX" url="XXX"/>
+                <graphic url="collection/img/doktorinnanhjördisarnell.HEIC" mimeType="image/HEIC"/>
             </figure>
         </surface>
     </facsimile>

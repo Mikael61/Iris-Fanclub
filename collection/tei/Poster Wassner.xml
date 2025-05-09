@@ -76,14 +76,12 @@
                            Papperet har ett präglat emblem i vänstra hörnet med bokstäverna 
                            <hi rend="präglat">P<lb/>PT</hi>
                         </p>
-                     </layoutDesc>
-                     
-                     
-                     
+                     </layoutDesc>                     
                   </objectDesc>
                </physDesc>
             </msDesc>
-            <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+            <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+               Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
          </sourceDesc>
       </fileDesc>
       
@@ -105,6 +103,8 @@
          
          <textClass>
             <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+               
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">operor</ref></term>
@@ -115,10 +115,10 @@
          <particDesc>
             <listPerson type="medverkande">
                <person role="sångerska"> 
-                  <persName>Inez Wassner</persName>
+                  <persName xml:id="IW">Inez Wassner</persName>
                </person>
                <person role="pianist"> 
-                  <persName>Antoinette Wolf</persName>
+                  <persName xml:id="AnW">Antoinette Wolf</persName>
                </person>
             </listPerson>
          </particDesc>
@@ -127,13 +127,13 @@
    
    
    <facsimile>
-      <surface xml:id="poster03">
+      <surface xml:id="operasångerskaninezwassner">
          <figure>
-            <label>Poster front</label>
+            <label>Operasångerskan Inez Wassner</label>
             <figDesc>
                Ett fotografi av en poster som informerar om en musiktillställning där Inez Wassner framträder. 
             </figDesc>
-            <graphic xml:id="Poster03" url="XXX"/>
+            <graphic url="collection/img/operasångerskaninezwassner.HEIC" mimeType="image/HEIC"/>
          </figure>
       </surface>
    </facsimile>
@@ -141,34 +141,20 @@
    
    
    <text>
-      <body>
-         <div type="poster" facs="poster01">
-            <head>
-               <hi rend="b color(brown)">OPERASÅNGERSKAN
-                  <lb/>INEZ WASSNER
-               </hi>
-            </head>
-            
+      <body> 
+         <note place="top"> 70 + 3 medverkande + 7 sTyrelsemedl.
+            <lb/>3 medverkande </note>
+         <note place="top-right">DecembersamkvämT
+               <lb/>1939</note>
             <p>
-               <note place="margin above"> <hi rend="graphite"> DecembersamkvämT
-               <lb/>1939</hi>
-               </note>
-               
-               <note place="margin above"> 
-               <hi rend="color(black)">70 + 3 medverkande + 7 sTyrelsemedl.
-               <lb/>3 medverkande</hi>
-               </note>
-            </p>
-            
-            <p>
-               <hi rend=" b color(brown)">
-               ROMANSER OCH
+               <hi rend=" b color(brown)">OPERASÅNGERSKAN
+               <lb/>INEZ WASSNER
+               <lb/>ROMANSER OCH
                <lb/>OEPERAARIER
                <lb/>VID FLYGELN
                <lb/>ANTOINETTE WOLF
                </hi>
             </p>
-         </div>
       </body>
    </text>
 </TEI>

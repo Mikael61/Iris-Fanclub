@@ -78,12 +78,11 @@
                         </p>
                      </layoutDesc>
                      
-                     
-                     
                   </objectDesc>
                </physDesc>
             </msDesc>
-            <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+            <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+               Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
          </sourceDesc>
       </fileDesc>
       
@@ -105,6 +104,8 @@
          
          <textClass>
             <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+               
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">visor</ref></term>
@@ -115,53 +116,40 @@
          <particDesc>
             <listPerson type="medverkande">
                <person role="sångerska"> 
-                  <persName>Hillevi Stenhammar</persName>
+                  <persName xml:id="HS">Hillevi Stenhammar</persName>
                </person>
                <person role="pianist"> 
-                  <persName>Leif Bratt</persName>
+                  <persName xml:id="LB">Leif Bratt</persName>
                </person>
             </listPerson>
          </particDesc>
       </profileDesc>
    </teiHeader>
    
-   
    <facsimile>
-      <surface xml:id="poster03">
+      <surface xml:id="programhillevistenhammar">
          <figure>
-            <label>Poster front</label>
+            <label>Program Hillevi Stenhammar</label>
             <figDesc>
                Ett fotografi av en poster som informerar om en musiktillställning där Hillevi Stenhammar framträder. 
             </figDesc>
-            <graphic xml:id="Poster03" url="XXX"/>
+            <graphic url="collection/img/programhillevistenhammar.HEIC" mimeType="image/HEIC"/>
          </figure>
       </surface>
    </facsimile>
    
    
-   
    <text>
       <body>
-         <div type="poster" facs="poster01">
-            <head>
-               <hi rend="b color(black)">Program
+         <note place="top">Den 1 febr. 1935</note>
+            <p>
+              <hi rend=" b color(black)">Program
                   <lb/>hillevi
-                  <lb/>stenhammar
-               </hi>
-            </head>
-            
-            <p>
-               <note place="margin above"><hi rend=" fine pen color(black)"></hi>Den 1 febr. 1935</note>
-            </p>
-            
-            <p>
-               <hi rend="color(black)">
-               sjunger 
+                  <lb/>stenhammar</hi>
+               <lb/>sjunger 
                <lb/>folkvisor och sjömansvisor
                <lb/>vid flygeln Leif Bratt
-               </hi>
-            </p>
-         </div>
+           </p>
       </body>
    </text>
 </TEI>

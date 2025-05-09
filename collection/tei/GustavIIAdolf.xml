@@ -80,7 +80,8 @@
                         </objectDesc>
                     </physDesc>
                 </msDesc>
-                <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+                <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                    Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
             </sourceDesc>
         </fileDesc>
         
@@ -168,11 +169,11 @@
     <facsimile>
         <surface xml:id="GustavIIAdolf">
             <figure>
-                <label>Gustav II Adolfs minne</label>
+                <label>Gustav II Adolf</label>
                 <figDesc>
                     En digital kopia av en poster gjord av papper som informerar om ett eventprogram till minne av Gustav II Adolf.               
                 </figDesc>
-                <graphic xml:id="XXX" url="XXX"/>
+                <graphic url="collection/img/gustavIIadolf.HEIC" mimeType="image/HEIC"/>
             </figure>
         </surface>
     </facsimile>

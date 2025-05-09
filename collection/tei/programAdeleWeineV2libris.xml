@@ -74,7 +74,8 @@
                         </objectDesc>
                     </physDesc>
                 </msDesc>
-              <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+                <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                    Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
             </sourceDesc>
         </fileDesc>
         
@@ -106,10 +107,10 @@
             <particDesc>
                 <listPerson type="medverkande">
                     <person role="sångerska"> 
-                      <persName>Adèle Weine</persName>
+                      <persName ref="AdW">Adèle Weine</persName>
                     </person>
                     <person role="pianist"> 
-                        <persName xml:id="X">Sigrid Gyllencreutz-Fermæus</persName>
+                        <persName ref="https://www.adelsvapen.com/genealogi/Gyllencreutz_nr_54" xml:id="SGF">Sigrid Gyllencreutz-Fermæus</persName>
                     </person>
                  </listPerson>
                 
@@ -146,13 +147,13 @@
     </teiHeader>
     
     <facsimile>
-        <surface xml:id="programAdele">
+        <surface xml:id="programadeleweine">
             <figure>
                 <label>Program Adèle Weine</label>
                 <figDesc>
                     En digital kopia av en poster gjord av papper som informerar om ett musikprogram.               
                 </figDesc>
-                <graphic xml:id="XXX" url="XXX"/>
+                <graphic url="collection/img/programadeleweine.HEIC" mimeType="image/HEIC"/>
             </figure>
         </surface>
     </facsimile>

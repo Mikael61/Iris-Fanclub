@@ -91,6 +91,7 @@
          
          <textClass>
             <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
@@ -100,16 +101,16 @@
          <particDesc>
             <listPerson type="medverkande">
                <person role="solist"> 
-                  <persName>Bell Dickson</persName>
+                  <persName xml:id="BD">Bell Dickson</persName>
                </person>
                <person role="solist"> 
-                  <persName>Karin Drumm</persName>
+                  <persName xml:id="KD">Karin Drumm</persName>
                </person>
             </listPerson>
             
             <listPerson type="upphovsperson">
                <person> 
-                  <persName ref="https://libris.kb.se/mkz12t351kx8pb4#it">Mozart</persName>
+                  <persName xml:id="WAM" ref="https://libris.kb.se/mkz12t351kx8pb4#it">Wolfgang Amadeus Mozart</persName>
                </person>
             </listPerson>
          </particDesc>
@@ -118,13 +119,13 @@
    
    
    <facsimile>
-      <surface xml:id="poster01">
+      <surface xml:id="Mozart">
          <figure>
-            <label>Poster front</label>
+            <label>Program Mozart</label>
             <figDesc>
                Ett fotografi av en poster som informerar om en musiktillställning där musik av mozart framförs. 
             </figDesc>
-            <graphic xml:id="Poster01" url="XXX"/>
+            <graphic url="collection/img/programmozart.HEIC" mimeType="image/HEIC"/>
          </figure>
       </surface>
    </facsimile>
@@ -133,29 +134,16 @@
    
    <text>
       <body>
-         <div type="poster" facs="poster01">
-            <head>
-               <hi rend="b color(red)">Program</hi>
-            </head>
-            
-            <p>
-               <note place="margin above"> <hi rend="graphite">3.3.39</hi>
-               </note>
-               <note place="margin above"> <hi rend="graphite">90 pers.</hi>
-               </note>
-            </p>
-            
-            <p>
-               <hi rend="color(black)">
-               Mozart: Konsert Ess dur
+           <note place="top">3.3.39</note>
+           <note place="top-right">90 pers.</note>
+           <p>  <hi rend=" b color(red)">PROGRAM</hi>
+               <lb/>Mozart: Konsert Ess dur
                <lb/>för två flyglar med ackomp.
                <lb/>av orkester
                <lb/>solister:
                <lb/>Fru Bell Dickson
                <lb/>Fru Karin Drumm
-               </hi>
-            </p>
-         </div>
-      </body>
+          </p> 
+     </body>
    </text>
 </TEI>

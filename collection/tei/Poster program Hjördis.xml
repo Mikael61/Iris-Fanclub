@@ -71,7 +71,8 @@
                   </objectDesc>
                </physDesc>
             </msDesc>
-            <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+            <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+               Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
          </sourceDesc>
       </fileDesc>
       
@@ -93,6 +94,8 @@
          
          <textClass>
             <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+               
+               <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
                <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
@@ -103,69 +106,54 @@
             <listPerson type="medverkande">
                
                <person role="sångerska"> 
-                  <persName>Hjördis Wahlgren Arnell</persName>
+                  <persName xml:id="HA">Hjördis Wahlgren Arnell</persName>
                </person>
                <person role="pianist"> 
-                  <persName>Sigrid Gyllencreutz Fermaeus</persName>
+                  <persName xml:id="SGF" ref="https://www.adelsvapen.com/genealogi/Gyllencreutz_nr_54">Sigrid Gyllencreutz Fermaeus</persName>
                </person>
             </listPerson>
             
             <listPerson type="upphovsperson">
-               
                <person> 
-                  <persName ref="https://libris.kb.se/dbqsvmnx2lpnvh3#it">Niccolo Jommelli</persName>
+                  <persName xml:id="NJ" ref="https://libris.kb.se/dbqsvmnx2lpnvh3#it">Niccolo Jommelli</persName>
                </person>
                
                <person>
-                  <persName ref="http://viaf.org/viaf/46946549">Edvard Grieg</persName>
+                  <persName xml:id="EG" ref="http://viaf.org/viaf/46946549">Edvard Grieg</persName>
                </person>
                
                <person>
-                  <persName ref= "http://viaf.org/viaf/95156473">Giacomo Puccini</persName>
+                  <persName xml:id="GP" ref= "http://viaf.org/viaf/95156473">Giacomo Puccini</persName>
                </person>
-               
             </listPerson>
          </particDesc>
       </profileDesc>
    </teiHeader>
-   
-   
+ 
    <facsimile>
-      <surface xml:id="poster03">
+      <surface xml:id="programhjördisarnellwahlgren">
          <figure>
-            <label>Poster front</label>
+            <label>Program Hjördis Arnell-Wahlbren</label>
             <figDesc>
                Ett fotografi av en poster som informerar om en musiktillställning där Hjördis Wahlgren Arnell framträder. 
             </figDesc>
-            <graphic xml:id="Poster03" url="collection/img/Bildfångst Iphone utvalda/IMG_9687.HEIC"/>
+            <graphic url="collection/img/programhjördiswahlgrenarnell.HEIC" mimeType="image/HEIC"/>
          </figure>
       </surface>
    </facsimile>
    
-   
-   
    <text>
       <body>
-         <div type="poster" facs="poster01">
-            <head>
+         <note place="top-right">Den 6 april 1934.</note>      
+            <p> 
                <hi rend="b color(green)">Program</hi>
-            </head>
-            
-            <p>
-               <note place="margin above"> <hi rend="graphite"> Den 6 april 1934.</hi>
-               </note>
-            </p>
-            
-            <p>
-              <hi rend="color(black)"> Hjördis Wahlgren-
+                Hjördis Wahlgren-
                <lb/>arnell
                <lb/>n.Jommelli Chi vuol comprar
                <lb/>Grieg Et Håb
                <lb/>Ved Rondarne
                <lb/>Fra Monte Pincio
-               </hi>
             </p>
-         </div>
       </body>
    </text>
 </TEI>

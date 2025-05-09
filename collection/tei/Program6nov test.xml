@@ -78,7 +78,8 @@
                         </objectDesc>
                     </physDesc>
                 </msDesc>
-                <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+                <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                    Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
             </sourceDesc>
         </fileDesc>
         
@@ -142,7 +143,7 @@
                             <title ref="https://libris.kb.se/bib/3278336?vw=full">En spelmans jordafärd</title></persName>
                     </person>
                     <person>
-                        <persName xml:id="JH" ref="https://libris.kb.se/gdsvx0p05m6n44c#it">Jarl Hemmer
+                        <persName xml:id="JaH" ref="https://libris.kb.se/gdsvx0p05m6n44c#it">Jarl Hemmer
                             <title>Förord</title>
                             <title>Vinterbygge</title>
                         </persName>
@@ -168,13 +169,13 @@
     </teiHeader>
     
     <facsimile>
-        <surface xml:id="Program6Nov">
+        <surface xml:id="programdensjättenovember">
             <figure>
-                <label>Program6Nov</label>
+                <label>Program 6 November</label>
                 <figDesc>
                     En digital kopia av en poster gjord av papper som informerar om ett eventprogram.               
                 </figDesc>
-                <graphic xml:id="XXX" url="XXX"/>
+                <graphic url="collection/img/programdensjättenovember.HEIC" mimeType="image/HEIC"/>
             </figure>
         </surface>
     </facsimile>

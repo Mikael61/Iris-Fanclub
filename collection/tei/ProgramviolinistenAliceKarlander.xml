@@ -77,7 +77,8 @@
                         </objectDesc>
                     </physDesc>
                 </msDesc>
-                <bibl>Sällskapet Iris samling består av material XXXXXXXXXX</bibl>
+                <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                    Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
             </sourceDesc>
         </fileDesc>
         
@@ -137,13 +138,13 @@
     </teiHeader>
     
     <facsimile>
-        <surface xml:id="programKarlander">
+        <surface xml:id="programviolinistenalicekarlander">
             <figure>
-                <label>Program Alice Karlander</label>
+                <label>Program Violinisten Alice Karlander</label>
                 <figDesc>
                     En digital kopia av en poster gjord av papper som informerar om ett musikprogram.               
                 </figDesc>
-                <graphic xml:id="XXX" url="XXX"/>
+                <graphic url="collection/img/programviolinistenalicekarlander.HEIC" mimeType="image/HEIC"/>
             </figure>
         </surface>
     </facsimile>
