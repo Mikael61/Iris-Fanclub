@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sällskapet Iris - ett digitaliseringsprojekt</title>
+            <principal>
+               <persName>Tove Berglund</persName>
+               <persName>Liyanna Norling</persName>
+               <persName>Tess Zetterlund</persName>
+            </principal>
+         </titleStmt>
+         
+         <publicationStmt>
+            <authority>
+               <name>Högskolan i Borås</name>
+               <address>
+                  <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                  <addrLine>Högskolan i Borås</addrLine>
+                  <addrLine>501 90 Borås</addrLine>
+                  <addrLine>https://www.hb.se/</addrLine>
+               </address>
+            </authority>
+            <date>2025</date>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <p>Detta är presentationen av ett digitaliseringsprojekt genomfört inom ramen för kursen .... Sällskapet Iris....</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   
+   <facsimile>
+      <surface xml:id="förstasidan">
+         <figure>
+            <label>förstasidan</label>
+            <figDesc>
+               Ett fotografi av arkivmaterial från Sällskapet Iris samling.               
+            </figDesc>
+            <graphic url="docs/assets/img/förstasidan.jpeg" mimeType="image/jpeg"/>
+         </figure>
+      </surface>
+   </facsimile>
+   
+</TEI>
