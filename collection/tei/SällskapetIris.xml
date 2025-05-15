@@ -1,0 +1,1816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<teiCorpus version="3.3.0" xmlns="http://www.tei-c.org/ns/1.0">
+<!--corpus -->   
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Posters från Sällskapet Iris</title>
+                <author>Sällskapet Iris</author>
+                <principal><persName>Liyanna Norling</persName>
+                    <persName>Tove Berglund</persName>
+                    <persName>Tess Zetterlund</persName>
+                </principal>
+            </titleStmt>
+            
+            <publicationStmt>
+                <authority>
+                    <name>Högskolan i Borås</name>
+                    <address>
+                        <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                        <addrLine>Högskolan i Borås</addrLine>
+                        <addrLine>501 90 Borås</addrLine>
+                        <addrLine>https://www.hb.se/</addrLine>
+                    </address>
+                </authority>
+                <date>2025</date>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Sverige</country>
+                        <settlement>Göteborg
+                            <address>
+                                <addrLine>Humanistiska biblioteket</addrLine>
+                                <addrLine>Renströmsgatan 4</addrLine>
+                                <addrLine>412 55 Göteborg</addrLine>
+                            </address>
+                        </settlement>
+                        <repository>KvinnSam</repository>
+                        <collection>Sällskapet Iris Samling</collection>
+                        <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                        <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
+                    </msIdentifier>
+                </msDesc>
+                <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                    Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    
+<!-- GUSTAV II ADOLFS MINNE -->    
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>GUSTAV II ADOLFS MINNE</title>
+                    <author>Sällskapet Iris</author>
+                    <principal><persName>Liyanna Norling</persName>
+                        <persName>Tove Berglund</persName>
+                        <persName>Tess Zetterlund</persName>
+                    </principal>
+                </titleStmt>
+                
+                <publicationStmt>
+                    <authority>
+                        <name>Högskolan i Borås</name>
+                        <address>
+                            <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                            <addrLine>Högskolan i Borås</addrLine>
+                            <addrLine>501 90 Borås</addrLine>
+                            <addrLine>https://www.hb.se/</addrLine>
+                        </address>
+                    </authority>
+                    <date>2025</date>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Sverige</country>
+                            <settlement>Göteborg
+                                <address>
+                                    <addrLine>Humanistiska biblioteket</addrLine>
+                                    <addrLine>Renströmsgatan 4</addrLine>
+                                    <addrLine>412 55 Göteborg</addrLine>
+                                </address>
+                            </settlement>
+                            <repository>KvinnSam</repository>
+                            <collection>Sällskapet Iris Samling</collection>
+                            <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                            <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
+                        </msIdentifier>
+                        
+                        <physDesc>
+                            <p>En handgjord ensidig poster med text som informerar om programet för ett event. 
+                                Postern är handgjord gjort av papper med svart och blå typografisk text som inramas av en blå och gul linje på vardera sida.
+                                I överkant finns en illustration föreställande ett centrerat, cirkulärt, blått sigil med tre guld kronor. 
+                                På var sida om sigielt är en svenskflagga, en kanon, en grön ranka och en pyramid av gråa sfärer.
+                                Texten inkluderar en överskrift och information om eventets program, inkluderande en deklaration om eventets repportoar med upphovsperson och titel uppdelat på två kollumner.
+                                En datumanteckning i blyerts återfinns i posterns övre samt nedre högra hörn.
+                                Ett vitt irregulärt märke återfinns vid överskriften.
+                            </p>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <dimensions unit="cm">
+                                            <height>52,5</height>
+                                            <width>43,5</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+                                
+                                <layoutDesc>
+                                    <p>Postern har 17 rader text. De två första raderna innehar posters överskrift.  
+                                        Rad tre till åtta presenterar eventets händelseordning.
+                                        Rad nio till 16 presenterar eventets repportoar och är uppdelade i två kollumner.
+                                        Den vänstra kollumnen innehåller titeln på ett musikstycke och den högra innehåller namnet på styckets upphovsperson.
+                                        Rad 17 presenterar eventets pianist.
+                                    </p>
+                                </layoutDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                    <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                        Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <textDesc>
+                    <channel>print</channel>
+                    <constitution type="single"/>
+                    <derivation type="original"/>
+                    <domain type="public">program information</domain>
+                    <factuality type="fact"/>
+                    <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar.</interaction>
+                    <preparedness type="revised"/>
+                    <purpose type="inform" degree="high"/>
+                </textDesc>
+                
+                <langUsage>
+                    <language ident="swe">Svenska</language>
+                </langUsage>
+                
+                <textClass>
+                    <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">poesi</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">kungar</ref></term>
+                    </keywords>
+                </textClass>
+                
+                <particDesc>
+                    <listPerson type="objekt">
+                        <person role="kung"> 
+                            <persName xml:id="GA" ref="https://libris.kb.se/wt79b47f42nbg14#it">Gustav II Adolf</persName>
+                        </person>
+                    </listPerson>
+                    
+                    <listPerson type="medverkande">
+                        <person role="föreläsare"> 
+                            <persName xml:id="GH" ref="urn:sbl:12730">Greta Hedin</persName>
+                        </person>
+                        <person role="uppläsare"> 
+                            <persName xml:id="AE">Aina Ekman</persName>
+                        </person>
+                        <person role="pianist"> 
+                            <persName xml:id="ES" ref="urn:sbl:20133">Elsa E M Stenhammar</persName>
+                        </person>
+                    </listPerson>
+                    
+                    <listPerson type="upphovspersoner">
+                        <person> 
+                            <persName xml:id="ET" ref="https://libris.kb.se/ljx01n545rh6bzs#it">Esaias Tegnér </persName>  
+                        </person>
+                        <person> 
+                            <persName xml:id="EA" ref="https://libris.kb.se/64jlmc0q24qqs81#it">Elfrida André 
+                                <title ref="https://libris.kb.se/bib/19798602?vw=full">Vaknen</title></persName>
+                        </person>
+                        <person> 
+                            <persName xml:id="JGN" ref="https://libris.kb.se/pm134v570ddvstx#it">Johann Gottlieb Naumann
+                                <title ref="https://libris.kb.se/bib/3168847?vw=full">Ädla skuggor, vördade fäder</title> </persName>
+                        </person>
+                        <person>
+                            <persName xml:id="OL">Otto Lindblad
+                                <title>Jag vet ett land</title></persName>
+                        </person>
+                        <person>
+                            <persName>Okänd, folkvisa
+                                <title>Om sommaren sköna</title>
+                                <title ref="https://libris.kb.se/bib/bwdthnqp8ww0p1cs">Mandom Mod Morske Män</title>
+                            </persName>
+                        </person>
+                        <person>
+                            <persName>Josefsson
+                                <title>Vårt land</title></persName> 
+                        </person>
+                        <person>
+                            <persName xml:id="WS" ref="https://libris.kb.se/dbqstktx4q6mzv4#it">Wilhelm Stenhammar
+                                <title ref="https://libris.kb.se/bib/3282329?vw=full">Sverige</title></persName>
+                        </person>
+                    </listPerson>
+                </particDesc>
+            </profileDesc>
+        </teiHeader>
+        
+        <facsimile>
+            <surface xml:id="GustavIIAdolf">
+                <figure>
+                    <label>Gustav II Adolf</label>
+                    <figDesc>
+                        En digital kopia av en poster gjord av papper som informerar om ett eventprogram till minne av Gustav II Adolf.               
+                    </figDesc>
+                    <graphic url="docs/assets/img/gustavIIadolf.jpeg" mimeType="image/jpeg"/>
+                </figure>
+            </surface>
+        </facsimile>
+        
+        <text>
+            <body>            
+                <note place="top-right">Den 4 nov. 1932.</note>
+                <p> <hi rend="b color(blue)" > GUSTAV II ADOLFS</hi><lb/>
+                    MINNE<lb/>
+                    FÖREDRAG av FIL.DR GRETA HEDIN <lb/>
+                    TVÅ DIKTER AV ESAIAS TEGNÉR SKRIVNA <lb/>
+                    FOR GUSTAV II ADOLFSFESTEN I VÄXJÖ 1832 <lb/>
+                    UPPLÄSTA AV FRU AINA EKMAN<lb/>
+                    PSALM 124 UNISONT<lb/>
+                    TÉPAUS<lb/>
+                    VAKNEN ELRIDA ANDRÉ<lb/>
+                    ÄDLA SKUGGOR, VÖRDADE FÄDER NAUMANN<lb/>
+                    JAG VET ETT LAND OTTO LINDBLAD<lb/>
+                    ÖVER SKOG ÖVER SJÖN H.F LINDBLAD<lb/>
+                    OM SOMMAREN SKÖNA FOLKVISA<lb/>
+                    MANDOM MOD MORSKE MÄN ”<lb/>
+                    VÅRT LAND JOSEFSSON<lb/>
+                    SVERIGE STENHAMMAR<lb/>
+                    vid flygeln ELSA STENHAMMAR<lb/>
+                </p>
+                <note place="bottom-right">Den 4 nov. 1932.</note>
+            </body>
+        </text>
+    </TEI>
+    
+    
+<!-- Elisabeth Reiss -->   
+    <TEI>
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Transkription av en affisch om välgörenhetstillställning hos
+                        <persName ref="#ER">Elisabeth Reiss</persName>
+                    </title>
+                    <author>Sällskapet Iris</author>
+                    <principal>
+                        <persName>Tove Berglund</persName>
+                        <persName>Liyanna Norling</persName>
+                        <persName>Tess Zetterlund</persName>
+                    </principal>
+                </titleStmt>
+                
+                <publicationStmt>
+                    <publisher>Högskolan i Borås</publisher>
+                    <address>
+                        <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                        <addrLine>501 90 Borås</addrLine>
+                        <addrLine>https://www.hb.se/</addrLine>
+                    </address>
+                    <date>2025</date>
+                </publicationStmt>
+                
+                <sourceDesc> 
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Sverige</country>
+                            <settlement>Göteborg
+                                <address>
+                                    <addrLine>Humanistiska biblioteket</addrLine>
+                                    <addrLine>Renströmsgatan 4</addrLine>
+                                    <addrLine>412 55 Göteborg</addrLine>
+                                </address>
+                            </settlement>
+                            <repository>KvinnSam</repository>
+                            <collection>Sällskapet Iris Samling</collection>
+                            <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                            <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
+                        </msIdentifier>
+                        
+                        <physDesc>
+                            <p>En handgjord ensidig poster med text som informerar om ett välgörenhetsevent hemma hos Elisabeth Reiss. 
+                                Postern är i papper med handskriven röd och svart text.
+                                I den övre marginalen återfinns en datumanteckning och en matematisk uträkning båda skrivna med blyerts.</p>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <dimensions unit="cm">
+                                            <height>35</height>
+                                            <width>26</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                    <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                        Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <textDesc>
+                    <channel>print</channel>
+                    <constitution type="single"/>
+                    <derivation type="original"/>
+                    <domain type="public">inbjudan</domain>
+                    <factuality type="fact"/>
+                    <interaction type="none" active="singular" passive="group">Programtext ämnat från Elisabeth Reiss till Sällskapet Iris medlemmar.</interaction>
+                    <preparedness type="revised"/>
+                    <purpose type="inform" degree="high"/>
+                </textDesc>
+                
+                <langUsage>
+                    <language ident="swe">Svenska</language>
+                </langUsage>
+                
+                <textClass>
+                    <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">socitetsdamer</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+                    </keywords>
+                </textClass>         
+                
+                <particDesc>
+                    <listPerson type="medverkande">
+                        <person role="värdinna"> 
+                            <persName xml:id="ER">Elisabeth Reiss</persName>
+                        </person>
+                    </listPerson>
+                </particDesc>
+            </profileDesc>
+        </teiHeader>
+        
+        <facsimile>
+            <surface xml:id="ElisabethReiss">
+                <figure>
+                    <label>Elisabeth Reiss</label>
+                    <figDesc>
+                        Ett fotografi av en poster som bjuder in till en välgörenhetstillställning hemma hos Elisabeth Reiss.
+                    </figDesc>
+                    <graphic url="docs/assets/img/elisabethreiss.jpeg" mimeType="image/jpeg"/>
+                </figure>
+            </surface>
+        </facsimile>
+        
+        <text>
+            <body>
+                <note place="top-right">5 Dec.1938</note>
+                <note place="top">11
+                    <lb/>160
+                    <lb/>15
+                    <lb/>2
+                    <lb/><hi rend="line">———</hi> 
+                    <lb/>188
+                </note>
+                <p>
+                    <hi rend="b color(red)">ELiSABETH
+                        <lb/>REISS</hi>
+                    Den svensk-nors
+                    <lb/>- ka societetsdamen 
+                    <lb/> ger en välgören
+                    <lb/>- hetstillställning hemma hos sig med
+                     <lb/>konstnärlig underhållning
+                </p>
+            </body>
+        </text>
+    </TEI>
+    
+    
+ <!-- Program Inez Wassner --> 
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Poster- Program Inez Wassner.
+                    </title>
+                    <author>Sällskapet Iris</author>
+                    <principal>
+                        <persName>Tove Berglund</persName>
+                        <persName>Liyanna Norling</persName>
+                        <persName>Tess Zetterlund</persName>
+                    </principal>
+                </titleStmt>
+                
+                <publicationStmt>
+                    
+                    <publisher>Högskolan i Borås</publisher>
+                    <address>
+                        <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                        <addrLine>501 90 Borås</addrLine>
+                        <addrLine>https://www.hb.se/</addrLine>
+                    </address>
+                    <date>2025</date>
+                </publicationStmt>
+                
+                <sourceDesc> 
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Sverige</country>
+                            <settlement>Göteborg
+                                <address>
+                                    <addrLine>Humanistiska biblioteket</addrLine>
+                                    <addrLine>Renströmsgatan 4</addrLine>
+                                    <addrLine>412 55 Göteborg</addrLine>
+                                </address>
+                            </settlement>
+                            <repository>KvinnSam</repository>
+                            <collection>Sällskapet Iris Samling</collection>
+                            <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                            <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
+                        </msIdentifier>
+                        
+                        <physDesc>
+                            
+                            <p>En handgjord ensidig poster med text som informerar om ett musikevenemang.
+                                Postern är i papper med handmålad brun text.
+                            </p>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <dimensions unit="cm">
+                                            <height>32</height>
+                                            <width>27</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <p>
+                                        Postern har sex rader. Första och andra raden fungerar som posterns rubrik.
+                                        Rad tre till sex beskriver vad musikevenemanget kommer att innehålla och vem som ackompangerar.
+                                        Texten är inramad av bruna handmålade streck.
+                                        I övre marginalen finns fyra rader med handskrivna anteckningar.
+                                        Papperet har ett präglat emblem i vänstra hörnet med bokstäverna 
+                                        <hi rend="präglat">P<lb/>PT</hi>
+                                    </p>
+                                </layoutDesc>                     
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                    <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                        Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <textDesc>
+                    <channel>print</channel>
+                    <constitution type="single"/>
+                    <derivation type="original"/>
+                    <domain type="public">program information</domain>
+                    <factuality type="fact"/>
+                    <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar.</interaction>
+                    <preparedness type="revised"/>
+                    <purpose type="inform" degree="high"/>
+                </textDesc>
+                
+                <langUsage>
+                    <language ident="swe">Svenska</language>
+                </langUsage>
+                
+                <textClass>
+                    <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">operor</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">andra väldskriget</ref></term>
+                    </keywords>
+                </textClass>
+                
+                <particDesc>
+                    <listPerson type="medverkande">
+                        <person role="sångerska"> 
+                            <persName xml:id="IW">Inez Wassner</persName>
+                        </person>
+                        <person role="pianist"> 
+                            <persName xml:id="AnW">Antoinette Wolf</persName>
+                        </person>
+                    </listPerson>
+                </particDesc>
+            </profileDesc>
+        </teiHeader>
+        
+        
+        <facsimile>
+            <surface xml:id="operasångerskaninezwassner">
+                <figure>
+                    <label>Operasångerskan Inez Wassner</label>
+                    <figDesc>
+                        Ett fotografi av en poster som informerar om en musiktillställning där Inez Wassner framträder. 
+                    </figDesc>
+                    <graphic url="docs/assets/img/operasångerskaninezwassner.jpeg" mimeType="image/jpeg"/>
+                </figure>
+            </surface>
+        </facsimile>
+        
+        <text>
+            <body> 
+                <note place="top"> 70 + 3 medverkande + 7 sTyrelsemedl.
+                    <lb/>3 medverkande </note>
+                <note place="top-right">DecembersamkvämT
+                    <lb/>1939</note>
+                <p>
+                    <hi rend=" b color(brown)">OPERASÅNGERSKAN
+                        <lb/>INEZ WASSNER
+                        <lb/>ROMANSER OCH
+                        <lb/>OEPERAARIER
+                        <lb/>VID FLYGELN
+                        <lb/>ANTOINETTE WOLF
+                    </hi>
+                </p>
+            </body>
+        </text>
+    </TEI>
+    
+    
+<!-- Adèle Weine -->
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Poster Program - Adèle Weine</title>
+                    <author>Sällskapet Iris</author>
+                    <principal><persName>Liyanna Norling</persName>
+                        <persName>Tove Berglund</persName>
+                        <persName>Tess Zetterlund</persName>
+                    </principal>
+                </titleStmt>
+                
+                <publicationStmt>
+                    <authority>
+                        <name>Högskolan i Borås</name>
+                        <address>
+                            <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                            <addrLine>Högskolan i Borås</addrLine>
+                            <addrLine>501 90 Borås</addrLine>
+                            <addrLine>https://www.hb.se/</addrLine>
+                        </address>
+                    </authority>
+                    <date>2025</date>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Sverige</country>
+                            <settlement>Göteborg
+                                <address>
+                                    <addrLine>Humanistiska biblioteket</addrLine>
+                                    <addrLine>Renströmsgatan 4</addrLine>
+                                    <addrLine>412 55 Göteborg</addrLine>
+                                </address>
+                            </settlement>
+                            <repository>KvinnSam</repository>
+                            <collection>Sällskapet Iris Samling</collection>
+                            <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                            <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
+                        </msIdentifier>
+                        
+                        <physDesc>
+                            <p>En handgjord ensidig poster med text som informerar om programet för ett event. 
+                                Postern är handgjord gjort av papper med svart och röd typografisk text som inramas av en svart linje. 
+                                Texten inkluderar en överskrift och en deklaration om musikernas namn och roll, 
+                                följt av eventets repportoar med upphovsperson och titel uppdelat på två kollumner.
+                                En datumanteckning i blyerts återfinns i posterns övre högra hörn</p>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <dimensions unit="cm">
+                                            <height>35</height>
+                                            <width>28</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+                                
+                                <layoutDesc>
+                                    <p>Postern har elva rader text. Första raden beskriver posterns syfte, rad två och tre presenterar eventets musiker. 
+                                        Rad fyra till elva presenterar eventets repportoar och är uppdelade i två kollumner.
+                                        Den vänstra kollumnen innehåller upphovsperson och den högra kollumnen titel på ett musikstycke.</p>
+                                </layoutDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                    <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                        Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <textDesc>
+                    <channel>print</channel>
+                    <constitution type="single"/>
+                    <derivation type="original"/>
+                    <domain type="public">program information</domain>
+                    <factuality type="fact"/>
+                    <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar</interaction>
+                    <preparedness type="revised"/>
+                    <purpose type="inform" degree="high"/>
+                </textDesc>
+                
+                <langUsage>
+                    <language ident="swe">Svenska</language>
+                </langUsage>
+                
+                <textClass>
+                    <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+                    </keywords>
+                </textClass>
+                
+                <particDesc>
+                    <listPerson type="medverkande">
+                        <person role="sångerska"> 
+                            <persName ref="AdW">Adèle Weine</persName>
+                        </person>
+                        <person role="pianist"> 
+                            <persName xml:id="SGF" ref="https://www.adelsvapen.com/genealogi/Gyllencreutz_nr_54">Sigrid Gyllencreutz-Fermæus</persName>
+                        </person>
+                    </listPerson>
+                    
+                    <listPerson type="upphovspersoner">
+                        <person> 
+                            <persName xml:id="AW" ref="https://libris.kb.se/pm134xz74mdwd75#it">Adolf Wiklund 
+                                <title ref="https://libris.kb.se/bib/m3q1nsfsk8w1f6wx?vw=full">Himmel eller Vår</title>
+                                <title ref="https://libris.kb.se/bib/3363523?vw=fullt">Silkesko over Gylden lœst</title></persName>
+                        </person>
+                        <person> 
+                            <persName xml:id="EG" ref="https://libris.kb.se/42gjjm9n29h8817#it">Edvard Grieg
+                                <title>Mens jag venter</title>
+                                <title>Ragnhild</title></persName> 
+                        </person>
+                        <person>
+                            <persName ref="https://libris.kb.se/fcrtq50z04587rd#it">Max Reger
+                                <title ref="https://libris.kb.se/bib/12139731?vw=full">Marie Wiegenlied</title></persName>
+                        </person>
+                        <person>
+                            <persName xml:id="NRK" ref="https://libris.kb.se/khwzv9t32lvhbp8#it">Nikolaj Rimsky-Korsakoff
+                                <title>Rosen och Näktergalen</title></persName>
+                        </person>
+                        <person>
+                            <persName xml:id="GV" ref="https://libris.kb.se/sq46746b3dsfl6r#it">Giuseppe Verdi
+                                <title ref="https://libris.kb.se/bib/w8d91g3rtp4dkvf3?vw=full">Rigoletto</title></persName> 
+                        </person>
+                        <person>
+                            <persName xml:id="GR" ref="https://libris.kb.se/ljx01rd432x86fs#it">Gioachino Rossini
+                                <title ref="https://libris.kb.se/bib/1625321">Barberaren i Sevilla</title></persName>
+                        </person>
+                    </listPerson>
+                </particDesc>
+            </profileDesc>
+        </teiHeader>
+        
+        <facsimile>
+            <surface xml:id="programadeleweine">
+                <figure>
+                    <label>Program Adèle Weine</label>
+                    <figDesc>
+                        En digital kopia av en poster gjord av papper som informerar om ett musikprogram.               
+                    </figDesc>
+                    <graphic url="docs/assets/img/programadeleweine.jpeg" mimeType="image/jpeg"/>
+                </figure>
+            </surface>
+        </facsimile>
+        
+        <text>
+            <body>            
+                <note place="top-right">5 febr. 1932.</note>
+                <p> <hi rend="b color(red)">PROGRAM</hi><lb/>
+                    medverkande Operasångerskan Adèle Weine<lb/>
+                    vid flygeln Sigrid Gyllencreutz-Fermœus<lb/>
+                    A.Wiklund  Himmel eller Vår<lb/>
+                    ” Silkesko over Gylden lœst<lb/>
+                    E.Grieg  Mens jag venter<lb/>
+                    ” Ragnhild<lb/>
+                    M. Reger Marie Wiegenlied<lb/>
+                    Rimsky-Korsakoff Rosen och Näktergalen<lb/>
+                    G. Verdi aria ur op. Rigoletto<lb/>
+                    G. Rossini aria ur op. Barberaren i Sevilla
+                </p>
+            </body>
+        </text>
+    </TEI>
+    
+    
+<!-- Antigone -->
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Poster Program - Antigone</title>
+                    <author>Sällskapet Iris</author>
+                    <principal><persName>Liyanna Norling</persName>
+                        <persName>Tove Berglund</persName>
+                        <persName>Tess Zetterlund</persName>
+                    </principal>
+                </titleStmt>
+                
+                <publicationStmt>
+                    <authority>
+                        <name>Högskolan i Borås</name>
+                        <address>
+                            <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                            <addrLine>Högskolan i Borås</addrLine>
+                            <addrLine>501 90 Borås</addrLine>
+                            <addrLine>https://www.hb.se/</addrLine>
+                        </address>
+                    </authority>
+                    <date>2025</date>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Sverige</country>
+                            <settlement>Göteborg
+                                <address>
+                                    <addrLine>Humanistiska biblioteket</addrLine>
+                                    <addrLine>Renströmsgatan 4</addrLine>
+                                    <addrLine>412 55 Göteborg</addrLine>
+                                </address>
+                            </settlement>
+                            <repository>KvinnSam</repository>
+                            <collection>Sällskapet Iris Samling</collection>
+                            <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                            <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
+                        </msIdentifier>
+                        
+                        <physDesc>
+                            <p>En handgjord ensidig poster med text som informerar om programet för ett event. 
+                                Postern är handgjord gjort av papper med svart typografisk text som inramas av två svarta linjer i olika tjocklekar. 
+                                Texten följs av två dekorativa linjer.
+                                En datumanteckning i blyerts återfinns i posterns övre högra hörn</p>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <dimensions unit="cm">
+                                            <height>31,5</height>
+                                            <width>26</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+                                
+                                <layoutDesc>
+                                    <p>Postern har sex rader text. De fyra första presenterar programmet och innehåller ett till två ord var. 
+                                        De två sista raderna presenterar utförarna av programmet, sammantlagt fyra respektive två ord per rad. </p>
+                                </layoutDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                    <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                        Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <textDesc>
+                    <channel>print</channel>
+                    <constitution type="single"/>
+                    <derivation type="original"/>
+                    <domain type="public">program information</domain>
+                    <factuality type="fact"/>
+                    <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar</interaction>
+                    <preparedness type="revised"/>
+                    <purpose type="inform" degree="high"/>
+                </textDesc>
+                
+                <langUsage>
+                    <language ident="swe">Svenska</language>
+                </langUsage>
+                
+                <textClass>
+                    <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">teater</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">gymnasieskolan</ref></term>
+                    </keywords>
+                </textClass>
+                
+                <particDesc>
+                    <org type="teatergrupp">
+                        <orgName>S.Rudebecks gymnasium</orgName>
+                    </org>
+                    <person role="dramatiker"> 
+                        <persName xml:id="SOF" ref="https://libris.kb.se/hftwxc410z5p0lz#it">Sofokles
+                            <title ref="https://libris.kb.se/bib/3068415?vw=full">Antigone</title></persName>
+                    </person>
+                </particDesc>
+            </profileDesc>
+        </teiHeader>
+        
+        <facsimile>
+            <surface xml:id="programantigone">
+                <figure>
+                    <label>Program Antigone</label>
+                    <figDesc>
+                        En digital kopia av en poster gjord av papper som informerar om ett teaterprogram.               
+                    </figDesc>
+                    <graphic url="docs/assets/img/programantigone.jpeg" mimeType="image/jpeg"/>
+                </figure>
+            </surface>
+        </facsimile>
+        
+        <text>
+            <body>
+                <note place="top-right">Den 3 mars 1933.</note>
+                <p> <hi rend="b">PROGRAM<lb/> 
+                    ANTIG'ONE</hi><lb/>
+                    tragedi av<lb/>  
+                    <hi rend="b">SOFOKLES</hi><lb/>
+                    Uppfört av elever vid<lb/>
+                    S.Rudebecks gymnasium<lb/>
+                    <hi rend="line">———</hi><lb/>
+                    <hi rend="line">—————</hi>
+                </p>
+            </body>
+        </text>
+    </TEI>    
+
+
+
+<!-- Program 6 nov -->   
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Program 6 nov</title>
+                    <author>Sällskapet Iris</author>
+                    <principal><persName>Liyanna Norling</persName>
+                        <persName>Tove Berglund</persName>
+                        <persName>Tess Zetterlund</persName>
+                    </principal>
+                </titleStmt>
+                
+                <publicationStmt>
+                    <authority>
+                        <name>Högskolan i Borås</name>
+                        <address>
+                            <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                            <addrLine>Högskolan i Borås</addrLine>
+                            <addrLine>501 90 Borås</addrLine>
+                            <addrLine>https://www.hb.se/</addrLine>
+                        </address>
+                    </authority>
+                    <date>2025</date>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Sverige</country>
+                            <settlement>Göteborg
+                                <address>
+                                    <addrLine>Humanistiska biblioteket</addrLine>
+                                    <addrLine>Renströmsgatan 4</addrLine>
+                                    <addrLine>412 55 Göteborg</addrLine>
+                                </address>
+                            </settlement>
+                            <repository>KvinnSam</repository>
+                            <collection>Sällskapet Iris Samling</collection>
+                            <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                            <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
+                        </msIdentifier>
+                        
+                        <physDesc>
+                            <p>En handgjord ensidig poster med text som informerar om programet för ett event. 
+                                Postern är handgjord gjort av papper med svart typografisk text som inramas av en tunn ram bestående av ett svart och ett rött sträck.
+                                På båda sidor av överskrifter finns en röd symbol med svarta konturer.
+                                Versaler i brödtexten är stundvis kantade av rött.
+                            </p>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <dimensions unit="cm">
+                                            <height>45,5</height>
+                                            <width>28</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+                                
+                                <layoutDesc>
+                                    <p>Postern har 22 rader text. Rad ett innehar överskrift och rad två datum för eventet.  
+                                        Rad tre till tolv visar eventets halva reportoar, uppdelat i två kollumner med upphovsperson i den vänstra kollumnen och titeln på ett verk i den högra kollumnen.
+                                        Rad fem och tio innehar endast text skriven inom parantes i ett mindre typsnitt.
+                                        Rad 13 och 14 innehar information om musiker och uppläsare.
+                                        Rad 15 till 20 fortsätter visa eventets reportoar, på samma vis som rad fem till tio.
+                                        Rad 21 och 22 innehar information om musiker.
+                                    </p>
+                                </layoutDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                    <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                        Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <textDesc>
+                    <channel>print</channel>
+                    <constitution type="single"/>
+                    <derivation type="original"/>
+                    <domain type="public">program information</domain>
+                    <factuality type="fact"/>
+                    <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar.</interaction>
+                    <preparedness type="revised"/>
+                    <purpose type="inform" degree="high"/>
+                </textDesc>
+                
+                <langUsage>
+                    <language ident="swe">Svenska</language>
+                </langUsage>
+                
+                <textClass>
+                    <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">poesi</ref></term>
+                    </keywords>
+                </textClass>
+                
+                <particDesc>             
+                    <listPerson type="medverkande">
+                        <person role="uppläsare"> 
+                            <persName xml:id="GL">Gerda Lundequist</persName>
+                        </person>
+                        <person role="Sångerska"> 
+                            <persName xml:id="MM" ref="https://libris.kb.se/c9psw17w4fnt018#it">Marianne Mörner</persName>
+                        </person>
+                        <person role="pianist"> 
+                            <persName ref="#ES">Elsa E M Stenhammar</persName>
+                        </person>
+                        <person role="pianist"> 
+                            <persName ref="#SGF">Sigrid Gyllencreutz-Fermœus</persName>
+                        </person>
+                    </listPerson>
+                    
+                    <listPerson type="upphovspersoner">
+                        <person> 
+                            <persName xml:id="VVH" ref="https://libris.kb.se/hftwr7p15bsx76d#it">Verner von Heidenstam
+                                <title>En dag</title></persName>  
+                        </person>
+                        <person> 
+                            <persName xml:id="GF" ref="https://libris.kb.se/hftwwzj159sn6zw#it ">Gustaf Fröding 
+                                <title>Saul och David</title></persName>
+                        </person>
+                        <person> 
+                            <persName xml:id="SL" ref="https://libris.kb.se/qn247n18248vs58#it">Selma Lagerlöf
+                                <title>Ett barns memoarer</title> </persName>
+                        </person>
+                        <person>
+                            <persName xml:id="DA" ref="https://libris.kb.se/64jll79q0hczzmf#it">Dan Andersson
+                                <title ref="https://libris.kb.se/bib/3278336?vw=full">En spelmans jordafärd</title></persName>
+                        </person>
+                        <person>
+                            <persName xml:id="JaH" ref="https://libris.kb.se/gdsvx0p05m6n44c#it">Jarl Hemmer
+                                <title>Förord</title>
+                                <title>Vinterbygge</title>
+                            </persName>
+                        </person>
+                        <person>
+                            <persName xml:id="PH">Paul Heyse
+                                <title>Dyrekes sange</title></persName> 
+                        </person>
+                        <person>
+                            <persName xml:id="RS" ref="https://libris.kb.se/75kmnf4r47zdkhw#it">Robert Schumann
+                                <title ref="https://libris.kb.se/bib/gqp6pk1sdvsrr8wq?vw=full">Frühlingsnacht</title>
+                                <title ref="https://libris.kb.se/bib/10099803?tab2=toc">Der Arme Peter 1, 2, 3</title>
+                                <title ref="https://libris.kb.se/bib/21519932?tab2=toc">Schneeglöckchen</title></persName>
+                        </person>
+                        <person>
+                            <persName xml:id="FS" ref="https://libris.kb.se/0xbdf6sj4lqc75h#it">Franz Schubert
+                                <title ref="https://libris.kb.se/bib/19985635?tab2=toc">An die Nachtigall</title>
+                                <title ref="https://libris.kb.se/bib/11325738?tab2=toc">Die Forelle</title></persName>
+                        </person>
+                    </listPerson>
+                </particDesc>
+            </profileDesc>
+        </teiHeader>
+        
+        <facsimile>
+            <surface xml:id="programdensjättenovember">
+                <figure>
+                    <label>Program 6 November</label>
+                    <figDesc>
+                        En digital kopia av en poster gjord av papper som informerar om ett eventprogram.               
+                    </figDesc>
+                    <graphic url="docs/assets/img/programdensjättenovember.jpeg" mimeType="image/jpeg"/>
+                </figure>
+            </surface>
+        </facsimile>
+        
+        <text>
+            <body>            
+                <p> <hi rend="b">PROGRAM</hi><lb/>
+                    DEN 6 NOV. 1931<lb/>
+                    V. von Heidenstam Ur ”en dag”<lb/>
+                    Gustaf Fröding Saul och David <hi rend="small">(med beledsagdnde<lb/>
+                        musik komponerad av Elfrida Andrée)</hi><lb/>
+                    Selma Lagerlöf Ur ”Ett barns memoarer”<lb/>
+                    Karl Asplund Fågelbesöket<lb/>
+                    ” Claudine sjunger<lb/>
+                    Dan Andersson En spelmans jordafärd <hi rend="small">(med beled-<lb/>
+                        sagande musik efter förf:s melodie bearbetad av R. Liljefors)</hi><lb/>
+                    Jarl Hemmer Förord<lb/>
+                    ” Vinterbygge<lb/>
+                    Deklamation av Gerda Lundequist<lb/>
+                    Vid flygeln Elsa Stenmmar<lb/>
+                    Heyse Dyrekes sange<lb/>
+                    Schumann Frühlingsnacht<lb/>
+                    ” Der Arme Peter 1, 2, 3<lb/>
+                    ” Schneeglöckchen<lb/>
+                    Schubert An die Nachtigall<lb/>
+                    ” Die Forelle<lb/>
+                    Sång av Hovsångerskan Marianne Mörner<lb/>
+                    vid flygeln Sigrid Gyllencreutz Fermœus<lb/>
+                </p>
+            </body>
+        </text>
+    </TEI>
+
+
+<!-- Doktorinna Hjördis Arnell --> 
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Poster Program - Doktorinna Hjördis Arnell</title>
+                    <author>Sällskapet Iris</author>
+                    <principal><persName>Liyanna Norling</persName>
+                        <persName>Tove Berglund</persName>
+                        <persName>Tess Zetterlund</persName>
+                    </principal>
+                </titleStmt>
+                
+                <publicationStmt>
+                    <authority>
+                        <name>Högskolan i Borås</name>
+                        <address>
+                            <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                            <addrLine>Högskolan i Borås</addrLine>
+                            <addrLine>501 90 Borås</addrLine>
+                            <addrLine>https://www.hb.se/</addrLine>
+                        </address>
+                    </authority>
+                    <date>2025</date>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Sverige</country>
+                            <settlement>Göteborg
+                                <address>
+                                    <addrLine>Humanistiska biblioteket</addrLine>
+                                    <addrLine>Renströmsgatan 4</addrLine>
+                                    <addrLine>412 55 Göteborg</addrLine>
+                                </address>
+                            </settlement>
+                            <repository>KvinnSam</repository>
+                            <collection>Sällskapet Iris Samling</collection>
+                            <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                            <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno>
+                        </msIdentifier>
+                        
+                        <physDesc>
+                            <p>En handgjord ensidig poster med text som informerar om programet för ett event. 
+                                Postern är handgjord gjort av papper med svart och röd typografisk text som inramas av en röd linje. 
+                                Texten inkluderar en överskrift och en deklaration medverkande samt en lista i två kollumner med eventets program där verkets upphovsperson står på i den vänstra kollumnen och verkets titel i den högra.
+                                Under varje verk står även vem av de medverkande som framfört verket.
+                                En datumanteckning i blyerts återfinns centrerat i posterns överkant</p>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <dimensions unit="cm">
+                                            <height>40</height>
+                                            <width>27,5</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+                                
+                                <layoutDesc>
+                                    <p>Postern har 17 rader text, exklusive anteckningen i blyerts. Första raden beskriver posterns syfte, rad två och tre presenterar eventets medverkande. 
+                                        Rad Rad fyra till 17 presenterar eventets repportoar och är uppdelade i två kollumner.
+                                        Den vänstra kollumnen innehåller upphovsperson och den högra kollumnen titel på verket som framförs. Under verken framgår vem av de medverkande som framför verket.</p>
+                                </layoutDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                    <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                        Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <textDesc>
+                    <channel>print</channel>
+                    <constitution type="single"/>
+                    <derivation type="original"/>
+                    <domain type="public">program information</domain>
+                    <factuality type="fact"/>
+                    <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar</interaction>
+                    <preparedness type="revised"/>
+                    <purpose type="inform" degree="high"/>
+                </textDesc>
+                
+                <langUsage>
+                    <language ident="swe">Svenska</language>
+                </langUsage>
+                
+                <textClass>
+                    <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">körsång</ref></term>
+                    </keywords>
+                </textClass>
+                
+                <particDesc>
+                    <listPerson type="medverkande">
+                        <person role="sångerska"> 
+                            <persName xml:id="HA">Hjördis Arnell</persName>
+                        </person>
+                        <person role="körledare"> 
+                            <persName ref="#ES">Elsa E M Stenhammar</persName>
+                        </person>
+                        <person role="kör"> 
+                            <persName>Damkör</persName>
+                        </person>
+                    </listPerson>
+                    
+                    <listPerson type="upphovspersoner">
+                        <person> 
+                            <persName xml:id="JO" ref="https://libris.kb.se/rp356z691497558#it">Jacques Offenbach
+                                <title ref="https://libris.kb.se/bib/7756363?vw=full">aria ur "Hoffmans äventyr"</title>
+                                <title ref="https://libris.kb.se/bib/11825729?vw=full">"Barcarole" ur Hoffmans äventyr</title></persName>
+                        </person>
+                        <person> 
+                            <persName xml:id="CD" ref="https://libris.kb.se/khwzzv2345wgz5h#it">Claude Debussy
+                                <title ref="https://libris.kb.se/bib/3211415">Ariettes oubliées</title></persName>
+                        </person>
+                        <person>
+                            <persName xml:id="JM" ref="https://libris.kb.se/53hklgsp54fm427#it">Jules Massenet
+                                <title ref="https://libris.kb.se/bib/12459349?vw=full">Élégie</title></persName>
+                        </person>
+                        <person>
+                            <persName xml:id="JD" ref="https://libris.kb.se/31fhh7dm1l4nvml#it">Johannes Brahms
+                                <title ref="https://libris.kb.se/bib/1241269?tab2=toc">Es tönt ein voller Harfenklang</title>
+                                <title ref="https://libris.kb.se/bib/1241269?tab2=toc">Der Gärtner</title></persName>
+                        </person>
+                        <person>
+                            <persName xml:id="JS" ref="https://libris.kb.se/vs6891nd2q2q9t0#it">Johann Strauss
+                                <title ref="https://libris.kb.se/bib/11830642?vw=full">Geschichten aus dem Wienerwald</title></persName> 
+                        </person>
+                    </listPerson>
+                </particDesc>
+            </profileDesc>
+        </teiHeader>
+        
+        <facsimile>
+            <surface xml:id="programDoktorinna">
+                <figure>
+                    <label>Program Doktorinnan Hjördis Arnell</label>
+                    <figDesc>
+                        En digital kopia av en poster gjord av papper som informerar om ett musikprogram.               
+                    </figDesc>
+                    <graphic url="docs/assets/img/doktorinnanhjördisarnell.jpeg" mimeType="image/jpeg"/>
+                </figure>
+            </surface>
+        </facsimile>
+        
+        <text>
+            <body>            
+                <note place="top-center">Den 5 dec. 1931</note>
+                <p> <hi rend="b color(red)">PROGRAM</hi>  <lb/>
+                    medverkande: Doktorinnan Hjördis Arnell<lb/>
+                    Damkör under ledning av fröken Elsa Stenhammar<lb/>
+                    Offenbach aria ur Hoffans äventyr<lb/>
+                    Hjördis Arnell<lb/>
+                    ” Barcarolen ur Hoffmans äventyr<lb/>
+                    Damkören<lb/>
+                    <hi rend="line">———</hi><lb/>
+                    Debussy ur ”Ariettes oubliées<lb/>
+                    1. Voici des fruits”<lb/>
+                    2. Il pleure dans mon coeur<lb/>
+                    Massenet Elégie<lb/>
+                    Hjördis Arnell<lb/>
+                    Brahms Es tönt ein voller Harfenklang<lb/>
+                    ” Der Gärtner<lb/>
+                    Strauss Geschichten aus dem Wiener-<lb/>
+                    wald<lb/>
+                    Damkören
+                </p>
+            </body>
+        </text>
+    </TEI>
+    
+    
+<!-- Program Hillevi Stenhammar -->
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Poster- Program Hillevi Stenhammar.
+                    </title>
+                    <author>Sällskapet Iris</author>
+                    <principal>
+                        <persName>Tove Berglund</persName>
+                        <persName>Liyanna Norling</persName>
+                        <persName>Tess Zetterlund</persName>
+                    </principal>
+                </titleStmt>
+                
+                <publicationStmt>
+                    
+                    <publisher>Högskolan i Borås</publisher>
+                    <address>
+                        <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                        <addrLine>501 90 Borås</addrLine>
+                        <addrLine>https://www.hb.se/</addrLine>
+                    </address>
+                    <date>2025</date>
+                </publicationStmt>
+                
+                <sourceDesc> 
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Sverige</country>
+                            <settlement>Göteborg
+                                <address>
+                                    <addrLine>Humanistiska biblioteket</addrLine>
+                                    <addrLine>Renströmsgatan 4</addrLine>
+                                    <addrLine>412 55 Göteborg</addrLine>
+                                </address>
+                            </settlement>
+                            <repository>KvinnSam</repository>
+                            <collection>Sällskapet Iris Samling</collection>
+                            <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                            <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
+                        </msIdentifier>
+                        
+                        <physDesc>
+                            <p>En handgjord ensidig poster med text som informerar om ett musikevenemang.
+                                Postern är i papper med handskriven svart text.
+                            </p>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <dimensions unit="cm">
+                                            <height>33,5</height>
+                                            <width>27</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+                                <layoutDesc>
+                                    <p>
+                                        Postern har sex rader. Första till tredje raden är posterns rubrik i fetstil.
+                                        Rad fyra till sex beskriver vad musikevenemanget kommer att innehålla.
+                                        Texten är inramad av ett svart streck.
+                                        I övre marginalen finns en datumanteckning.
+                                        Papperet har präglad text i högermarginalen med orden 
+                                        <hi rend="präglat">WETTERGREN &amp; KERBER <lb/> GÖTEBORG</hi>
+                                    </p>
+                                </layoutDesc>
+                                
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                    <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                        Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <textDesc>
+                    <channel>print</channel>
+                    <constitution type="single"/>
+                    <derivation type="original"/>
+                    <domain type="public">program information</domain>
+                    <factuality type="fact"/>
+                    <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar.</interaction>
+                    <preparedness type="revised"/>
+                    <purpose type="inform" degree="high"/>
+                </textDesc>
+                
+                <langUsage>
+                    <language ident="swe">Svenska</language>
+                </langUsage>
+                
+                <textClass>
+                    <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">visor</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+                    </keywords>
+                </textClass>
+                
+                <particDesc>
+                    <listPerson type="medverkande">
+                        <person role="sångerska"> 
+                            <persName xml:id="HS">Hillevi Stenhammar</persName>
+                        </person>
+                        <person role="pianist"> 
+                            <persName xml:id="LB">Leif Bratt</persName>
+                        </person>
+                    </listPerson>
+                </particDesc>
+            </profileDesc>
+        </teiHeader>
+        
+        <facsimile>
+            <surface xml:id="programhillevistenhammar">
+                <figure>
+                    <label>Program Hillevi Stenhammar</label>
+                    <figDesc>
+                        Ett fotografi av en poster som informerar om en musiktillställning där Hillevi Stenhammar framträder. 
+                    </figDesc>
+                    <graphic url="docs/assets/img/programhillevistenhammar.jpeg" mimeType="image/jpeg"/>
+                </figure>
+            </surface>
+        </facsimile>
+
+        <text>
+            <body>
+                <note place="top">Den 1 febr. 1935</note>
+                <p>
+                    <hi rend=" b color(black)">Program
+                        <lb/>hillevi
+                        <lb/>stenhammar</hi>
+                    <lb/>sjunger 
+                    <lb/>folkvisor och sjömansvisor
+                    <lb/>vid flygeln Leif Bratt
+                </p>
+            </body>
+        </text>
+    </TEI>
+
+
+<!-- Program Hjördis W-A -->
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Poster- Program Hjördis W-A.
+                    </title>
+                    <author>Sällskapet Iris</author>
+                    <principal>
+                        <persName>Tove Berglund</persName>
+                        <persName>Liyanna Norling</persName>
+                        <persName>Tess Zetterlund</persName>
+                    </principal>
+                </titleStmt>
+                
+                <publicationStmt>
+                    <publisher>Högskolan i Borås</publisher>
+                    <address>
+                        <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                        <addrLine>501 90 Borås</addrLine>
+                        <addrLine>https://www.hb.se/</addrLine>
+                    </address>
+                    <date>2025</date>
+                </publicationStmt>
+                
+                <sourceDesc> 
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Sverige</country>
+                            <settlement>Göteborg
+                                <address>
+                                    <addrLine>Humanistiska biblioteket</addrLine>
+                                    <addrLine>Renströmsgatan 4</addrLine>
+                                    <addrLine>412 55 Göteborg</addrLine>
+                                </address>
+                            </settlement>
+                            <repository>KvinnSam</repository>
+                            <collection>Sällskapet Iris Samling</collection>
+                            <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                            <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
+                        </msIdentifier>
+                        
+                        <physDesc>
+                            <p>ensidig poster med text som informerar om ett musikevenemang.
+                                Postern är i papper med handskriven grön och svart text.
+                                I den övre marginalen återfinns en datumanteckning i blyerts.
+                                Texten ramas in av ett svart streck.
+                            </p>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <dimensions unit="cm">
+                                            <height>36</height>
+                                            <width>26</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                    <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                        Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <textDesc>
+                    <channel>print</channel>
+                    <constitution type="single"/>
+                    <derivation type="original"/>
+                    <domain type="public">program information</domain>
+                    <factuality type="fact"/>
+                    <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar.</interaction>
+                    <preparedness type="revised"/>
+                    <purpose type="inform" degree="high"/>
+                </textDesc>
+                
+                <langUsage>
+                    <language ident="swe">Svenska</language>
+                </langUsage>
+                
+                <textClass>
+                    <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+                        
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+                    </keywords>
+                </textClass>         
+                
+                <particDesc>
+                    <listPerson type="medverkande">
+                        
+                        <person role="sångerska"> 
+                            <persName ref="#HA">Hjördis Wahlgren Arnell</persName>
+                        </person>
+                        <person role="pianist"> 
+                            <persName ref="#SGF">Sigrid Gyllencreutz Fermaeus</persName>
+                        </person>
+                    </listPerson>
+                    
+                    <listPerson type="upphovsperson">
+                        <person> 
+                            <persName xml:id="NJ" ref="https://libris.kb.se/dbqsvmnx2lpnvh3#it">Niccolo Jommelli</persName>
+                        </person>
+                        
+                        <person>
+                            <persName ref="#EG">Edvard Grieg</persName>
+                        </person>
+                        
+                        <person>
+                            <persName xml:id="GP" ref= "http://viaf.org/viaf/95156473">Giacomo Puccini</persName>
+                        </person>
+                    </listPerson>
+                </particDesc>
+            </profileDesc>
+        </teiHeader>
+        
+        <facsimile>
+            <surface xml:id="programhjördisarnellwahlgren">
+                <figure>
+                    <label>Program Hjördis Arnell-Wahlbren</label>
+                    <figDesc>
+                        Ett fotografi av en poster som informerar om en musiktillställning där Hjördis Wahlgren Arnell framträder. 
+                    </figDesc>
+                    <graphic url="docs/assets/img/programhjördiswahlgrenarnell.jpeg" mimeType="image/jpeg"/>
+                </figure>
+            </surface>
+        </facsimile>
+        
+        <text>
+            <body>
+                <note place="top-right">Den 6 april 1934.</note>      
+                <p> 
+                    <hi rend="b color(green)">Program</hi>
+                    Hjördis Wahlgren-
+                    <lb/>arnell
+                    <lb/>n.Jommelli Chi vuol comprar
+                    <lb/>Grieg Et Håb
+                    <lb/>Ved Rondarne
+                    <lb/>Fra Monte Pincio
+                </p>
+            </body>
+        </text>
+    </TEI>
+    
+    
+<!-- Mozart -->    
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Poster- Mozarts konsert i ess dur.
+                    </title>
+                    <author>Sällskapet Iris</author>
+                    <principal>
+                        <persName>Tove Berglund</persName>
+                        <persName>Liyanna Norling</persName>
+                        <persName>Tess Zetterlund</persName>
+                    </principal>
+                </titleStmt>
+                
+                <publicationStmt>
+                    
+                    <publisher>Högskolan i Borås</publisher>
+                    <address>
+                        <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                        <addrLine>501 90 Borås</addrLine>
+                        <addrLine>https://www.hb.se/</addrLine>
+                    </address>
+                    <date>2025</date>
+                </publicationStmt>
+                
+                <sourceDesc> 
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Sverige</country>
+                            <settlement>Göteborg
+                                <address>
+                                    <addrLine>Humanistiska biblioteket</addrLine>
+                                    <addrLine>Renströmsgatan 4</addrLine>
+                                    <addrLine>412 55 Göteborg</addrLine>
+                                </address>
+                            </settlement>
+                            <repository>KvinnSam</repository>
+                            <collection>Sällskapet Iris Samling</collection>
+                            <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                            <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
+                        </msIdentifier>
+                        
+                        <physDesc>
+                            <p>En handgjord ensidig poster med text som informerar om ett musikevenemang.
+                                Postern är i papper med handskriven röd och svart text.
+                                I den övre marginalen återfinns en datumanteckning och en notering om antal personer.</p>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <dimensions unit="cm">
+                                            <height>XX</height>
+                                            <width>XX</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                    <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                        Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <textDesc>
+                    <channel>print</channel>
+                    <constitution type="single"/>
+                    <derivation type="original"/>
+                    <domain type="public">program information</domain>
+                    <factuality type="fact"/>
+                    <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar.</interaction>
+                    <preparedness type="revised"/>
+                    <purpose type="inform" degree="high"/>
+                </textDesc>
+                
+                <langUsage>
+                    <language ident="swe">Svenska</language>
+                </langUsage>
+                
+                <textClass>
+                    <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+                    </keywords>
+                </textClass>
+                
+                <particDesc>
+                    <listPerson type="medverkande">
+                        <person role="solist"> 
+                            <persName xml:id="BD">Bell Dickson</persName>
+                        </person>
+                        <person role="solist"> 
+                            <persName xml:id="KD">Karin Drumm</persName>
+                        </person>
+                    </listPerson>
+                    
+                    <listPerson type="upphovsperson">
+                        <person> 
+                            <persName xml:id="WAM" ref="https://libris.kb.se/mkz12t351kx8pb4#it">Wolfgang Amadeus Mozart</persName>
+                        </person>
+                    </listPerson>
+                </particDesc>
+            </profileDesc>
+        </teiHeader>
+        
+        
+        <facsimile>
+            <surface xml:id="Mozart">
+                <figure>
+                    <label>Program Mozart</label>
+                    <figDesc>
+                        Ett fotografi av en poster som informerar om en musiktillställning där musik av mozart framförs. 
+                    </figDesc>
+                    <graphic url="docs/assets/img/programmozart.jpeg" mimeType="image/jpeg"/>
+                </figure>
+            </surface>
+        </facsimile>
+        
+        
+        
+        <text>
+            <body>
+                <note place="top">3.3.39</note>
+                <note place="top-right">90 pers.</note>
+                <p>  <hi rend=" b color(red)">PROGRAM</hi>
+                    <lb/>Mozart: Konsert Ess dur
+                    <lb/>för två flyglar med ackomp.
+                    <lb/>av orkester
+                    <lb/>solister:
+                    <lb/>Fru Bell Dickson
+                    <lb/>Fru Karin Drumm
+                </p> 
+            </body>
+        </text>
+    </TEI>
+    
+    
+<!-- Alice Karlander -->  
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title>Poster Program - Alice Karlander</title>
+                    <author>Sällskapet Iris</author>
+                    <principal><persName>Liyanna Norling</persName>
+                        <persName>Tove Berglund</persName>
+                        <persName>Tess Zetterlund</persName>
+                    </principal>
+                </titleStmt>
+                
+                <publicationStmt>
+                    <authority>
+                        <name>Högskolan i Borås</name>
+                        <address>
+                            <addrLine>Institutionen för biblioteks- och informationsvetenskap</addrLine>
+                            <addrLine>Högskolan i Borås</addrLine>
+                            <addrLine>501 90 Borås</addrLine>
+                            <addrLine>https://www.hb.se/</addrLine>
+                        </address>
+                    </authority>
+                    <date>2025</date>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Sverige</country>
+                            <settlement>Göteborg
+                                <address>
+                                    <addrLine>Humanistiska biblioteket</addrLine>
+                                    <addrLine>Renströmsgatan 4</addrLine>
+                                    <addrLine>412 55 Göteborg</addrLine>
+                                </address>
+                            </settlement>
+                            <repository>KvinnSam</repository>
+                            <collection>Sällskapet Iris Samling</collection>
+                            <idno>B 32, seriesignum F, Sällskapet Iris</idno>
+                            <idno type="URI">https://www.alvin-portal.org/alvin/view.jsf?aq=%5B%5B%7B%22A_FQ%22%3A%22Iris%22%7D%5D%5D&amp;c=1&amp;aqe=%5B%5D&amp;af=%5B%5D&amp;searchType=EXTENDED&amp;query=Iris&amp;pid=alvin-record%3A115007&amp;dswid=218#alvin-record%3A115007</idno> 
+                        </msIdentifier>
+                        
+                        <physDesc>
+                            <p>En handgjord ensidig poster med text som informerar om programet för ett event. 
+                                Postern är handgjord gjort av papper med svart och blå typografisk text som inramas av en blå linje. 
+                                Texten inkluderar en överskrift, en deklaration medverkande violinist, en lista i två kollumner med eventets program där verkets upphovsperson står på i den vänstra kollumnen och verkets titel i den högra, och till sist en deklaration om medverkande pianist.
+                                En datumanteckning i blyerts återfinns centrerat i posterns överkant, och en notering om antal personer i övre högerkant.
+                                På den övre vänstra halvan av postern finns ett flertal små bruna smutsfläckar.
+                                I vänster nederkant finns en brunfläck samt ett brunt märke i gem form</p>
+                            <objectDesc>
+                                <supportDesc>
+                                    <extent>
+                                        <dimensions unit="cm">
+                                            <height>34</height>
+                                            <width>26,5</width>
+                                        </dimensions>
+                                    </extent>
+                                </supportDesc>
+                                
+                                <layoutDesc>
+                                    <p>Postern har elva rader text, exklusive anteckningar i blyerts. 
+                                        Första raden beskriver posterns syfte, rad två och tre presenterar eventets medverkande violinist. 
+                                        Rad Rad fyra till åtta presenterar eventets repportoar och är uppdelade i två kollumner.
+                                        Den vänstra kollumnen innehåller upphovsperson och den högra kollumnen titel på verket som framförs. 
+                                        Rad nio till elca presnterar eventets medverkande pianist.</p>
+                                </layoutDesc>
+                            </objectDesc>
+                        </physDesc>
+                    </msDesc>
+                    <bibl>Sällskapet Iris samling består av material som finns arkiverat hos KvinnSam, en del av Göteborgs Universitetsbibliotek. 
+                        Sällskapet Iris är, 2025, fortfarande aktiva.</bibl>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <textDesc>
+                    <channel>print</channel>
+                    <constitution type="single"/>
+                    <derivation type="original"/>
+                    <domain type="public">program information</domain>
+                    <factuality type="fact"/>
+                    <interaction type="none" active="singular" passive="group">Programtext ämnat från Sällskapet Iris styrelse till dess medlemmar</interaction>
+                    <preparedness type="revised"/>
+                    <purpose type="inform" degree="high"/>
+                </textDesc>
+                
+                <langUsage>
+                    <language ident="swe">Svenska</language>
+                </langUsage>
+                
+                <textClass>
+                    <keywords scheme="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">affischer</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">litterära sällskap</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">mellankrigstiden</ref></term>
+                        <term><ref target="http://www2.ub.gu.se/kvinn/kvinnsam/listor/amnesord.html">musik</ref></term>
+                    </keywords>
+                </textClass>
+                
+                <particDesc>
+                    <listPerson type="medverkande">
+                        <person role="violinist"> 
+                            <persName xml:id="AK">Alice Karlander</persName>
+                        </person>
+                        <person role="pianist"> 
+                            <persName ref="#SGF">Sigrid Gyllencreutz-Fermæus</persName>
+                        </person>
+                    </listPerson>
+                    
+                    <listPerson type="upphovspersoner">
+                        <person> 
+                            <persName xml:id="JH" ref="https://libris.kb.se/xv8cj3sg24n9r2v#it">Jeno Hubay
+                                <title ref="https://libris.kb.se/bib/1607263?vw=full">Noctunre pour violon avec accompagnement de piano op. 42</title>
+                                <title>Serenad</title>
+                                <title>Chanson de Plevna</title></persName>
+                        </person>
+                        <person> 
+                            <persName xml:id="ZK">Zoltán Kodály
+                                <title ref="https://libris.kb.se/bib/11529131?tab2=toc">Valsette</title></persName>
+                        </person>
+                        <person>
+                            <persName xml:id="FVV">Franz von Vecsey
+                                <title ref="https://libris.kb.se/bib/11949181?vw=full">La valse triste</title></persName>
+                        </person>
+                    </listPerson>
+                </particDesc>
+            </profileDesc>
+        </teiHeader>
+        
+        <facsimile>
+            <surface xml:id="programviolinistenalicekarlander">
+                <figure>
+                    <label>Program Violinisten Alice Karlander</label>
+                    <figDesc>
+                        En digital kopia av en poster gjord av papper som informerar om ett musikprogram.               
+                    </figDesc>
+                    <graphic url="docs/assets/img/programviolinistenalicekarlander.jpeg" mimeType="image/jpeg"/>
+                </figure>
+            </surface>
+        </facsimile>
+        
+        <text>
+            <body>            
+                <note place="top-center">4.2.1938</note>
+                <note place="top-right">130 personer.<lb/>+ styrelsen</note>
+                <p> <hi rend="b, blue">PROGRAM</hi> <lb/>
+                    VIOLINISTEN<lb/>
+                    <hi rend="b color(blue)">ALICE KARLANDER</hi><lb/>
+                    Hubay Nocturne<lb/>
+                    Serenad<lb/>
+                    Codaly Valsette<lb/>
+                    Vecsey Valse triste<lb/>
+                    Hubay Chanson de Plevna<lb/>
+                    vid flygeln:<lb/>
+                    <hi rend="b color(blue)">SIGRID GYLLENCREUTZ<lb/>
+                        FERMÆUS</hi>
+                </p>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
