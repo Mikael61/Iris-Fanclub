@@ -218,7 +218,7 @@
                     <figDesc>
                         En digital kopia av en poster gjord av papper som informerar om ett eventprogram till minne av Gustav II Adolf.               
                     </figDesc>
-                    <graphic url="docs/assets/img/gustavIIadolf.jpeg" mimeType="image/jpeg"/>
+                    <graphic url="../docs/assets/img/gustavIIadolf.jpeg" mimeType="image/jpeg"/>
                 </figure>
             </surface>
         </facsimile>
@@ -356,7 +356,7 @@
                     <figDesc>
                         Ett fotografi av en poster som bjuder in till en välgörenhetstillställning hemma hos Elisabeth Reiss.
                     </figDesc>
-                    <graphic url="docs/assets/img/elisabethreiss.jpeg" mimeType="image/jpeg"/>
+                    <graphic url="../docs/assets/img/elisabethreiss.jpeg" mimeType="image/jpeg"/>
                 </figure>
             </surface>
         </facsimile>
@@ -507,7 +507,7 @@
                     <figDesc>
                         Ett fotografi av en poster som informerar om en musiktillställning där Inez Wassner framträder. 
                     </figDesc>
-                    <graphic url="docs/assets/img/operasångerskaninezwassner.jpeg" mimeType="image/jpeg"/>
+                    <graphic url="../docs/assets/img/operasångerskaninezwassner.jpeg" mimeType="image/jpeg"/>
                 </figure>
             </surface>
         </facsimile>
@@ -678,7 +678,7 @@
                     <figDesc>
                         En digital kopia av en poster gjord av papper som informerar om ett musikprogram.               
                     </figDesc>
-                    <graphic url="docs/assets/img/programadeleweine.jpeg" mimeType="image/jpeg"/>
+                    <graphic url="../docs/assets/img/programadeleweine.jpeg" mimeType="image/jpeg"/>
                 </figure>
             </surface>
         </facsimile>
@@ -818,7 +818,7 @@
                     <figDesc>
                         En digital kopia av en poster gjord av papper som informerar om ett teaterprogram.               
                     </figDesc>
-                    <graphic url="docs/assets/img/programantigone.jpeg" mimeType="image/jpeg"/>
+                    <graphic url="../docs/assets/img/programantigone.jpeg" mimeType="image/jpeg"/>
                 </figure>
             </surface>
         </facsimile>
@@ -1009,7 +1009,7 @@
                     <figDesc>
                         En digital kopia av en poster gjord av papper som informerar om ett eventprogram.               
                     </figDesc>
-                    <graphic url="docs/assets/img/programdensjättenovember.jpeg" mimeType="image/jpeg"/>
+                    <graphic url="../docs/assets/img/programdensjättenovember.jpeg" mimeType="image/jpeg"/>
                 </figure>
             </surface>
         </facsimile>
@@ -1190,7 +1190,7 @@
                     <figDesc>
                         En digital kopia av en poster gjord av papper som informerar om ett musikprogram.               
                     </figDesc>
-                    <graphic url="docs/assets/img/doktorinnanhjördisarnell.jpeg" mimeType="image/jpeg"/>
+                    <graphic url="../docs/assets/img/doktorinnanhjördisarnell.jpeg" mimeType="image/jpeg"/>
                 </figure>
             </surface>
         </facsimile>
@@ -1343,7 +1343,7 @@
                     <figDesc>
                         Ett fotografi av en poster som informerar om en musiktillställning där Hillevi Stenhammar framträder. 
                     </figDesc>
-                    <graphic url="docs/assets/img/programhillevistenhammar.jpeg" mimeType="image/jpeg"/>
+                    <graphic url="../docs/assets/img/programhillevistenhammar.jpeg" mimeType="image/jpeg"/>
                 </figure>
             </surface>
         </facsimile>
@@ -1490,7 +1490,7 @@
                     <figDesc>
                         Ett fotografi av en poster som informerar om en musiktillställning där Hjördis Wahlgren Arnell framträder. 
                     </figDesc>
-                    <graphic url="docs/assets/img/programhjördiswahlgrenarnell.jpeg" mimeType="image/jpeg"/>
+                    <graphic url="../docs/assets/img/programhjördiswahlgrenarnell.jpeg" mimeType="image/jpeg"/>
                 </figure>
             </surface>
         </facsimile>
@@ -1628,7 +1628,7 @@
                     <figDesc>
                         Ett fotografi av en poster som informerar om en musiktillställning där musik av mozart framförs. 
                     </figDesc>
-                    <graphic url="docs/assets/img/programmozart.jpeg" mimeType="image/jpeg"/>
+                    <graphic url="../docs/assets/img/programmozart.jpeg" mimeType="image/jpeg"/>
                 </figure>
             </surface>
         </facsimile>
@@ -1789,7 +1789,7 @@
                     <figDesc>
                         En digital kopia av en poster gjord av papper som informerar om ett musikprogram.               
                     </figDesc>
-                    <graphic url="docs/assets/img/programviolinistenalicekarlander.jpeg" mimeType="image/jpeg"/>
+                    <graphic url="../docs/assets/img/programviolinistenalicekarlander.jpeg" mimeType="image/jpeg"/>
                 </figure>
             </surface>
         </facsimile>

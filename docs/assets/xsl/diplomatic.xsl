@@ -5,7 +5,7 @@
     <xsl:output method="html"/>
 
     <!-- transform the root element (TEI) into an HTML template -->
-    <xsl:template match="tei:TEI">
+    <xsl:template match="tei:teiCorpus">
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
         <html lang="en" xml:lang="en">
             <head>
@@ -26,14 +26,12 @@
             <body>
                 <header>
                     <h1>
-                        <xsl:apply-templates select="//tei:titleStmt/tei:title"/>
+                        <xsl:apply-templates select="tei:teiHeader//tei:titleStmt/tei:title"/>
                     </h1>
                 </header>
                 <nav id="sitenav">
                     <a href="index.html">Home</a> |
-                    <a href="diplomatic.html">Diplomatic Transcription</a> |
-                    <a href="reading.html">Reading Text</a> |
-                    <a href="toplayer.html">Top Layer</a> |
+                    <a href="galleri.html">Galleri</a> |
                 </nav>
                 <main id="manuscript">
                     <!-- bootstrap "container" class makes the columns look pretty -->
@@ -41,18 +39,15 @@
                     <!-- define a row layout with bootstrap's css classes (two columns with content, and an empty column in between) -->
                         <div class="row">
                             <div class="col-sm">
-                                <h3>Images</h3>
+                                <h3>Poster</h3>
                             </div>
                             <div class="col-sm">
-                            </div>
-                            <div class="col-sm">
-                                <h3>Transcription</h3>
+                                <h3>Transkription</h3>
                             </div>
                         </div>
                         <!-- set up an image-text pair for each page in your document, and start a new 'row' for each pair -->
-                        <xsl:for-each select="//tei:div[@type='page']">
-                            <!-- save the value of each page's @facs attribute in a variable, so we can use it later -->
-                            <xsl:variable name="facs" select="@facs"/>
+                        <xsl:for-each select="tei:TEI">
+                            
                             <div class="row">
                                 <!-- fill the first column with this page's image -->
                                 <div class="col-sm">
@@ -73,13 +68,13 @@
                                                         we want to disregard the hashtag in the @facs attribute-->
                                             
                                             <xsl:attribute name="src">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:graphic[1]/@url"/>
+                                                <xsl:value-of select="tei:facsimile//tei:figure/tei:graphic/@url"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="title">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:label"/>
+                                                <xsl:value-of select="tei:facsimile//tei:figure/tei:label"/>
                                             </xsl:attribute>
                                             <xsl:attribute name="alt">
-                                                <xsl:value-of select="//tei:surface[@xml:id=substring-after($facs, '#')]/tei:figure/tei:figDesc"/>
+                                                <xsl:value-of select="tei:facsimile//tei:figure/tei:figDesc"/>
                                             </xsl:attribute>
                                         </img>
                                     </article>
@@ -87,7 +82,10 @@
                                 <!-- fill the second column with our transcription -->
                                 <div class='col-sm'>
                                     <article class="transcription">
-                                            <xsl:apply-templates/>                                      
+                                        <h2>
+                                            <xsl:value-of select="tei:teiHeader//tei:titleStmt/tei:title"/>
+                                        </h2>
+                                            <xsl:apply-templates select="tei:text/tei:body"/>                                      
                                     </article>
                                 </div>
                             </div>
@@ -165,6 +163,15 @@
             <xsl:apply-templates/>
         </u>
     </xsl:template>
+
+
+    <xsl:template match="tei:note">
+        <div style="text-align:right">
+            <xsl:apply-templates/>
+        </div>
+    </xsl:template>
+    
+
 
 
 </xsl:stylesheet>
